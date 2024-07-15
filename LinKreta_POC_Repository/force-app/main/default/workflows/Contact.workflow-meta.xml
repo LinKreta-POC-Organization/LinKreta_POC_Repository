@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_Alert_for_DS_Team_Approval_Submission_on_Client_Contact</fullName>
+        <description>Email Alert for DS Team Approval Submission on Client Contact</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>DS_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_Template_for_DS_Team_Approval_Submission_on_Client_Contact</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_alert_on_DS_Team_Approval_on_Client_Contact</fullName>
+        <description>Email alert on DS Team Approval on Client Contact</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_Template_for_DS_Team_Approval_on_Client_Contact</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_alert_on_DS_Team_Rejection_on_Client_Contact</fullName>
+        <description>Email alert on DS Team Rejection on Client Contact</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_Template_for_DS_Team_Rejection_on_Client_Contact</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>DS_Approval_Status_pending</fullName>
+        <field>DS_Team_Approval_Status__c</field>
+        <literalValue>Pending with DS</literalValue>
+        <name>DS Approval Status pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DS_Team_Approve_Date</fullName>
+        <field>DS_Team_Approval_Rejection_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>DS Team Approve Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DS_Team_Approved</fullName>
+        <field>DS_Team_Approval_Status__c</field>
+        <literalValue>DS Approved</literalValue>
+        <name>DS Team Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DS_Team_Rejected</fullName>
+        <field>DS_Team_Approval_Status__c</field>
+        <literalValue>DS Rejected</literalValue>
+        <name>DS Team Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DS_Team_Rejection_Date</fullName>
+        <field>DS_Team_Approval_Rejection_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>DS Team Rejection Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Client_Contact_Status</fullName>
+        <field>Contact_status__c</field>
+        <literalValue>Active</literalValue>
+        <name>Update Client Contact Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SFDCRecordReference__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The exception has occurred on this Record Id.</inlineHelpText>
+    <label>SFDC Record Reference</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

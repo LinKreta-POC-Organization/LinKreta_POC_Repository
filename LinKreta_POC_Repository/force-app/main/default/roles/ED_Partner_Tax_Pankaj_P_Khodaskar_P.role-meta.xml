@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>ED/Partner (Tax) Pankaj P Khodaskar (P)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ED/Partner (Tax) Pankaj P Khodaskar (P)</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>ED_Partner_Tax_Angela_M_Sequeira_EA</parentRole>
+</Role>

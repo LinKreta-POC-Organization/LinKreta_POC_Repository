@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_Alert_for_Add_the_finding_partners</fullName>
+        <description>Email Alert for Add the finding partners</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GT_Email_Templates/Email_Template_for_Add_the_finding_partners</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_alert_when_C_M_team_create_a_task</fullName>
+        <description>Email alert when C&amp;M team create a task</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_template_when_task_is_created_by_C_M_team</template>
+    </alerts>
+</Workflow>

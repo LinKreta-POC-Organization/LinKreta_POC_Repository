@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pending_for_DS_Approval_Name_Change</fullName>
+    <columns>NAME</columns>
+    <columns>Requested_Date_Time__c</columns>
+    <columns>Status__c</columns>
+    <columns>Type__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Submitted</value>
+    </filters>
+    <label>Pending for DS Approval(Name Change)</label>
+</ListView>

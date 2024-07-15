@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_StatusUpdate</fullName>
+    <active>true</active>
+    <description>This rule is used to restrict user who is not a member of Marcom Team to update status field on client contact.</description>
+    <errorConditionFormula>AND(
+NOT( ISNEW() ),
+$Profile.Name &lt;&gt; &apos;GT Marcom Team&apos;,
+$Profile.Name &lt;&gt; &apos;Pardot Admin&apos;,
+$Profile.Name &lt;&gt; &apos;System Administrator&apos;,
+$Profile.Name &lt;&gt; &apos;Markets Ecosystems&apos;,
+ISCHANGED( Contact_status__c ),
+NOT(ISBLANK(PRIORVALUE(Contact_status__c ))),
+NOT(ISPICKVAL(Contact_status__c, &apos;Pending DS Team Approval&apos;)),
+NOT(ISPICKVAL(Contact_status__c, &apos;New Contact Creation&apos;))
+
+)</errorConditionFormula>
+    <errorDisplayField>Contact_status__c</errorDisplayField>
+    <errorMessage>Only markets ecosystems team can change the Contact Status to Active/Inactive.</errorMessage>
+</ValidationRule>

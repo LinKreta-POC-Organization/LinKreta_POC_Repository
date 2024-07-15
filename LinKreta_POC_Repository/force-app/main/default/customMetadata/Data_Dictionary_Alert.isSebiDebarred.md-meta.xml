@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>isSebiDebarred</label>
+    <protected>false</protected>
+    <values>
+        <field>Alert_Description__c</field>
+        <value xsi:type="xsd:string">Entity barred from trade in the securities market for a specified period of time due to non-compliance, non disclosure or violation of the Securities Laws, or due to failure to comply with Stock Exchange rules.</value>
+    </values>
+    <values>
+        <field>Header__c</field>
+        <value xsi:type="xsd:string">SEBI Debarred</value>
+    </values>
+</CustomMetadata>

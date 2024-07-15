@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Segment --></label>
+    <name>Segment__c</name>
+    <picklistValues>
+        <masterLabel>Government</masterLabel>
+        <translation><!-- Government --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indian PHB (Listed)</masterLabel>
+        <translation><!-- Indian PHB (Listed) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Large Private</masterLabel>
+        <translation><!-- Large Private --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Largest Listed</masterLabel>
+        <translation><!-- Largest Listed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Listed</masterLabel>
+        <translation><!-- Listed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MNC</masterLabel>
+        <translation><!-- MNC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PE Fund</masterLabel>
+        <translation><!-- PE Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PE Investee</masterLabel>
+        <translation><!-- PE Investee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S M Private</masterLabel>
+        <translation><!-- S M Private --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

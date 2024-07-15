@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_name_change</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+   OR(
+      ISCHANGED( FirstName) , 
+      ISCHANGED( LastName) 
+   ),
+   ISBLANK(  Rationale_for_Name_Change__c  ) 
+)</errorConditionFormula>
+    <errorMessage>Please enter &quot;Rationale for Name Change&quot;.</errorMessage>
+</ValidationRule>

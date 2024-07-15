@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solution__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose an Integrated Solution or Bespoke Solution</inlineHelpText>
+    <label>Solution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Industry__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>SolutionValues</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Speciality Chemicals</controllingFieldValue>
+            <controllingFieldValue>FMCG &amp; Consumer Goods</controllingFieldValue>
+            <controllingFieldValue>Engineering &amp; Industrial Products</controllingFieldValue>
+            <controllingFieldValue>Retail &amp; Ecommerce</controllingFieldValue>
+            <valueName>ESG (incl. responsible procurement)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Speciality Chemicals</controllingFieldValue>
+            <controllingFieldValue>Auto &amp; EV</controllingFieldValue>
+            <controllingFieldValue>Engineering &amp; Industrial Products</controllingFieldValue>
+            <valueName>ESOP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Speciality Chemicals</controllingFieldValue>
+            <controllingFieldValue>Auto &amp; EV</controllingFieldValue>
+            <controllingFieldValue>Engineering &amp; Industrial Products</controllingFieldValue>
+            <valueName>Organisation structuring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Speciality Chemicals</controllingFieldValue>
+            <controllingFieldValue>Sports</controllingFieldValue>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <controllingFieldValue>Telecom</controllingFieldValue>
+            <controllingFieldValue>Tourism &amp; Hospitality</controllingFieldValue>
+            <controllingFieldValue>Transportation &amp; Logistics</controllingFieldValue>
+            <controllingFieldValue>Urban Infrastructure</controllingFieldValue>
+            <controllingFieldValue>FMCG &amp; Consumer Goods</controllingFieldValue>
+            <controllingFieldValue>Food Processing</controllingFieldValue>
+            <controllingFieldValue>Gaming</controllingFieldValue>
+            <controllingFieldValue>Healthcare Services</controllingFieldValue>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <controllingFieldValue>Medical Devices</controllingFieldValue>
+            <controllingFieldValue>Metals &amp; Mining</controllingFieldValue>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <controllingFieldValue>Pharma Bio Tech &amp; Life Sciences</controllingFieldValue>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <controllingFieldValue>Auto &amp; EV</controllingFieldValue>
+            <controllingFieldValue>Aviation</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Education &amp; Ed tech</controllingFieldValue>
+            <controllingFieldValue>Energy &amp; Renewables</controllingFieldValue>
+            <controllingFieldValue>Engineering &amp; Industrial Products</controllingFieldValue>
+            <controllingFieldValue>Fintech</controllingFieldValue>
+            <controllingFieldValue>Real Estate</controllingFieldValue>
+            <controllingFieldValue>Retail &amp; Ecommerce</controllingFieldValue>
+            <valueName>Other solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports</controllingFieldValue>
+            <valueName>Sports Advisory (PMUs, Events)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Cyber Maturity Assessments, Managed Security Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Digitizing and transforming your tax function</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Enabling your sustainability agenda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Forensic &amp; Dispute Litigation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Fund Raise &amp; IPO Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>GenNext Induction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <controllingFieldValue>Transportation &amp; Logistics</controllingFieldValue>
+            <controllingFieldValue>FMCG &amp; Consumer Goods</controllingFieldValue>
+            <controllingFieldValue>Gaming</controllingFieldValue>
+            <controllingFieldValue>Education &amp; Ed tech</controllingFieldValue>
+            <controllingFieldValue>Fintech</controllingFieldValue>
+            <controllingFieldValue>Retail &amp; Ecommerce</controllingFieldValue>
+            <valueName>Getting ready for PE &amp; Beyond</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Global compliance and reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Global Tax optimization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Inbound Investment Support (CFO Services)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>India led Global Assurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>India led Global risk assurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Personal Compliance Dashboard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <controllingFieldValue>Urban Infrastructure</controllingFieldValue>
+            <valueName>Philanthropy &amp; CSR Impact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Pre-IPO advisory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Protecting your data - Data Protection, Privacy Advisory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <controllingFieldValue>Gaming</controllingFieldValue>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <controllingFieldValue>Education &amp; Ed tech</controllingFieldValue>
+            <valueName>Ready to transform - emerging TMT Cos.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Securing your tech systems (Cyber security &amp; SOC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <controllingFieldValue>Gaming</controllingFieldValue>
+            <controllingFieldValue>Healthcare Services</controllingFieldValue>
+            <controllingFieldValue>Pharma Bio Tech &amp; Life Sciences</controllingFieldValue>
+            <controllingFieldValue>Retail &amp; Ecommerce</controllingFieldValue>
+            <valueName>Start-ups &amp; Unicorns advisory(fund-raise and digitization of finance and business functions)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Tax Litigation &amp; Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <controllingFieldValue>Gaming</controllingFieldValue>
+            <controllingFieldValue>Education &amp; Ed tech</controllingFieldValue>
+            <valueName>Transactions (incl Valuations)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <valueName>Transforming your business and finance function - Digital Transformation for captives (GCCs)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Transforming your risk function (advisory &amp; staff augmentation)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Unlocking value through India listings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <controllingFieldValue>Gaming</controllingFieldValue>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <controllingFieldValue>Education &amp; Ed tech</controllingFieldValue>
+            <valueName>Unlocking value through M&amp;A and PE  (deal advisory)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Unlocking value through Overseas Listings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>US Estate Tax Planning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <controllingFieldValue>Gaming</controllingFieldValue>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <controllingFieldValue>Education &amp; Ed tech</controllingFieldValue>
+            <valueName>Workforce transformation: HR advisory and ESOP Planning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Telecom</controllingFieldValue>
+            <controllingFieldValue>Tourism &amp; Hospitality</controllingFieldValue>
+            <controllingFieldValue>Gaming</controllingFieldValue>
+            <controllingFieldValue>Healthcare Services</controllingFieldValue>
+            <controllingFieldValue>Education &amp; Ed tech</controllingFieldValue>
+            <controllingFieldValue>Fintech</controllingFieldValue>
+            <controllingFieldValue>Retail &amp; Ecommerce</controllingFieldValue>
+            <valueName>Threat Intelligence, Digital Security, Data Privacy, VAPT, Compliance services such as Payment Security</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tourism &amp; Hospitality</controllingFieldValue>
+            <controllingFieldValue>FMCG &amp; Consumer Goods</controllingFieldValue>
+            <controllingFieldValue>Retail &amp; Ecommerce</controllingFieldValue>
+            <valueName>Payment Solutions for consumer sector</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation &amp; Logistics</controllingFieldValue>
+            <controllingFieldValue>Retail &amp; Ecommerce</controllingFieldValue>
+            <valueName>Enabling eComm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation &amp; Logistics</controllingFieldValue>
+            <valueName>Gati Shakti / Logistics Infrastructure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urban Infrastructure</controllingFieldValue>
+            <valueName>Advanced Analytics Design and Implementation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urban Infrastructure</controllingFieldValue>
+            <valueName>Citizen Services - e-Distt, CM Dashboards, e-Pragati</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urban Infrastructure</controllingFieldValue>
+            <valueName>Infra consulting roads, Transportation, water &amp; so on.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urban Infrastructure</controllingFieldValue>
+            <controllingFieldValue>Energy &amp; Renewables</controllingFieldValue>
+            <controllingFieldValue>Real Estate</controllingFieldValue>
+            <valueName>Moving towards efficient financial reporting &amp; managing compliances</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urban Infrastructure</controllingFieldValue>
+            <valueName>MSME ecosystem development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urban Infrastructure</controllingFieldValue>
+            <valueName>Municipalities / Local Government (WASH, Municipal Finance, Amrut)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urban Infrastructure</controllingFieldValue>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>Promoting women livelihoods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urban Infrastructure</controllingFieldValue>
+            <controllingFieldValue>Real Estate</controllingFieldValue>
+            <valueName>REITs &amp; InVITs Advisory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urban Infrastructure</controllingFieldValue>
+            <controllingFieldValue>Real Estate</controllingFieldValue>
+            <valueName>Restructuring &amp; Insolvency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urban Infrastructure</controllingFieldValue>
+            <controllingFieldValue>Metals &amp; Mining</controllingFieldValue>
+            <controllingFieldValue>Energy &amp; Renewables</controllingFieldValue>
+            <controllingFieldValue>Real Estate</controllingFieldValue>
+            <valueName>Risk based special reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urban Infrastructure</controllingFieldValue>
+            <valueName>Skill PMU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urban Infrastructure</controllingFieldValue>
+            <valueName>Smart City / Water / Transport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urban Infrastructure</controllingFieldValue>
+            <controllingFieldValue>Metals &amp; Mining</controllingFieldValue>
+            <controllingFieldValue>Energy &amp; Renewables</controllingFieldValue>
+            <controllingFieldValue>Real Estate</controllingFieldValue>
+            <valueName>Statutory &amp; Internal audits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMCG &amp; Consumer Goods</controllingFieldValue>
+            <controllingFieldValue>Retail &amp; Ecommerce</controllingFieldValue>
+            <valueName>Cyber &amp; Digital transformation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMCG &amp; Consumer Goods</controllingFieldValue>
+            <controllingFieldValue>Retail &amp; Ecommerce</controllingFieldValue>
+            <valueName>Digitally transforming supply chains</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMCG &amp; Consumer Goods</controllingFieldValue>
+            <controllingFieldValue>Retail &amp; Ecommerce</controllingFieldValue>
+            <valueName>Organisation alignment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FMCG &amp; Consumer Goods</controllingFieldValue>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <valueName>Sales &amp; Cx optimization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food Processing</controllingFieldValue>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>Agri competitiveness &amp; alternative markets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food Processing</controllingFieldValue>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>Digital Agri</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food Processing</controllingFieldValue>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <controllingFieldValue>Retail &amp; Ecommerce</controllingFieldValue>
+            <valueName>E-commerce market place</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Food Processing</controllingFieldValue>
+            <controllingFieldValue>Medical Devices</controllingFieldValue>
+            <controllingFieldValue>Pharma Bio Tech &amp; Life Sciences</controllingFieldValue>
+            <valueName>Govt. Incentives</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare Services</controllingFieldValue>
+            <controllingFieldValue>Medical Devices</controllingFieldValue>
+            <controllingFieldValue>Pharma Bio Tech &amp; Life Sciences</controllingFieldValue>
+            <valueName>Compliance Managed Services (GTCMS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare Services</controllingFieldValue>
+            <controllingFieldValue>Pharma Bio Tech &amp; Life Sciences</controllingFieldValue>
+            <valueName>Data Protection, Privacy &amp; Governance for Healthcare and e-pharmacies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare Services</controllingFieldValue>
+            <controllingFieldValue>Medical Devices</controllingFieldValue>
+            <controllingFieldValue>Pharma Bio Tech &amp; Life Sciences</controllingFieldValue>
+            <valueName>ESG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare Services</controllingFieldValue>
+            <valueName>Health / Digital Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Fintech</controllingFieldValue>
+            <valueName>Controls Stress Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Fintech</controllingFieldValue>
+            <valueName>ECL Modelling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Fintech</controllingFieldValue>
+            <valueName>GIFT City set-ups</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Fintech</controllingFieldValue>
+            <valueName>IFRS 17 advisory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <valueName>IND AS for insurance, banking and mutual funds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Fintech</controllingFieldValue>
+            <valueName>Managed Transformation Office solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Fintech</controllingFieldValue>
+            <valueName>Payment Solutions for Banks, NBFCs, Insurance Companies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Fintech</controllingFieldValue>
+            <valueName>PMO Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Fintech</controllingFieldValue>
+            <valueName>QA for GRC functions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Fintech</controllingFieldValue>
+            <valueName>Strategy execution support to CEO office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Fintech</controllingFieldValue>
+            <valueName>System Audits, Cyber Audits, Compliance Audits, SecOps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Fintech</controllingFieldValue>
+            <valueName>Transition to new assets/investment measurement norms of RBI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Devices</controllingFieldValue>
+            <controllingFieldValue>Pharma Bio Tech &amp; Life Sciences</controllingFieldValue>
+            <valueName>Optimising ITC &amp; promotional schemes - life sciences and healthcare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metals &amp; Mining</controllingFieldValue>
+            <controllingFieldValue>Energy &amp; Renewables</controllingFieldValue>
+            <controllingFieldValue>Real Estate</controllingFieldValue>
+            <valueName>ESG advisory &amp; reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <valueName>Early fraud/financial misconduct warning signals for lending institutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <valueName>Gold Standard Audit for NBFC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NBFC</controllingFieldValue>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <valueName>RPT Governance Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pharma Bio Tech &amp; Life Sciences</controllingFieldValue>
+            <valueName>M&amp;A for Biosimilars</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pharma Bio Tech &amp; Life Sciences</controllingFieldValue>
+            <valueName>Ops Consulting for Life Sciences</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <valueName>ABC Diligence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <valueName>Cyber &amp; ESH Diligence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <valueName>ESG Advisory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <valueName>FDD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <valueName>IDD &amp; Discreet CDD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <valueName>Internal Audit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <valueName>M&amp;A Tax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <valueName>Private Equity deal structuring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <valueName>Stat Audit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <valueName>Tax calculation for NAV working of Cat III AIF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset Management</controllingFieldValue>
+            <valueName>US Tax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auto &amp; EV</controllingFieldValue>
+            <valueName>Auto Analytics Solution (Automating Control Procedures and Business Analytics)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auto &amp; EV</controllingFieldValue>
+            <valueName>Cost Pass Through Solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auto &amp; EV</controllingFieldValue>
+            <valueName>Digital &amp; Cyber - Automotive standards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auto &amp; EV</controllingFieldValue>
+            <valueName>Downstream - Dealer profitability &amp; continuity solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auto &amp; EV</controllingFieldValue>
+            <valueName>EV Financing Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auto &amp; EV</controllingFieldValue>
+            <valueName>GTAXPRO, Automation Solution for Returns, State Incentive Policies, PLI Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auto &amp; EV</controllingFieldValue>
+            <valueName>Procurement Strategy: Procurement, Cost Optimization, and Sales to OEMs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviation</controllingFieldValue>
+            <valueName>Aviation and Defence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <valueName>GRC Transformation Solutions - Integrated GRC Technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy &amp; Renewables</controllingFieldValue>
+            <valueName>Growth strategy for RE cos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Real Estate</controllingFieldValue>
+            <valueName>Digital transformation solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Real Estate</controllingFieldValue>
+            <valueName>Tax advisory (Incentives)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

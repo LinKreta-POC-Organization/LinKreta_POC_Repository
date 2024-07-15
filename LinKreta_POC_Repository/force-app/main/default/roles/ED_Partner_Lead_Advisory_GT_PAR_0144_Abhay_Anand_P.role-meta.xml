@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>ED/Partner (Lead Advisory)_GT-PAR-0144_Abhay Anand(P)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ED/Partner (Lead Advisory)_GT-PAR-0144_Abhay Anand(P)</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>ED_Partner_Lead_Advisory_GT_EMP_0102_Sarojini_Angela_Gama_EA</parentRole>
+</Role>

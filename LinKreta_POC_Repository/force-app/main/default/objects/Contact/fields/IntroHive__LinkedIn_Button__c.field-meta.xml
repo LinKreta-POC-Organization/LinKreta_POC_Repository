@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IntroHive__LinkedIn_Button__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( IntroHive__LinkedIn_Url__c != NULL,  HYPERLINK(IntroHive__LinkedIn_Url__c, IMAGE( &quot;http://www.linkedin.com/img/webpromo/btn_profile_bluetxt_80x15.png&quot;, &quot;View LinkedIn Profile&quot;), &quot;_blank&quot;), &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>LinkedIn Profile</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

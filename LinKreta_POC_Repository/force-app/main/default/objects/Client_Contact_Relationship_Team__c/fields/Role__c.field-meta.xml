@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <description>This field contains the role of Client Contact Relationship Team member.</description>
+    <externalId>false</externalId>
+    <label>Role</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Record Creator</fullName>
+                <default>false</default>
+                <label>Record Creator</label>
+            </value>
+            <value>
+                <fullName>Key Account – CSL</fullName>
+                <default>false</default>
+                <label>Key Account – CSL</label>
+            </value>
+            <value>
+                <fullName>Key Account – Co-CSL</fullName>
+                <default>false</default>
+                <label>Key Account – Co-CSL</label>
+            </value>
+            <value>
+                <fullName>NSL</fullName>
+                <default>false</default>
+                <label>Industry Leader</label>
+            </value>
+            <value>
+                <fullName>Young CSL</fullName>
+                <default>false</default>
+                <label>Young CSL</label>
+            </value>
+            <value>
+                <fullName>Segment Leader</fullName>
+                <default>false</default>
+                <label>Segment Leader</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Campaign Manager</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Campaign Manager</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RestrictStageUpdateToPreviousStage</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+NOT(ISNEW()),
+ISCHANGED( Status),
+ISPICKVAL(PRIORVALUE(Status), &quot;Internal / External Discussions&quot;),
+ISPICKVAL(Status, &quot;New&quot;)
+)</errorConditionFormula>
+    <errorMessage>You cannot move the Enquiry to a prior Stage.</errorMessage>
+</ValidationRule>

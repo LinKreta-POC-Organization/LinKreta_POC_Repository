@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>is_Assigned_DS_Team_Member__c</fullName>
+    <description>This field contains the information whether the current logged in user is the Assigned DS Team member or not. It is used in &quot;My Picked records&quot; list view to show the picked records to the DS Team members.</description>
+    <externalId>false</externalId>
+    <formula>IF(  Assigned_to_DS_Team_Member__c  = $User.Id, true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>is Assigned DS Team Member?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

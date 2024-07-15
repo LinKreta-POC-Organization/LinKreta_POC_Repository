@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Chairman of the Client --></help>
+    <label><!-- Chairman Name --></label>
+    <name>Chairman_Name__c</name>
+</CustomFieldTranslation>

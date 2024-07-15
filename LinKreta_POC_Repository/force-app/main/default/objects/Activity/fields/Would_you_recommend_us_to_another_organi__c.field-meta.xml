@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Would_you_recommend_us_to_another_organi__c</fullName>
+    <externalId>false</externalId>
+    <label>Recommend us to other organization</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reject_Remarks__c</fullName>
+    <description>Reject Remarks to be field by Client Council Team after no response on record since 3,6 and 7 days. It will be dependent on Reject Reason field and will only be filled if Reject Reason value is selected Other.</description>
+    <externalId>false</externalId>
+    <label>Reject Remarks</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

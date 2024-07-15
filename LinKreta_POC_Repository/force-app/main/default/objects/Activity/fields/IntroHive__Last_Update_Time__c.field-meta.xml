@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IntroHive__Last_Update_Time__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date and time the Introhive data was updated on Activities.</description>
+    <externalId>false</externalId>
+    <label>Last_Update_Time</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Key Account Sub-Category --></label>
+    <name>Client_Sub_Category__c</name>
+    <picklistValues>
+        <masterLabel>GX - Gold</masterLabel>
+        <translation><!-- GX - Gold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GX - Platinum</masterLabel>
+        <translation><!-- GX - Platinum --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

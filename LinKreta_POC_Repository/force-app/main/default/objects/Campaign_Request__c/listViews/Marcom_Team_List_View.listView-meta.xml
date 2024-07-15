@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marcom_Team_List_View</fullName>
+    <columns>NAME</columns>
+    <columns>Pick_Record__c</columns>
+    <columns>Enquiry__c</columns>
+    <columns>Enquiry_Stage__c</columns>
+    <columns>Assigned_to_Marcom_Team_Member__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>Marcom Team List View</label>
+    <sharedTo>
+        <group>Marcom_Team</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,27 @@
+<template>
+
+    <lightning-layout>
+
+        <lightning-layout-item size="6" class="slds-p-top_x-small" style="margin-left: -13px" width="635px">
+               
+        
+    <c-show-related-contacts-of-account label={accWrapper.label} selected-icon-name={accWrapper.selectedIconName}
+        object-label={accWrapper.objectLabel} object-api-name={accWrapper.objectApiName}
+        field-api-name={accWrapper.fieldApiName} selected-record-name={accWrapper.selectedRecordName}  other-field-api-name={accWrapper.otherFieldApiName}
+        related-id={accWrapper.relatedId} key-account-id={accWrapper.keyAccountId} selected-record-id={accWrapper.selected_id} onvalueselected={handleValueSelectedOnAccount}>
+
+    </c-show-related-contacts-of-account>
+</lightning-layout-item>
+
+<lightning-layout-item size="6" class="slds-p-top_x-small" style="margin-left: 25px">
+        
+    <c-show-related-contacts-of-account lwc:ref="contactLookup" label={contWrapper.label} selected-icon-name={contWrapper.selectedIconName}
+        object-label={contWrapper.objectLabel} object-api-name={contWrapper.objectApiName}
+        selected-record-name={contWrapper.selectedRecordName} selected-record-id={contWrapper.selected_id}
+        field-api-name={contWrapper.fieldApiName} other-field-api-name={contWrapper.otherFieldApiName}
+        related-id={contWrapper.relatedId} onvalueselected={handleValueSelectedOnAccount}>
+
+    </c-show-related-contacts-of-account>
+</lightning-layout-item>
+</lightning-layout>
+</template>

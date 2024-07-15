@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_Alert_for_Accept_Client_status_of_new_client</fullName>
+        <description>Email Alert for Accept Client status of new client</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GT_Email_Templates/Email_Template_for_Accept_Client_status_of_new_client</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_for_notification_to_NCO_channel_manual</fullName>
+        <description>Email Alert for notification to NCO channel manual</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GT_Email_Templates/Email_Template_for_notification_to_NCO_channel_manual</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_to_Notify_Enquiry_Owner_that_a_new_client_record_assigned_to_you</fullName>
+        <description>Email Alert to Notify Enquiry Owner that a new client record assigned to you</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_template_to_Notify_Enquiry_Owner_that_a_new_client_record_assigned_to_you</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_to_Notify_When_Not_Receive_Data_From_CapiQ_Or_MCA</fullName>
+        <description>Email Alert to Notify When Not Receive Data From CapiQ Or MCA</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Industry_Business_Partner__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_template_to_Notify_When_Not_Receive_Data_From_CapiQ_Or_MCA</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Client_Name_Change_Request_Rejected_Alert</fullName>
+        <description>New Client Name Change Request Rejected Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GT_Email_Templates/New_Client_Name_Change_Request_Rejected_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_Alert_to_new_client_Enquiry_owner_once_qualified</fullName>
+        <description>Send Email Alert to new client Enquiry owner, once qualified</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Send_Email_to_new_client_Enquiry_owner_once_qualified</template>
+    </alerts>
+</Workflow>

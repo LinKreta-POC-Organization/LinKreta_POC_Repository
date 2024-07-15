@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LawFirmContacts</fullName>
+    <active>false</active>
+    <label>Law Firm Contacts</label>
+    <picklistValues>
+        <picklist>BOD_Flag__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Non_Business_Campaign__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Channel__c</picklist>
+        <values>
+            <fullName>--None--</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alumni %E2%80%93 GT%40Industry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business development efforts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Past Relationships %2F Existing Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold Calling %2F Business Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corridors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cross Sell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT Employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT Member Firms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbound Referrals - GT Firm Personnel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbound Referrals - Intermediary Firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbound Referrals - Investment Banks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbound Referrals - Law Firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbound Referrals - PE%2FVC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Independent Directors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instagram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Law Firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Newsletters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organic Search</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Past Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physical Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Publications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thought Leadership Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Twitter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walk-In</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of Mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Client_Contact_Source__c</picklist>
+        <values>
+            <fullName>CapIq</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introhive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MCA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contact_Interest__c</picklist>
+        <values>
+            <fullName>Adventure Sports Enthusiast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Art Lover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avid Reader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cricket Enthusiast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fitness freak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Enthusiast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Movie Buff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports follower</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tech Buff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Junkie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wine connoisseur</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contact_Personal_Interest__c</picklist>
+        <values>
+            <fullName>Adventure Sports Enthusiast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Art Lover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avid Reader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cricket Enthusiast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fitness freak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Enthusiast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Movie Buff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports follower</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tech Buff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Junkie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wine connoisseur</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contact_status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Corridor__c</picklist>
+        <values>
+            <fullName>Israel Corridor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Japan Corridor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DS_Team_Approval_Status__c</picklist>
+        <values>
+            <fullName>DS Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DS Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DS Rework required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending with DS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Expertise__c</picklist>
+        <values>
+            <fullName>Audit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CFO Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Intelligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cyber %26 IT Risk %28Cyber%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DGTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FS Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FS Risk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forensic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT Global Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Capital Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IKCC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Advisory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Client Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Sector Consulting %28PSC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Risk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology Advisory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transformation Solutions</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GT_Client_Office__c</picklist>
+        <values>
+            <fullName>GT_Bengaluru</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT_Bhopal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT_Chennai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT_Delhi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT_Hyderabad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT_Lucknow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT_Mumbai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT_Noida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT_One</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT_Pune</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GenderIdentity</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nonbinary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Listed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry__c</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asset Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto %26 EV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aviation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education %26 Ed tech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy %26 Renewables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering %26 Industrial Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FMCG %26 Consumer Goods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fintech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gaming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Devices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metals %26 Mining</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NBFC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharma Bio Tech %26 Life Sciences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail %26 Ecommerce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Speciality Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tourism %26 Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation %26 Logistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urban Infrastructure</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>IsGTEmployee__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>IsPardot__c</picklist>
+        <values>
+            <fullName>Pardot</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>KeyContactIdentifier__c</picklist>
+        <values>
+            <fullName>BOD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KMP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pardot_Engagement__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pronouns</picklist>
+        <values>
+            <fullName>He%2FHim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>He%2FThey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Listed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>She%2FHer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>She%2FThey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>They%2FThem</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_for_Active__c</picklist>
+        <values>
+            <fullName>No Longer a defaulter</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_for_Inactive__c</picklist>
+        <values>
+            <fullName>Defaulter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Longer attached with this Client</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RelationshipLeader__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Seniority_Role__c</picklist>
+        <values>
+            <fullName>Business Owner%2C Partner %26 Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CFO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIO CDO CISO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manager %2F Mid Level</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NED %26 AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - CXOs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VP %26 Business Head</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SubExpertise__c</picklist>
+        <values>
+            <fullName>CYBER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Due Diligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Mobility Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Tax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Tax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valuations</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SubIndustry__c</picklist>
+        <values>
+            <fullName>Aerospace %26 defense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmaceuticals</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TypeOfAssociation__c</picklist>
+        <values>
+            <fullName>Apex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bilateral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sectoral</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

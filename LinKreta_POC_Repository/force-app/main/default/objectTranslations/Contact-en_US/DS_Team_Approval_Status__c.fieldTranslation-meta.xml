@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- DS Team Approval Status --></label>
+    <name>DS_Team_Approval_Status__c</name>
+    <picklistValues>
+        <masterLabel>DS Approved</masterLabel>
+        <translation><!-- DS Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DS Rejected</masterLabel>
+        <translation><!-- DS Rejected --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DS Rework required</masterLabel>
+        <translation><!-- DS Rework required --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending with DS</masterLabel>
+        <translation><!-- Pending with DS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>ED/Partner (US Tax)_GT-EMP-6402_Pinky Gupta(EA)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ED/Partner (US Tax)_GT-EMP-6402_Pinky Gupta(EA)</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>SME_L_US_Tax</parentRole>
+</Role>

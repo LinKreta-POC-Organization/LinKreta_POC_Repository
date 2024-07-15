@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ClientName__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>It depicts which Client Name has referred this Lead.</description>
+    <externalId>false</externalId>
+    <label>Client Name</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Leads (Client Name)</relationshipLabel>
+    <relationshipName>Leads2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

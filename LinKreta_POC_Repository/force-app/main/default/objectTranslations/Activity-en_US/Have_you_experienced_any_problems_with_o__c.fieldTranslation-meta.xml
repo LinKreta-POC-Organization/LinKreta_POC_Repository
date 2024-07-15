@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Any problem with services in 12 months --></label>
+    <name>Have_you_experienced_any_problems_with_o__c</name>
+</CustomFieldTranslation>

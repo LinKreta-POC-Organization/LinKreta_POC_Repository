@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_Alert_for_new_Campaign_Activation_Request</fullName>
+        <description>Email Alert for new Campaign Activation Request</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ravi.sf@in.gt.com.prod</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_Template_for_Campaign_Activation_Request</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_to_Campaign_Approver</fullName>
+        <description>Email Alert to Campaign Approver</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ravi.sf@in.gt.com.prod</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_Template_for_Campaign_Cancellation_Request</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_to_Campaign_Manager_and_Creator</fullName>
+        <description>Email Alert to Campaign Manager and Creator</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Campaign_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_Template_for_Campaign_Cancellation_Approval</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_to_Campaign_Manager_and_Creator_as_Rejected</fullName>
+        <description>Email Alert to Campaign Manager and Creator as Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Campaign_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_Template_for_Campaign_Cancellation_Not_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_to_Campaign_Manager_for_Content_Request_Approval</fullName>
+        <description>Email Alert to Campaign Manager for Content Request Approval</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Campaign_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_Template_for_Campaign_Content_Request_Approval</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_to_Campaign_Manager_for_Content_Request_Rejection</fullName>
+        <description>Email Alert to Campaign Manager for Content Request Rejection</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Campaign_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_Template_for_Campaign_Content_Request_Rejection</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_to_Campaign_Owner_as_Rejected</fullName>
+        <description>Email Alert to Campaign Owner as Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_Template_for_Campaign_Cancellation_Not_Approved_for_owner</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_to_Campaign_Owner_for_cancellation_approval</fullName>
+        <description>Email Alert to Campaign Owner for cancellation approval</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_Template_for_Campaign_Cancellation_Approval_for_owner</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_to_Campaign_Owner_on_Content_Approval_Request</fullName>
+        <description>Email Alert to Campaign Owner on Content Approval Request</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_Template_for_Campaign_Content_Approval_Request</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_when_new_Campaign_activation_request_approved</fullName>
+        <description>Email Alert when new Campaign activation request approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>Campaign_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_Template_for_Campaign_Activation_Approval</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_when_new_Campaign_activation_request_rejected</fullName>
+        <description>Email Alert when new Campaign activation request rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>Campaign_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Email_Template_for_Campaign_Activation_Not_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>To_Notify_the_Campaign_Manager_to_close_the_open_task</fullName>
+        <description>To Notify the Campaign Manager to close the open task</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Campaign_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Some_task_are_open_notify_to_Campaign_Manager_before_closing_the_Campaign</template>
+    </alerts>
+    <alerts>
+        <fullName>when_all_the_task_are_closed_notify_the_Campaign_Manager_to_close_the_campaign</fullName>
+        <description>when all the task are closed  notify the Campaign Manager to close the campaign</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Campaign_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/All_Task_are_closed_notify_to_Campaign_Manager</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Content_Status_as_not_Approved</fullName>
+        <field>Content_Approval_Status__c</field>
+        <literalValue>Not Approved</literalValue>
+        <name>Content Status as not Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Activation_Status_as_Approved</fullName>
+        <field>Activation_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Update Activation Status as Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Activation_Status_as_Not_Approved</fullName>
+        <field>Activation_Status__c</field>
+        <literalValue>Not Approved</literalValue>
+        <name>Update Activation Status as Not Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Activation_Status_as_Pending</fullName>
+        <field>Activation_Status__c</field>
+        <literalValue>Approval Pending</literalValue>
+        <name>Update Activation Status as Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Closure_Status_as_Approved</fullName>
+        <field>Closure_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Update Closure Status as Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Content_Status_as_pending</fullName>
+        <field>Content_Approval_Status__c</field>
+        <literalValue>Approval Pending</literalValue>
+        <name>Update Content Status as pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_as_Approved</fullName>
+        <field>Cancellation_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Update Status as Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_as_Not_Approved</fullName>
+        <field>Cancellation_Status__c</field>
+        <literalValue>Not Approved</literalValue>
+        <name>Update Status as Not Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_as_Pending</fullName>
+        <field>Cancellation_Status__c</field>
+        <literalValue>Approval Pending</literalValue>
+        <name>Update Status as Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_as_Close</fullName>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>Update as Close</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_as_In_Active</fullName>
+        <field>IsActive</field>
+        <literalValue>0</literalValue>
+        <name>Update as In Active</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_the_Closure_Status_as_Pending</fullName>
+        <field>Closure_Status__c</field>
+        <literalValue>Approval Pending</literalValue>
+        <name>Update the Closure Status as Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_the_Closure_Status_as_Rejected</fullName>
+        <field>Closure_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Update the Closure Status as Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_Content_Status_as_Approved</fullName>
+        <field>Content_Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>update Content Status as Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

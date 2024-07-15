@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Provide a short summary about the professional services required, or any additional remarks regarding the client --></help>
+    <label><!-- Summary (Challenges, Opportunities etc) --></label>
+    <name>ShortSummary__c</name>
+</CustomFieldTranslation>

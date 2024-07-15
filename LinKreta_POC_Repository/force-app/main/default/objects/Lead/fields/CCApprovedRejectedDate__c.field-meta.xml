@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCApprovedRejectedDate__c</fullName>
+    <description>It depicts Approved / Rejected date from CC Team.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Client Council - Approved / Rejected Date</inlineHelpText>
+    <label>CC_Approved / Rejected Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

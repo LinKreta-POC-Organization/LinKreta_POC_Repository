@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StrengthOfRelationshipIcon__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( StrengthOfRelationship__c ,
+&quot;Low&quot;,IMAGE(&quot;https://grantthornton--dev1--c.documentforce.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Jpg&amp;versionId=0680w000000FDOV&amp;operationContext=CHATTER&amp;contentId=05T0w000004FsSK&quot;, &quot;Low&quot;),
+&quot;Medium&quot;,IMAGE(&quot;https://grantthornton--dev1--c.documentforce.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Jpg&amp;versionId=0680w000000FDOL&amp;operationContext=CHATTER&amp;contentId=05T0w000004FsSA&quot;, &quot;Medium&quot;),IMAGE(&quot;https://grantthornton--dev1--c.documentforce.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Jpg&amp;versionId=0680w000000FDOG&amp;operationContext=CHATTER&amp;contentId=05T0w000004FsS0&quot;, &quot;High&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Strength Of Relationship Icon</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

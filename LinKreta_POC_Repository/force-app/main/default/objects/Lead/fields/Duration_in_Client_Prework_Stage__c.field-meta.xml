@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duration_in_Client_Prework_Stage__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+   AND
+  ( ISBLANK( Client_Prework_Change_Date__c ), ISBLANK(Client_Takeon_Change_Date__c)), 
+    0,
+IF( ISBLANK(Client_Takeon_Change_Date__c),
+  ( today() - Client_Prework_Change_Date__c ),
+  ( Client_Takeon_Change_Date__c -  Client_Prework_Change_Date__c )))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Duration in Client Prework Stage</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

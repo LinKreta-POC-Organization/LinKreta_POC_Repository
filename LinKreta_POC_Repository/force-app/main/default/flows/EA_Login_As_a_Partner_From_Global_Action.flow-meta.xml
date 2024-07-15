@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <description>This flow has been created as part of the LinKreta initiative and is a part of the function to support an EA (Executive Administrator) to login as a Partner. This flow is initialized from a Global Action and uses the &quot;EA | Login As a Partner - From Login Screen&quot; flow as a Sub Flow</description>
+    <environments>Default</environments>
+    <interviewLabel>EA | Login As a Partner - From Global Action {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>EA | Login As a Partner - From Global Action</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <runInMode>SystemModeWithoutSharing</runInMode>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>EA_Login_As_a_Partner_From_Login_Screen</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <description>We call the flow named &quot;EA | Login As a Partner - From Login Screen&quot; and pass the value for the PointOfInitialization as &quot;GlobalAction&quot;.</description>
+        <name>EA_Login_As_a_Partner_From_Login_Screen</name>
+        <label>EA | Login As a Partner - From Login Screen</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <flowName>EA_Login_As_a_Partner_From_Login_Screen</flowName>
+        <inputAssignments>
+            <name>PointOfInitialization</name>
+            <value>
+                <stringValue>GlobalAction</stringValue>
+            </value>
+        </inputAssignments>
+        <outputAssignments>
+            <assignToReference>PartnerLogin_Selected</assignToReference>
+            <name>varPartnerLogin_Selected</name>
+        </outputAssignments>
+    </subflows>
+    <variables>
+        <name>IsSuccess</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </variables>
+    <variables>
+        <name>PartnerLogin_Selected</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

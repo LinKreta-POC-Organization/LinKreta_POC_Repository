@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Account Name Change Request Rejected</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Account Name Change Request Rejected Email</name>
+    <style>none</style>
+    <subject>Account Name Change Request</subject>
+    <textOnly>Dear {!Account.OwnerFullName}
+
+Your request to Change the Account Name for {!Account.Name} has been rejected due to the following reasons {!Account.Reason_Description__c}. Kindly request you to look into this.
+
+Note:- This is a system generated email. Please do not reply to this mail.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

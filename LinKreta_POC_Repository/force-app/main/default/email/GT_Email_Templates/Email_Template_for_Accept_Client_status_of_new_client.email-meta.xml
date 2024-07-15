@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email Template for Accept Client status of new client</name>
+    <style>none</style>
+    <subject>New Client is accepted by C&amp;M team</subject>
+    <textOnly>Dear {!Lead.OwnerFullName},
+
+Your New Client {!Lead.NewClientNo__c} - {!Lead.Company} is accepted by the Client Council Team. Please find the details below:
+
+Prospect Name: {!Lead.FirstName} {!Lead.LastName}
+Propsect Email: {!Lead.Email}
+Industry: {!Lead.Industry__c}
+Comments: {!Lead.CCApprovalRejectionRecommendation__c}
+
+To access the record on LinKreta, please click on the link: {!Lead.Link}
+
+Note:- This is a system generated email. Please do not reply to this mail.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RestrictGTCompetitor</fullName>
+    <active>false</active>
+    <description>At Enquiry Stage Won/Lost.</description>
+    <errorConditionFormula>AND(
+   NOT(OR(
+        $Profile.Name = &quot;Markets Ecosystems&quot;,
+        $Profile.Name = &quot;CRM Team&quot;,
+        $Profile.Name = &quot;System Administrator&quot;
+    )),    
+    OR(
+        ISPICKVAL(Enquiry__r.StageName, &quot;New&quot;),
+        ISPICKVAL(Enquiry__r.StageName, &quot;Internal / External Discussions&quot;),
+        ISPICKVAL(Enquiry__r.StageName, &quot;Client Take-On PreWork&quot;),
+        ISPICKVAL(Enquiry__r.StageName, &quot;Client Take On&quot;), 
+        ISPICKVAL(Enquiry__r.StageName, &quot;Accept Client&quot;),
+        ISPICKVAL(Enquiry__r.StageName, &quot;Not Accepted Client&quot;),
+        ISPICKVAL(Enquiry__r.StageName, &quot;Identify/Create Enquiry&quot;),               
+        ISPICKVAL(Enquiry__r.StageName, &quot;Closed Won&quot;),
+        ISPICKVAL(Enquiry__r.StageName, &quot;Closed Lost&quot;)
+    )
+)</errorConditionFormula>
+    <errorMessage>You are Restricted to add/edit GT Competitor.</errorMessage>
+</ValidationRule>

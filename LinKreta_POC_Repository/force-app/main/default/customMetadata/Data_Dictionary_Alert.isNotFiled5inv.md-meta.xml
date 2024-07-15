@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>isNotFiled5inv</label>
+    <protected>false</protected>
+    <values>
+        <field>Alert_Description__c</field>
+        <value xsi:type="xsd:string">Companies which have not filed Form 5INV (Statement of Unclaimed and Unpaid Accounts) under the Investor Protection and Education Fund.</value>
+    </values>
+    <values>
+        <field>Header__c</field>
+        <value xsi:type="xsd:string">5INV not filed</value>
+    </values>
+</CustomMetadata>

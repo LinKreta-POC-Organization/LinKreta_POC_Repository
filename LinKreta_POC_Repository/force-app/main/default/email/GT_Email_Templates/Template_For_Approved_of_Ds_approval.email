@@ -1,0 +1,7 @@
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Dear {recipient.name},</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">{!Account.Name} has been approved by the DS Team</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Please click on the following link to access on LinKreta &lrm; &nbsp; : &lrm; &nbsp; {!Account.Link}</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri"><span style="color:red;font-weight:bold">Note:- This is a system generated email. Please do not reply to this mail.</span></span></span></p>

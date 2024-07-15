@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Relationship Office --></label>
+    <name>RelationshipOffice__c</name>
+    <picklistValues>
+        <masterLabel>GT_Bengaluru</masterLabel>
+        <translation><!-- GT_Bengaluru --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GT_Bhopal</masterLabel>
+        <translation><!-- GT_Bhopal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GT_Chennai</masterLabel>
+        <translation><!-- GT_Chennai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GT_Delhi</masterLabel>
+        <translation><!-- GT_Delhi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GT_Hyderabad</masterLabel>
+        <translation><!-- GT_Hyderabad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GT_Lucknow</masterLabel>
+        <translation><!-- GT_Lucknow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GT_Mumbai</masterLabel>
+        <translation><!-- GT_Mumbai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GT_Noida</masterLabel>
+        <translation><!-- GT_Noida --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GT_One</masterLabel>
+        <translation><!-- GT_One --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GT_Pune</masterLabel>
+        <translation><!-- GT_Pune --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

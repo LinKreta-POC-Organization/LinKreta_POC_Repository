@@ -1,0 +1,162 @@
+<template>
+    <lightning-card if:true={showSpinner1}>
+        
+            <lightning-spinner variant="brand" size="medium" class="message"
+                alternative-text="Loading.."></lightning-spinner>
+        
+    </lightning-card>
+    <lightning-card if:false={showSpinner1}>
+
+        <template if:true={showComp}>
+            <!--Added By AK-->
+            <template if:true={showSpinner}>
+                <lightning-spinner variant="brand" size="medium" class="message"
+                    alternative-text="Loading.."></lightning-spinner>
+
+            </template>
+
+            <!--End By AK-->
+
+            <!--Added By Gaurav Kumar -->
+            <template if:true={ifFirstNameNotAvailable}>
+                <div class="slds-grid slds-wrap">
+
+                    <table>
+                        <tr>
+                            <!-- <td >First Name:</td> -->
+                            <td><lightning-input variant="label-inline" label="First Name:" type="text" class="validate"
+                                    placeholder="Please Enter First Name" onchange={getFirstName}
+                                    value={firstName}></lightning-input></td>
+                        </tr>
+                        <tr>
+                            <!-- <td >Last Name:</td> -->
+                            <td><lightning-input type="text" variant="label-inline" label="Last Name:" class="validate"
+                                    onchange={getLastName} value={lastName}></lightning-input></td>
+                        </tr>
+                    </table>
+
+                    <div class="slds-col slds-size_1-of-1 slds-align_absolute-center slds-p-bottom_medium">
+                        <lightning-button variant="brand" label="Save" onclick={updateFirstNameButton}
+                            style="padding-top :02%"></lightning-button>
+
+                    </div>
+                </div>
+
+            </template>
+            <!--End By Gaurav Kumar -->
+
+            <template if:false={ifFirstNameNotAvailable}>
+                <div class="slds-grid slds-wrap" if:true={show}>
+
+
+                    <template if:true={showUpdatedScreen}>
+                        <div
+                            class="slds-col slds-size_1-of-1 slds-align_absolute-center slds-p-bottom_medium mobileViewWidth">
+
+                            <strong> Data Already Updated. <br><br>Do You Want To Update Client Name ? </strong>
+                        </div>
+                        <div class="slds-col slds-size_1-of-1 slds-align_absolute-center">
+                            <lightning-button variant="brand" label="Yes" onclick={giveCompany}
+                                style="padding-right :10%">
+                            </lightning-button>
+
+                            <lightning-button variant="brand" label="No" title="No"
+                                onclick={refreshPage}></lightning-button>
+
+                        </div>
+
+                    </template>
+
+
+                </div>
+                <template if:false={showUpdatedScreen}>
+                    <div class="slds-grid slds-wrap" if:true={show}>
+                        <div
+                            class="slds-col slds-size_1-of-1 slds-align_absolute-center slds-p-bottom_medium mobileViewWidth">
+
+                            <strong>Do You Want To update Data ? </strong>
+                        </div>
+                        <div class="slds-col slds-size_1-of-1 slds-align_absolute-center">
+                            <lightning-button variant="brand" label="Yes" onclick={giveCompany}
+                                style="padding-right :10%">
+                            </lightning-button>
+
+                            <lightning-button variant="brand" label="No" title="No"
+                                onclick={refreshPage}></lightning-button>
+
+                        </div>
+                    </div>
+                </template>
+                <template if:true={ifYes}>
+                    <div class="slds-col slds-align_absolute-center">
+                        <div class="slds-grid">
+                            <lightning-input type="search" variant="standard" name="name" label="Client Name"
+                                value={companyName} onchange={handleChange} class="searchInput">
+                            </lightning-input>
+                        </div>
+                        <div if:true={showButton} style="
+                    margin-top: 20px;margin-left: 15px;">
+                            <lightning-button variant="brand" label="Search" class="search" onclick={handleClick}>
+                            </lightning-button>
+                        </div>
+
+                    </div>
+                    <div class="slds-col slds-align_absolute-center">
+                        <div if:false={comapnyNameLength}><span style="color: firebrick; font-weight: bold;"><br>Please
+                                Enter Minimum 3 Character to start Searching....</span></div>
+                        <div if:false={showButton}><span if:true={comapnyNameLength}
+                                style="font-weight: bold;"><br>Kindly try to search with a different Client name.</span>
+                        </div>
+                    </div>
+                </template>
+
+                <template if:true={ifData}>
+                    <br>
+                    <b>Please choose the appropriate client from the list</b>
+                    <div class="slds-box" if:true={showCompanies}>
+                        <lightning-datatable data={mapOfValuesCapIQ} columns={cols} key-field="companyName"
+                            hide-checkbox-column="true" show-row-number-column="true" onrowaction={handleRowAction}
+                            style="white-space: pre-wrap">
+                        </lightning-datatable>
+                    </div>
+                </template>
+
+
+                <template if:true={ifUpdated}>
+                    <div class="slds-grid slds-wrap" if:false={show}>
+                        <div class="slds-col slds-size_1-of-1 slds-align_absolute-center slds-p-bottom_small"
+                            style="width: 44%;">
+                            <div if:true={dataResult}><strong> Updated Successfully. Please Refresh the Page</strong>
+                            </div>
+                        </div>
+                        <div class="slds-col slds-size_1-of-1 slds-align_absolute-center slds-p-bottom_medium">
+                            <div if:false={dataResult}><strong style='text-align:center;'>Sorry, no data found from
+                                    external platforms. Kindly enrich data manually.</strong></div>
+                        </div>
+                        <!-- <div class="slds-col slds-size_1-of-1 slds-align_absolute-center slds-p-bottom_medium" style="width: 44%;">
+                    <div>Data Last Updated on</div>-->
+
+                        <div class="slds-col slds-size_1-of-1 slds-align_absolute-center">
+                            <lightning-button variant="brand" label="Close" title="No"
+                                onclick={refreshPage}></lightning-button>
+
+                        </div>
+                    </div>
+                </template>
+
+            </template>
+        </template>
+
+        <template if:false={showComp}>
+           
+            <p class ="slds-text-color_weak slds-align_absolute-center slds-text-heading_medium">Enrich Data From External Database</p>
+            <hr  color="gray"></hr>
+            <strong
+                class="slds-text-body_small slds-text-color_destructive slds-text-heading_small">{headerMsg}</strong>
+            <br> <br><strong if:true={showErrorMessage1} class ="slds-text-heading_Small">{errMsg1}</strong>
+            <p if:true={showErrorMessage2} >{errMsg2}</p>
+            <p if:true={showErrorMessage3} >{errMsg3}</p>
+        </template>
+
+    </lightning-card>
+</template>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Co-CSL --></label>
+    <name>CoCSL__c</name>
+    <relationshipLabel><!-- Clients (Co-CSL) --></relationshipLabel>
+</CustomFieldTranslation>

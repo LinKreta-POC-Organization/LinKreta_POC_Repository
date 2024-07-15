@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Account_Name_Change_Request_Approved_Alert</fullName>
+        <ccEmails>ravi.sf@in.gt.com</ccEmails>
+        <description>Account Name Change Request Approved Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>C_M_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>IT_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GT_Email_Templates/Account_Name_Change_Request_Approved_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Account_Name_Change_Request_Rejected_Alert</fullName>
+        <description>Account Name Change Request Rejected Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GT_Email_Templates/Account_Name_Change_Request_Rejected_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_Client_No_data_received_from_CapIQ_and_MCA</fullName>
+        <description>Alert Client | No data received from CapIQ and MCA</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ravi.sf@in.gt.com.prod</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>unfiled$public/Email_template_to_Notify_When_Not_Receive_Data_From_CapiQ_Or_MCA</template>
+    </alerts>
+    <alerts>
+        <fullName>Client_for_DS_approval</fullName>
+        <description>Account for DS approval</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>DS_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/DS_Team_Approval</template>
+    </alerts>
+    <alerts>
+        <fullName>EmailAlertForClientNameChange</fullName>
+        <description>EmailAlertForClientNameChange</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <recipients>
+            <recipient>Corridor Expert</recipient>
+            <type>accountTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>Enquiry Generator</recipient>
+            <type>accountTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>Industry Leader</recipient>
+            <type>accountTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>Key Account – CSL</recipient>
+            <type>accountTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>Key Account – Co-CSL</recipient>
+            <type>accountTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>Other</recipient>
+            <type>accountTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>Proposed CSP</recipient>
+            <type>accountTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>Proposed Engagement Leader</recipient>
+            <type>accountTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>Relationship Leader</recipient>
+            <type>accountTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>Solution Expert</recipient>
+            <type>accountTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>Subject Matter Expert (SME)</recipient>
+            <type>accountTeam</type>
+        </recipients>
+        <recipients>
+            <recipient>C_M_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>LRM_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>CMsPOC__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Client_Name_Change_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_alert_for_DS_Rejection_on_Client</fullName>
+        <description>Email alert for DS Rejection on Client</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GT_Email_Templates/Template_For_Reject_of_Ds_approval</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_CSL_CO_CSL_NSL_If_Not_Activity_On_Client_Since_15_Days</fullName>
+        <description>Notify CSL/CO-CSL, NSL If Not Activity On Client Since 15 Days</description>
+        <protected>false</protected>
+        <recipients>
+            <field>CSL__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>CoCSL__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>NSL__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Notify_CSL_CO_CSL_NSL_If_Not_Activity_On_Client_Since_15_Days</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_email_for_account_record_unmodified_for_90_days</fullName>
+        <description>Send email for account record unmodified for 90 days</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Other</recipient>
+            <type>accountTeam</type>
+        </recipients>
+        <senderAddress>linkreta.integration@in.gt.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GT_Email_Templates/Send_Email_for_Unmodified_Account_Records</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Approve_plan_status</fullName>
+        <field>Account_Plan_Status__c</field>
+        <literalValue>NSL Approved</literalValue>
+        <name>Approve plan status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Client_Active</fullName>
+        <field>Status__c</field>
+        <literalValue>Active</literalValue>
+        <name>Client Active</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DS_Team_Approval_Status_Approved</fullName>
+        <field>DS_Team_Approval_Rejection_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>DS Team Approval Status Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DS_Team_Approval_Status_Approvedd</fullName>
+        <field>DS_Team_Approval_Status__c</field>
+        <literalValue>DS Approved</literalValue>
+        <name>DS Team Approval Status Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DS_Team_Approval_Status_Rejecte</fullName>
+        <field>DS_Team_Approval_Status__c</field>
+        <literalValue>DS Rejected</literalValue>
+        <name>DS Team Approval Status Rejecte</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DS_Team_Approved_Date</fullName>
+        <field>DS_Team_Approval_Rejection_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>DS Team Approved Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DS_Team_Rejected_Date</fullName>
+        <field>DS_Team_Approval_Rejection_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>DS Team Rejected Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Ds_Team_Approval_Field_Pending_with_Ds</fullName>
+        <field>DS_Team_Approval_Status__c</field>
+        <literalValue>Pending with DS</literalValue>
+        <name>Ds Team Approval Field Pending with Ds</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Pending_for_approval</fullName>
+        <field>Account_Plan_Status__c</field>
+        <literalValue>Pending NSL Approval</literalValue>
+        <name>Pending for approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Proposed_Account_Owner_Approval_Status</fullName>
+        <field>Proposed_Account_Owner_Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Proposed Account Owner Approval Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Proposed_Account_Owner_Rejected_Status</fullName>
+        <field>Proposed_Account_Owner_Approval_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Proposed Account Owner Rejected Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Reject_approval</fullName>
+        <field>Account_Plan_Status__c</field>
+        <literalValue>NSL Rejected</literalValue>
+        <name>Reject approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Changed</fullName>
+        <field>Status__c</field>
+        <literalValue>Pending Verification</literalValue>
+        <name>Status Changed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UpdateIsClientNameChangeApprovedField</fullName>
+        <field>Is_Client_Name_Chnage_is_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>UpdateIsClientNameChangeApprovedField</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Pick</fullName>
+        <field>Pick_Record__c</field>
+        <literalValue>0</literalValue>
+        <name>Update Pick</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status</fullName>
+        <field>Status__c</field>
+        <literalValue>Pending Verification</literalValue>
+        <name>Update Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Verify_DS_team</fullName>
+        <field>VerrifiedByDSTeam__c</field>
+        <literalValue>1</literalValue>
+        <name>Verify DS team</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_Assigne</fullName>
+        <field>Assigned_to_DS_Team_Member__c</field>
+        <name>update Assigne</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

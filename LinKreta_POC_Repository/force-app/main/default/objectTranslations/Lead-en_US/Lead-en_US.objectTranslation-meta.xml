@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Enquiry</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Enquiries</value>
+    </caseValues>
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label><!-- About the New Client --></label>
+            <section>About the New Client</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment with Strategy --></label>
+            <section>Alignment with Strategy</section>
+        </sections>
+        <sections>
+            <label><!-- Client Background --></label>
+            <section>Client Background</section>
+        </sections>
+        <sections>
+            <label><!-- Client Details --></label>
+            <section>Client Details</section>
+        </sections>
+        <sections>
+            <label><!-- Client Financials --></label>
+            <section>Client Financials</section>
+        </sections>
+        <sections>
+            <label><!-- Enquiry Details --></label>
+            <section>Enquiry Details</section>
+        </sections>
+        <sections>
+            <label><!-- Management &amp; Board --></label>
+            <section>Management &amp; Board</section>
+        </sections>
+        <sections>
+            <label><!-- Management &amp; Board - Additional --></label>
+            <section>Management &amp; Board - Additional</section>
+        </sections>
+        <sections>
+            <label><!-- New Client Name Change Info --></label>
+            <section>New Client Name Change Info</section>
+        </sections>
+        <sections>
+            <label><!-- Prospect Information --></label>
+            <section>Prospect Information</section>
+        </sections>
+        <sections>
+            <label><!-- Referral Information --></label>
+            <section>Referral Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Client Fitment &amp; Evaluation --></label>
+        <name>ClientFitmentEvaluation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Enrich Data from External Database --></label>
+        <name>Enrich_Client_from_CAPIQ</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Enrich Data from External Database --></label>
+        <name>Enrich_Data_from_External_Database</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Expertise/Enquiry Type --></label>
+        <name>Update_Expertise_Enquiry_Type</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You are not allowed to change the Enquiry after it has been converted. --></errorMessage>
+        <name>EnquiryAfterConversionNotChange</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Character length should be less than 10. --></errorMessage>
+        <name>New_Client_Address_Zip_Code</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot change the New Client Name. Please Contact the Markets Ecosystem Team. --></errorMessage>
+        <name>New_Client_Name</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Character length should be less than 10. --></errorMessage>
+        <name>New_Client_Prospect_Address_Zip_Code</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please add a comma-separated address --></errorMessage>
+        <name>New_Client_address_Check_Comma</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please add a comma-separated address --></errorMessage>
+        <name>New_Client_prospect_address_Check_Comma</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a valid PAN number --></errorMessage>
+        <name>Pan_No_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot move the Enquiry to a prior Stage. --></errorMessage>
+        <name>RestrictStageUpdateToPreviousStage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the relevant Industry . --></errorMessage>
+        <name>Validation_For_other_Sector</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not go back if new client status is accepted / not accepted --></errorMessage>
+        <name>Validation_on_Converted_Stage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter Valid Mobile number --></errorMessage>
+        <name>mobile_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Market Ecosystems user can change the Enquiry Owner. --></errorMessage>
+        <name>only_SBP_or_NSL_can_change_owner</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Pardot_Email --></label>
+        <name>pi__Send_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Pardot_Emails --></label>
+        <name>pi__Send_Pardot_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Single_Pardot_Email --></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Prospect_Insight --></label>
+        <name>pi__Send_to_Prospect_Insight</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_To_Webinar --></label>
+        <name>zoom_app__Add_To_Webinar</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Webinar_Leads --></label>
+        <name>zoom_app__Add_to_Webinar_Leads</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Start_Zoom_Meeting --></label>
+        <name>zoom_app__Start_Zoom_Meeting</name>
+    </webLinks>
+</CustomObjectTranslation>

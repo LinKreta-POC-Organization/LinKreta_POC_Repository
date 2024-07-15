@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- WCGT Type --></label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>Category CX GX</masterLabel>
+        <translation><!-- Category CX GX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Client Type</masterLabel>
+        <translation><!-- Client Type --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corridor</masterLabel>
+        <translation><!-- Corridor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Country Corridor</masterLabel>
+        <translation><!-- Country Corridor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Country HQ</masterLabel>
+        <translation><!-- Country HQ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CountryId</masterLabel>
+        <translation><!-- CountryId --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enquiry Type</masterLabel>
+        <translation><!-- Enquiry Type --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Entity Type</masterLabel>
+        <translation><!-- Entity Type --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Industry</masterLabel>
+        <translation><!-- Industry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rel Office</masterLabel>
+        <translation><!-- Rel Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sector</masterLabel>
+        <translation><!-- Sector --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>StateId</masterLabel>
+        <translation><!-- StateId --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sub Industry</masterLabel>
+        <translation><!-- Sub Industry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sub-Sector</masterLabel>
+        <translation><!-- Sub-Sector --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tot Emp No</masterLabel>
+        <translation><!-- Tot Emp No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tot Revenue</masterLabel>
+        <translation><!-- Tot Revenue --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

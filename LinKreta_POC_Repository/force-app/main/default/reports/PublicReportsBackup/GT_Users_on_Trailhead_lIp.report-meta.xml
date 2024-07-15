@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>trailheadapp__Trailhead_User_Data__c.trailheadapp__Rank__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>trailheadapp__Trailhead_User_Data__c.trailheadapp__Total_Points__c</field>
+    </columns>
+    <columns>
+        <field>trailheadapp__Trailhead_User_Data__c.trailheadapp__Profile_Visibility__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>All GT users on Trailhead Platform along with their Ranks, Points and Profile Visibility Details</description>
+    <filter>
+        <criteriaItems>
+            <column>CUST_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Dhruv,Avesh,Ajay,Admin,Vineet,Rohitash,Yukta,Itulung,Armaity,Suraj,Paras,Surbhi,Siddhartha</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>GT Users on Trailhead</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$trailheadapp__Trailhead_User_Data__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>trailheadapp__Trailhead_User_Data__c.trailheadapp__Total_Points__c</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

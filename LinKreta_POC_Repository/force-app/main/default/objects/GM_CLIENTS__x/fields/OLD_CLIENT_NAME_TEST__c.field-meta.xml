@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OLD_CLIENT_NAME_TEST__c</fullName>
+    <description>OLD_CLIENT_NAME_TEST</description>
+    <externalDeveloperName>OLD_CLIENT_NAME_TEST</externalDeveloperName>
+    <externalId>false</externalId>
+    <isFilteringDisabled>false</isFilteringDisabled>
+    <isNameField>false</isNameField>
+    <isSortingDisabled>false</isSortingDisabled>
+    <label>OLD_CLIENT_NAME_TEST</label>
+    <length>500</length>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cold_Calling_Business_Development_Client</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>SubIndustry__c</columns>
+    <columns>Industry__c</columns>
+    <columns>Segment__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Account_Record_Type__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Referral_Channel__c</field>
+        <operation>equals</operation>
+        <value>Cold Calling / Business Development</value>
+    </filters>
+    <label>Cold Calling Business Development Client</label>
+</ListView>

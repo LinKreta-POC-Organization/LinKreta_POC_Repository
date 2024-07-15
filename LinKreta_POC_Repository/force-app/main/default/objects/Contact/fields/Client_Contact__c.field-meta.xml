@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field contains information of &quot;Client Contact&quot; of the new client on conversion of which contact record is created.</description>
+    <externalId>false</externalId>
+    <label>Client Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Client Contacts</relationshipLabel>
+    <relationshipName>Client_Contacts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

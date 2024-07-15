@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Reject Reason --></label>
+    <name>Reject_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Ambiguity regarding company</masterLabel>
+        <translation><!-- Ambiguity regarding company --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Background check required</masterLabel>
+        <translation><!-- Background check required --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Channel 1 v/s Channel 2 conflict</masterLabel>
+        <translation><!-- Channel 1 v/s Channel 2 conflict --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Founder/Promoter reputation</masterLabel>
+        <translation><!-- Founder/Promoter reputation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lost client due to pricing</masterLabel>
+        <translation><!-- Lost client due to pricing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lost client to competition</masterLabel>
+        <translation><!-- Lost client to competition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lost client – other reasons</masterLabel>
+        <translation><!-- Lost client – other reasons --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Low Recovery/ Low Fees</masterLabel>
+        <translation><!-- Low Recovery/ Low Fees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Market Fitment issue</masterLabel>
+        <translation><!-- Market Fitment issue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No response</masterLabel>
+        <translation><!-- No response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not inline with GT way</masterLabel>
+        <translation><!-- Not inline with GT way --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Risk Concerns</masterLabel>
+        <translation><!-- Other Risk Concerns --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other risk associated with entity</masterLabel>
+        <translation><!-- Other risk associated with entity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Political connection</masterLabel>
+        <translation><!-- Political connection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejected by Client Council</masterLabel>
+        <translation><!-- Rejected by Client Council --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

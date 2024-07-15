@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CanvasMetadata xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessMethod>Post</accessMethod>
+    <canvasUrl>https://ca2d-2605-b100-b24-cfaf-24a4-b8c2-8b72-b0e3.ngrok.io/salesforce_one/account</canvasUrl>
+    <locationOptions>VF,MP</locationOptions>
+    <samlInitiationMethod>0</samlInitiationMethod>
+</CanvasMetadata>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Would like to share our marketing mailers with the client --></help>
+    <label><!-- Add to marketing mailing list --></label>
+    <name>Add_to_marketing_mailing_list__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duration_for_Reports__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ ISPICKVAL( Status , &apos;Internal / External Discussions&apos;) ,  Internal_External_StageDate_for_Report__c -  CreatedDate , 
+ IF( ISPICKVAL(Status, &apos;Client Take-On PreWork&apos;) ,  Client_Take_On_PreWork_stageDate_Report__c -  Internal_External_StageDate_for_Report__c , 
+ IF( ISPICKVAL(Status, &apos;Client Take On&apos;) ,  Client_Take_On_Stage_Date_for_Reports__c -  Client_Take_On_PreWork_stageDate_Report__c , 
+ IF( OR(ISPICKVAL(Status, &apos;Accept Client&apos;),ISPICKVAL(Status, &apos;NotAccept&apos;)) ,  Accept_Decline_Stage_for_Reports__c  - Client_Take_On_Stage_Date_for_Reports__c, 0) ) 
+) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Duration (for Reports)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

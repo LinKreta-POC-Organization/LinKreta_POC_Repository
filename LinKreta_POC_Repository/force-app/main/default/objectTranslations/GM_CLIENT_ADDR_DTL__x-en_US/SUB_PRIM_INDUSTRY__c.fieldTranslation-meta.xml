@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- SUB_PRIM_INDUSTRY --></label>
+    <name>SUB_PRIM_INDUSTRY__c</name>
+</CustomFieldTranslation>

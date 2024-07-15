@@ -1,0 +1,11 @@
+<template>
+    <lightning-accordion active-section-name="A" allow-multiple-sections-open>
+        <lightning-accordion-section name="A" label={SubTitle}>
+                <template if:true={displayDataTable}>
+                    <c-s-object-data-table object ={ApiNameOfObject} related ={ApiNameOfRelatedObject} field ={ApiNamesOfField} record-id={recordId} clause={WhereClause} dependent={ControllingField} width={Width} height={Height}></c-s-object-data-table>
+                </template>
+        </lightning-accordion-section>
+        
+    </lightning-accordion>
+        
+    </template>

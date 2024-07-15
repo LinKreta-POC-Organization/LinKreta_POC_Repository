@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- NSL --></label>
+    <name>NSL__c</name>
+    <relationshipLabel><!-- Clients (NSL) --></relationshipLabel>
+</CustomFieldTranslation>

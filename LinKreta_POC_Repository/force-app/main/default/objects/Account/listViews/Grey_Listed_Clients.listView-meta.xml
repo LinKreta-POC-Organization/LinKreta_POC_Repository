@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grey_Listed_Clients</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>PARENT_NAME</columns>
+    <columns>AccountType__c</columns>
+    <columns>Industry__c</columns>
+    <columns>CSL__c</columns>
+    <columns>CoCSL__c</columns>
+    <columns>NSL__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>Grey Listed Clients</label>
+</ListView>

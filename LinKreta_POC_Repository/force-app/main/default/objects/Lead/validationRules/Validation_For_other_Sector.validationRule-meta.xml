@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_For_other_Sector</fullName>
+    <active>true</active>
+    <description>User can not select other sector on any stage in new client process .</description>
+    <errorConditionFormula>AND(NOT(ISPICKVAL(Status , &apos;New&apos;)),ISPICKVAL(Industry__c , &apos;Others&apos;))</errorConditionFormula>
+    <errorMessage>Please select the relevant Industry .</errorMessage>
+</ValidationRule>

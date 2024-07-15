@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>ED/Partner (FS Risk)_GT-EMP-3354_Ramkumar Subramanian(P)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ED/Partner (FS Risk)_GT-EMP-3354_Ramkumar Subramanian(P)</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>ED_Partner_FS_Risk_GT_EMP_3983_Sheetal_D_Jajal_EA</parentRole>
+</Role>

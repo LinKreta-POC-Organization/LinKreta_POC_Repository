@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Expertise__c</columns>
+    <columns>Is_Active__c</columns>
+    <columns>LOV__c</columns>
+    <columns>LOV_Id__c</columns>
+    <columns>SMEG_Master__c</columns>
+    <columns>SMEG_Leader__c</columns>
+    <columns>Solution__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Solution_PL__c</columns>
+    <columns>ExpertiseLOV__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SMEG_Short_Name__c</field>
+        <operation>equals</operation>
+        <value>Valuations</value>
+    </filters>
+    <filters>
+        <field>Is_Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>All</label>
+</ListView>

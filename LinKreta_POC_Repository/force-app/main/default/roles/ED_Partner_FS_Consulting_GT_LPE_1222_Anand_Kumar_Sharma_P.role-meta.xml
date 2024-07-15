@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ED/Partner (FS Consulting)_GT-LPE-1222_Anand Kumar Sharma(P)</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>ED_Partner_FS_Consulting_GT_EMP_3984_Sukka_Lata_Reddy_EA</parentRole>
+</Role>

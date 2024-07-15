@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Role --></label>
+    <name>Seniority_Role__c</name>
+    <picklistValues>
+        <masterLabel>Business Owner, Partner &amp; Promoter</masterLabel>
+        <translation><!-- Business Owner, Partner &amp; Promoter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CFO</masterLabel>
+        <translation><!-- CFO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHRO</masterLabel>
+        <translation><!-- CHRO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CIO CDO CISO</masterLabel>
+        <translation><!-- CIO CDO CISO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CMO</masterLabel>
+        <translation><!-- CMO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director</masterLabel>
+        <translation><!-- Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manager / Mid Level</masterLabel>
+        <translation><!-- Manager / Mid Level --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NED &amp; AC</masterLabel>
+        <translation><!-- NED &amp; AC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other - CXOs</masterLabel>
+        <translation><!-- Other - CXOs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VP &amp; Business Head</masterLabel>
+        <translation><!-- VP &amp; Business Head --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

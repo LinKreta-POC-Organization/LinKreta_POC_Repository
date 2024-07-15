@@ -1,0 +1,8 @@
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Dear [Name],</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">This is to notify you that there has been a change in the {fields.name} for {!Account.Name}. Please make a note of the following changes.</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Please click on the following link to access on LinKreta &lrm; &nbsp; : &lrm; &nbsp; {!Account.Link}
+</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri"><span style="color:red;font-weight:bold">Note:- This is a system generated email. Please do not reply to this mail.</span></span></span></p>

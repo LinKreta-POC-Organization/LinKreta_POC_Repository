@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TXT_INTERNAL_AUDITOR__c</fullName>
+    <description>TXT_INTERNAL_AUDITOR</description>
+    <externalDeveloperName>TXT_INTERNAL_AUDITOR</externalDeveloperName>
+    <externalId>false</externalId>
+    <isFilteringDisabled>false</isFilteringDisabled>
+    <isNameField>false</isNameField>
+    <isSortingDisabled>false</isSortingDisabled>
+    <label>TXT_INTERNAL_AUDITOR</label>
+    <length>200</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

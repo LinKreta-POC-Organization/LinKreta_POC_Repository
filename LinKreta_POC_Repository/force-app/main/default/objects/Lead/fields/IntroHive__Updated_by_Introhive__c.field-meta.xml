@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IntroHive__Updated_by_Introhive__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the product that was used to update this record when the action is performed via Introhive</description>
+    <externalId>false</externalId>
+    <label>Updated by Introhive</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

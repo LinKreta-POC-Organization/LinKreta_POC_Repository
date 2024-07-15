@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Growth Potential Of Client --></label>
+    <name>Growth_Potential_Of_Client__c</name>
+</CustomFieldTranslation>

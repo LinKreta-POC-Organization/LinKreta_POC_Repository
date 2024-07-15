@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Highest level parent within a corporate family tree that is domiciled in the same country --></help>
+    <label><!-- Domestic Ultimate Owner --></label>
+    <name>Domestic_Ultimate_Owner__c</name>
+</CustomFieldTranslation>

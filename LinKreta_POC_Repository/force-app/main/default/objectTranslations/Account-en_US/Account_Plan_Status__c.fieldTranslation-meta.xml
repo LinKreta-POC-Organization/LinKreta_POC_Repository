@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Account Plan Status --></label>
+    <name>Account_Plan_Status__c</name>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation><!-- Draft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NSL Approved</masterLabel>
+        <translation><!-- NSL Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NSL Rejected</masterLabel>
+        <translation><!-- NSL Rejected --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending NSL Approval</masterLabel>
+        <translation><!-- Pending NSL Approval --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

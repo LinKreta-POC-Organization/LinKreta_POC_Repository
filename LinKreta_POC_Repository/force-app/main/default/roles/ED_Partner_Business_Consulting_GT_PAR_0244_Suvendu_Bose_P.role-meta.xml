@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ED/Partner (Business Consulting)_GT-PAR-0244_Suvendu Bose(P)</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>ED_Partner_Business_Consulting_GT_EMP_6179_Sujayeeta_Sarkar_EA</parentRole>
+</Role>

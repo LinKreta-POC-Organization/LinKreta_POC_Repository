@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- GTI_NET_CODE --></label>
+    <name>GTI_NET_CODE__c</name>
+</CustomFieldTranslation>

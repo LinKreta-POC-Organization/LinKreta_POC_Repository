@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NewClientOwnerName__c</fullName>
+    <description>Created as part of the fix for W-000837 (When user change the sector in Guidance path area this error is coming). This shows the New Client Owner and is used to display the name without the link to change the Owner for the the Outbound Team. This field is visible to the SectorAssignment profile and is added to the Pagelayout named &quot;Outbound Team Layout&quot; for the SectorAssignment profile.</description>
+    <externalId>false</externalId>
+    <formula>IF
+(
+	NOT(ISBLANK(Owner:Queue.QueueName)),
+	Owner:Queue.QueueName,
+	Owner:User.FirstName + &quot; &quot; + Owner:User.LastName
+)</formula>
+    <label>Enquiry Owner Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

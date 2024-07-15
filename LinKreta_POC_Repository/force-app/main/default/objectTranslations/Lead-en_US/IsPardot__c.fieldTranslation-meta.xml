@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- IsPardot --></label>
+    <name>IsPardot__c</name>
+    <picklistValues>
+        <masterLabel>Pardot</masterLabel>
+        <translation><!-- Pardot --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

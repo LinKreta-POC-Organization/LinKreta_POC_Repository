@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Academia</fullName>
+        <default>false</default>
+        <label>Academia</label>
+    </customValue>
+    <customValue>
+        <fullName>Alumni</fullName>
+        <default>false</default>
+        <label>Alumni</label>
+    </customValue>
+    <customValue>
+        <fullName>Alumni – GT@Industry</fullName>
+        <default>false</default>
+        <label>Alumni – GT@Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>Banking</fullName>
+        <default>false</default>
+        <label>Banking</label>
+    </customValue>
+    <customValue>
+        <fullName>BO &amp; family office</fullName>
+        <default>false</default>
+        <label>BO &amp; family office</label>
+    </customValue>
+    <customValue>
+        <fullName>Business development efforts</fullName>
+        <default>false</default>
+        <label>Business development efforts</label>
+    </customValue>
+    <customValue>
+        <fullName>CA Firms</fullName>
+        <default>false</default>
+        <label>CA Firms</label>
+    </customValue>
+    <customValue>
+        <fullName>Campaign</fullName>
+        <default>false</default>
+        <label>Campaign</label>
+    </customValue>
+    <customValue>
+        <fullName>CFO</fullName>
+        <default>false</default>
+        <label>CFO</label>
+    </customValue>
+    <customValue>
+        <fullName>Chamber</fullName>
+        <default>false</default>
+        <label>Chambers</label>
+    </customValue>
+    <customValue>
+        <fullName>CHRO</fullName>
+        <default>false</default>
+        <label>CHRO</label>
+    </customValue>
+    <customValue>
+        <fullName>CIO CDO CISO</fullName>
+        <default>false</default>
+        <label>CIO CDO CISO</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Past Relationships / Existing Client</fullName>
+        <default>false</default>
+        <label>Client Past Relationships / Existing Client</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Referral</fullName>
+        <default>false</default>
+        <label>Client Referral</label>
+    </customValue>
+    <customValue>
+        <fullName>CMO</fullName>
+        <default>false</default>
+        <label>CMO</label>
+    </customValue>
+    <customValue>
+        <fullName>Cold Calling / Business Development</fullName>
+        <default>false</default>
+        <label>Cold Calling / Business Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Corridors</fullName>
+        <default>false</default>
+        <label>Corridors</label>
+    </customValue>
+    <customValue>
+        <fullName>Cross Sell</fullName>
+        <default>false</default>
+        <label>Cross Sell / Up Sell Enquiries</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital</fullName>
+        <default>false</default>
+        <label>Digital</label>
+    </customValue>
+    <customValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Existing Client</fullName>
+        <default>false</default>
+        <label>Existing Client</label>
+    </customValue>
+    <customValue>
+        <fullName>External Events</fullName>
+        <default>false</default>
+        <label>External Events</label>
+    </customValue>
+    <customValue>
+        <fullName>Facebook</fullName>
+        <default>false</default>
+        <label>Facebook</label>
+    </customValue>
+    <customValue>
+        <fullName>GCC</fullName>
+        <default>false</default>
+        <label>GCC</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Delivery</fullName>
+        <default>false</default>
+        <label>Global Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>GT Employee</fullName>
+        <default>false</default>
+        <label>GT Employee</label>
+    </customValue>
+    <customValue>
+        <fullName>GT Events</fullName>
+        <default>false</default>
+        <label>GT Events</label>
+    </customValue>
+    <customValue>
+        <fullName>GT Member Firms</fullName>
+        <default>false</default>
+        <label>GT Member Firms</label>
+    </customValue>
+    <customValue>
+        <fullName>Inbound Referrals - GT Firm Personnel</fullName>
+        <default>false</default>
+        <label>Inbound Referrals - GT Firm Personnel</label>
+    </customValue>
+    <customValue>
+        <fullName>Inbound Referrals - Intermediary Firm</fullName>
+        <default>false</default>
+        <label>Inbound Referrals - Intermediary Firm</label>
+    </customValue>
+    <customValue>
+        <fullName>Inbound Referrals - Investment Banks</fullName>
+        <default>false</default>
+        <label>Inbound Referrals - Investment Banks</label>
+    </customValue>
+    <customValue>
+        <fullName>Inbound Referrals - Law Firm</fullName>
+        <default>false</default>
+        <label>Inbound Referrals - Law Firm</label>
+    </customValue>
+    <customValue>
+        <fullName>Inbound Referrals - PE/VC</fullName>
+        <default>false</default>
+        <label>Inbound Referrals - PE/VC</label>
+    </customValue>
+    <customValue>
+        <fullName>Independent Directors</fullName>
+        <default>false</default>
+        <label>Independent Directors</label>
+    </customValue>
+    <customValue>
+        <fullName>Instagram</fullName>
+        <default>false</default>
+        <label>Instagram</label>
+    </customValue>
+    <customValue>
+        <fullName>Investor</fullName>
+        <default>false</default>
+        <label>Investor</label>
+    </customValue>
+    <customValue>
+        <fullName>Investors / Private Equity Firms</fullName>
+        <default>false</default>
+        <label>Investors / Private Equity Firms</label>
+    </customValue>
+    <customValue>
+        <fullName>Key Account Leaders</fullName>
+        <default>false</default>
+        <label>Key Account Leaders</label>
+    </customValue>
+    <customValue>
+        <fullName>Law Firm</fullName>
+        <default>false</default>
+        <label>Law Firm</label>
+    </customValue>
+    <customValue>
+        <fullName>LinkedIn</fullName>
+        <default>false</default>
+        <label>LinkedIn</label>
+    </customValue>
+    <customValue>
+        <fullName>Member Firms Leaders</fullName>
+        <default>false</default>
+        <label>Member Firms Leaders</label>
+    </customValue>
+    <customValue>
+        <fullName>NEDs &amp; ACs</fullName>
+        <default>false</default>
+        <label>NEDs &amp; ACs</label>
+    </customValue>
+    <customValue>
+        <fullName>Newsletters</fullName>
+        <default>false</default>
+        <label>Newsletters</label>
+    </customValue>
+    <customValue>
+        <fullName>--None--</fullName>
+        <default>false</default>
+        <label>--None--</label>
+    </customValue>
+    <customValue>
+        <fullName>Organic Search</fullName>
+        <default>false</default>
+        <label>Organic Search</label>
+    </customValue>
+    <customValue>
+        <fullName>Other Events</fullName>
+        <default>false</default>
+        <label>Other Events</label>
+    </customValue>
+    <customValue>
+        <fullName>Past Relationship</fullName>
+        <default>false</default>
+        <label>Past Relationship</label>
+    </customValue>
+    <customValue>
+        <fullName>PEVC</fullName>
+        <default>false</default>
+        <label>PEVC</label>
+    </customValue>
+    <customValue>
+        <fullName>Phone</fullName>
+        <default>false</default>
+        <label>Phone</label>
+    </customValue>
+    <customValue>
+        <fullName>Physical Events</fullName>
+        <default>false</default>
+        <label>Physical Events</label>
+    </customValue>
+    <customValue>
+        <fullName>PMOs</fullName>
+        <default>false</default>
+        <label>PMOs</label>
+    </customValue>
+    <customValue>
+        <fullName>Publications</fullName>
+        <default>false</default>
+        <label>Publications</label>
+    </customValue>
+    <customValue>
+        <fullName>Referral</fullName>
+        <default>false</default>
+        <label>Referral</label>
+    </customValue>
+    <customValue>
+        <fullName>Regulators</fullName>
+        <default>false</default>
+        <label>Regulators</label>
+    </customValue>
+    <customValue>
+        <fullName>Solutions</fullName>
+        <default>false</default>
+        <label>Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Specialised Advisory Firms</fullName>
+        <default>false</default>
+        <label>Specialised Advisory Firms</label>
+    </customValue>
+    <customValue>
+        <fullName>Tech Alliances</fullName>
+        <default>false</default>
+        <label>Tech Alliances</label>
+    </customValue>
+    <customValue>
+        <fullName>Third Party</fullName>
+        <default>false</default>
+        <label>Third Party</label>
+    </customValue>
+    <customValue>
+        <fullName>Thought Leadership Events</fullName>
+        <default>false</default>
+        <label>Thought Leadership</label>
+    </customValue>
+    <customValue>
+        <fullName>Twitter</fullName>
+        <default>false</default>
+        <label>Twitter</label>
+    </customValue>
+    <customValue>
+        <fullName>Virtual Events</fullName>
+        <default>false</default>
+        <label>Virtual Events</label>
+    </customValue>
+    <customValue>
+        <fullName>Visiting card</fullName>
+        <default>false</default>
+        <label>Visiting card</label>
+    </customValue>
+    <customValue>
+        <fullName>Walk-In</fullName>
+        <default>false</default>
+        <label>Walk-In</label>
+    </customValue>
+    <customValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>Word of Mouth</fullName>
+        <default>false</default>
+        <label>Word of Mouth</label>
+    </customValue>
+    <customValue>
+        <fullName>Inbound Referral</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Inbound Referral</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal &amp; External Referral</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Internal &amp; External Referral</label>
+    </customValue>
+    <description>It depicts the Lead Channel information, from where the Lead is coming.</description>
+    <masterLabel>Channel</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

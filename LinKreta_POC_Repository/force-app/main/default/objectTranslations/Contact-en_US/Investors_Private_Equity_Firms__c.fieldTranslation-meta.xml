@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Investors / Private Equity Firms --></label>
+    <name>Investors_Private_Equity_Firms__c</name>
+    <relationshipLabel><!-- Client Contacts (Investors / Private Equity Firms) --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Account_Sub_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Client Account Sub-Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Young CSL</fullName>
+                <default>false</default>
+                <label>Young CSL</label>
+            </value>
+            <value>
+                <fullName>Client Account</fullName>
+                <default>false</default>
+                <label>Client Account</label>
+            </value>
+            <value>
+                <fullName>Former Key account</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Former Key account</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

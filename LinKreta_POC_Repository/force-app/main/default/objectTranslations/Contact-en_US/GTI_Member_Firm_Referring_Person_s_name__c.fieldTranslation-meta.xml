@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- GTI Member Firm-Referring Person&apos;s name --></label>
+    <name>GTI_Member_Firm_Referring_Person_s_name__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatAgentConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>Admin</profile>
+        </profiles>
+    </assignments>
+    <autoGreeting>Hi, {!LiveAgent_VisitorName}</autoGreeting>
+    <disableTransferConferenceGreeting>false</disableTransferConferenceGreeting>
+    <enableAgentFileTransfer>false</enableAgentFileTransfer>
+    <enableAgentSneakPeek>false</enableAgentSneakPeek>
+    <enableAssistanceFlag>false</enableAssistanceFlag>
+    <enableAutoAwayOnDecline>false</enableAutoAwayOnDecline>
+    <enableAutoAwayOnPushTimeout>false</enableAutoAwayOnPushTimeout>
+    <enableChatConferencing>false</enableChatConferencing>
+    <enableChatMonitoring>true</enableChatMonitoring>
+    <enableChatTransferToAgent>true</enableChatTransferToAgent>
+    <enableChatTransferToButton>true</enableChatTransferToButton>
+    <enableChatTransferToSkill>true</enableChatTransferToSkill>
+    <enableLogoutSound>true</enableLogoutSound>
+    <enableNotifications>true</enableNotifications>
+    <enableRequestSound>true</enableRequestSound>
+    <enableSneakPeek>true</enableSneakPeek>
+    <enableVisitorBlocking>false</enableVisitorBlocking>
+    <enableWhisperMessage>true</enableWhisperMessage>
+    <label>chat bot configuration</label>
+    <supervisorDefaultAgentStatusFilter>Online</supervisorDefaultAgentStatusFilter>
+    <transferableButtons>
+        <button>Start_Chat</button>
+    </transferableButtons>
+</LiveChatAgentConfig>

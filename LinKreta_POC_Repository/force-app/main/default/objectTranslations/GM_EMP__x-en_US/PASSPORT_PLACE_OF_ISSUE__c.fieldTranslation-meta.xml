@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- PASSPORT_PLACE_OF_ISSUE --></label>
+    <name>PASSPORT_PLACE_OF_ISSUE__c</name>
+</CustomFieldTranslation>

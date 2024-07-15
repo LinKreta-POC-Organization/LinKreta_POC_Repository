@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Sub_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Key Account Sub-Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Client_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GX - Platinum</fullName>
+                <default>false</default>
+                <label>GX - Platinum</label>
+            </value>
+            <value>
+                <fullName>GX - Gold</fullName>
+                <default>false</default>
+                <label>GX - Gold</label>
+            </value>
+            <value>
+                <fullName>CX</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CX</label>
+            </value>
+            <value>
+                <fullName>Client Account</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Client Account</label>
+            </value>
+            <value>
+                <fullName>Formal Key account</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Formal Key account</label>
+            </value>
+            <value>
+                <fullName>Sub Category</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sub Category</label>
+            </value>
+            <value>
+                <fullName>Young CSL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Young CSL</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>GX - Platinum</controllingFieldValue>
+            <valueName>GX - Platinum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GX - Platinum</controllingFieldValue>
+            <controllingFieldValue>GX - Gold</controllingFieldValue>
+            <valueName>GX - Gold</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

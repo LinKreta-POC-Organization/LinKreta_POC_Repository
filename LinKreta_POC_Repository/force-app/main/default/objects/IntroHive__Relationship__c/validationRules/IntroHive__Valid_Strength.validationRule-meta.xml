@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IntroHive__Valid_Strength</fullName>
+    <active>true</active>
+    <description>Ensure the Relationship Strength is contrained to the valid range</description>
+    <errorConditionFormula>OR(IntroHive__Strength__c  &lt; 0, IntroHive__Strength__c &gt; 100)</errorConditionFormula>
+    <errorDisplayField>IntroHive__Strength__c</errorDisplayField>
+    <errorMessage>The Relationship Strength must be between 0-100</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Channel --></label>
+    <name>Channel_Type__c</name>
+    <picklistValues>
+        <masterLabel>Channel 1</masterLabel>
+        <translation><!-- Channel 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Channel 2</masterLabel>
+        <translation><!-- Channel 2 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

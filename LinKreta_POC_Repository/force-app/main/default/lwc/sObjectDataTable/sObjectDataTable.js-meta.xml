@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <isExposed>true</isExposed>
+
+    <targets>
+<target>lightning__AppPage</target>
+<target>lightning__HomePage</target>
+<target>lightning__RecordPage</target>
+
+
+ </targets>
+ <targetConfigs>
+        <!-- Applying this config to all types of pages like record page, app page etc. -->
+        <targetConfig targets="lightning__RecordPage,lightning__AppPage, lightning__HomePage">
+            <supportedFormFactors>
+                <!-- Remove the below line if you want component to show onlyu on mobile devices. -->
+                <supportedFormFactor type="Large" /> 
+                <supportedFormFactor type="Small" />
+            </supportedFormFactors>
+        </targetConfig>
+    </targetConfigs>  
+</LightningComponentBundle>
+
+<!-- 
+import { LightningElement, api, track } from 'lwc';
+import getRecordsByObjectApi1 from '@salesforce/apex/SObjectDataTableController.getRecordsByObjectApi1';
+import getRecordsByObjectApi from '@salesforce/apex/SObjectDataTableController.getRecordsByObjectApi';
+export default class SObjectDataTable extends LightningElement {
+    //@api ApiNameOfObject ;
+    //@api ApiNamesOfField ;
+    @api object;
+    @api field;
+    @api related;
+    @api clause;
+    // @api title;
+    @track options;
+    @track data = [];
+    columns = [];
+    error;
+    @api recordId;
+
+    handleChange(event) {
+        this.value = event.detail.value;
+        this.data = [];
+        if(this.value == 'All'){
+            this.retrieveRecords();
+            return;
+        }
+        
+        getRecordsByObjectApi1({ objectApiName: this.object, relatedObject: this.related, fieldApiNames: this.field, recordId: this.recordId, value: this.value , clause:this.clause})
+            .then(result => {
+                console.log('result ', result);
+                this.columns = this.generateColumns(result);
+                this.data = JSON.parse(JSON.stringify(result));
+                console.log('this.data>>????',this.data);
+                this.data.forEach(res =>{
+                    console.log('resData ',res);
+                    res.urlLink = '/' + res.Id;
+                    if(this.related == 'contact' || this.related == 'Opportunity'){
+                        res.accName = res.Account.Name;
+                        res.urlLinkAcc = '/' + res.Account.Id;
+                    }
+                    if(this.related == 'Job__c' ){
+                        res.accNamee = res.ClientId__r.Name;
+                        res.urlLinkAcc = '/' + res.ClientId__r.Id;
+                    }
+                    if(this.related == 'Investor__c'){
+                       res.accNameeInv = res.Client__r.Name;
+                            res.urlLinkAcc = '/' + res.Client__r.Id;
+                    }
+                    // if(this.related == 'Job__c' ){
+                    //     res.accNamee = res.ClientId__r.Name;
+                    // }
+                })
+               
+            })
+            .catch(error => {
+                this.error = 'Error retrieving records: ' + error.body.message;
+            });
+
+    }
+    connectedCallback() {
+        this.options = [];
+
+        this.data = [];
+        console.log('recordId', this.recordId);
+        //console.log('Apiobject',this.ApiNameOfObject);
+        //console.log('ApiField',this.ApiNamesOfField);
+        console.log('tttt', this.object);
+        console.log('t22', this.field);
+        if (this.object && this.field)
+            this.retrieveRecords();
+        //this.retrieveRecords1();
+    }
+
+    async retrieveRecords() {
+        this.data = [];
+        await getRecordsByObjectApi({ objectApiName: this.object, relatedObject: this.related, fieldApiNames: this.field, recordId: this.recordId, clause:this.clause })
+            .then(result => {
+                console.log('result 123 ', result);
+                let resultOpt = JSON.parse(JSON.stringify(result.ListOfFilterContact));
+                console.log('resultOpt ',resultOpt);
+                if (result.ListOfAll) {
+                    console.log('listOfall>>>>>');
+                    console.log('RESULT LIST OF ALL ',result.ListOfAll);
+                    this.columns = this.generateColumns(result.ListOfAll);
+                    console.log('columns', this.columns);
+                    console.log('result ', result.ListOfAll);
+                    this.data = JSON.parse(JSON.stringify(result.ListOfAll));
+                    this.data.forEach(res =>{
+                        console.log('resData ',res);
+                        res.urlLink = '/' + res.Id;
+                        //res.urlLinkAcc = '/' + res.AccountId;
+                        if(this.related == 'contact' || this.related == 'Opportunity' ){
+                            res.accName = res.Account.Name;
+                            res.urlLinkAcc = '/' + res.Account.Id;
+                        }
+                        if(this.related == 'Job__c' ){
+                            res.accNamee = res.ClientId__r.Name;
+                            res.urlLinkAcc = '/' + res.ClientId__r.Id;
+                        }
+                        if(this.related == 'Investor__c' ){
+                            res.accNameeInv = res.Client__r.Name;
+                            res.urlLinkAcc = '/' + res.Client__r.Id;
+                        }
+                        
+                    })
+                }
+                if (resultOpt) {
+                    this.options = [];
+                    this.options.push({label:'All' , value: 'All'})
+                    resultOpt.forEach(element=>{
+                        console.log('ELEMENT ',element);
+                        this.options.push({ label:element.Name, value: element.Id });
+                    });
+                    // for (let res in resultOpt) {
+                    //     console.log('res', res);
+                    //     console.log('Name ', result[res].Name);
+                    //     this.options.push({ label: result[res].Name, value: result[res].Id });
+                    // }
+                    this.options = JSON.parse(JSON.stringify(this.options));
+                    //console.log('options',JSON.stringify());
+                }
+            })
+            .catch(error => {
+                console.log('errror ', error);
+                //this.error = 'Error retrieving records: ' + error.body.message;
+            });
+    }
+
+    // retrieveRecords1() {
+    //         getRecordsByObjectApi({ objectApiName: this.object, relatedObject: this.related,fieldApiNames: this.field ,recordId : this.recordId})
+    //             .then(result => {
+    //                 console.log('result ',result);
+    //                 this.data = result;
+    //                 this.columns = this.generateColumns(result);
+    //             })
+    //             .catch(error => {
+    //                 this.error = 'Error retrieving records: ' + error.body.message;
+    //             });
+    //     }
+    generateColumns(records) {
+        const columns = [];
+        const firstRecord = records[0];
+        console.log('firstRecord?? ',firstRecord);
+        if (firstRecord) {
+            for (const field in firstRecord) {
+                console.log(this.related+' field??',field);
+                if (firstRecord.hasOwnProperty(field) && field !== 'Id' && field != 'AccountId' && field !== 'ClientId__c') {
+                    console.log('field @@ ',field);
+                    // var url = 'https://'+location.host+'/'+firstRecord.Id;
+                    // console.log(url);
+                    if(field == 'FirstName' || field == 'Name' ){
+                        columns.push({
+                            label: field,
+                            fieldName: 'urlLink',
+                            type: 'url',
+                            typeAttributes: { label: { fieldName: field }, target: '_blank' }
+                        });
+                    }
+                    else if (field === 'Account'){
+                        columns.push({
+                            label: 'Account Name',
+                            fieldName: 'urlLinkAcc',
+                            type: 'url',
+                            typeAttributes: { label: { fieldName: 'accName' }, target: '_blank' }
+                            //type: typeof firstRecord[field]
+                        });
+                    }
+                    else if (field === 'StageName'){
+                        columns.push({
+                            label: 'Stage',
+                            fieldName: field,
+                            type: typeof firstRecord[field]
+                        });
+                    }
+                    else if (field === 'Stage__c'){
+                        columns.push({
+                            label: 'Stage',
+                            fieldName: field,
+                            type: typeof firstRecord[field]
+                        });
+                    }
+                    else if (field === 'ClientId__r'){
+                        columns.push({
+                            label: 'Account Name',
+                            fieldName: 'urlLinkAcc',
+                            type: 'url',
+                            typeAttributes: { label: { fieldName: 'accNamee' }, target: '_blank' }
+                        });
+                    }
+                    else if (field === 'Client__c'){
+                        columns.push({
+                            label: 'Client Name',
+                            fieldName: 'urlLinkAcc',
+                            type: 'url',
+                            typeAttributes: { label: { fieldName: 'accNameeInv' }, target: '_blank' }
+                        });
+                    }
+                    else if (field === 'Investor_Percentage_of_Shares_held__c'){
+                        columns.push({
+                            label: 'Investor Percentage(%) of Shares held',
+                            fieldName: field,
+                            type: typeof firstRecord[field]
+                        });
+                    }
+                    else if (field === 'Percent_Sought_Acquired_for_Buyback__c'){
+                        columns.push({
+                            label: 'Percent Sought/Acquired (%) for Buyback',
+                            fieldName: field,
+                            type: typeof firstRecord[field]
+                        });
+                    }
+
+                    else {
+                        columns.push({
+                            label: field,
+                            fieldName: field,
+                            type: typeof firstRecord[field]
+                        });
+                    }
+                }
+            }
+        }
+        console.log('cols', columns);
+        return columns;
+    }
+} -->
+
+
+
+
+<!-- 
+import { LightningElement, api, track } from 'lwc';
+import getRecordsByObjectApi1 from '@salesforce/apex/SObjectDataTableController.getRecordsByObjectApi1';
+import getRecordsByObjectApi from '@salesforce/apex/SObjectDataTableController.getRecordsByObjectApi';
+import getLabel from '@salesforce/apex/SObjectDataTableController.getLabel';
+export default class SObjectDataTable extends LightningElement {
+//@api ApiNameOfObject ;
+//@api ApiNamesOfField ;
+@api object;
+@api field;
+@api related;
+@api clause;
+// @api title;
+@track options;
+@track data = [];
+columns = [];
+error;
+@api recordId;
+
+handleChange(event) {
+    this.value = event.detail.value;
+    this.data = [];
+    if(this.value == 'All'){
+        this.retrieveRecords();
+        return;
+    }
+    
+    getRecordsByObjectApi1({ objectApiName: this.object, relatedObject: this.related, fieldApiNames: this.field, recordId: this.recordId, value: this.value , clause:this.clause})
+        .then(result => {
+            console.log('result ', result);
+            this.columns = this.generateColumns(result);
+            this.data = JSON.parse(JSON.stringify(result));
+            console.log('this.data>>????',this.data);
+            // this.data.forEach(res =>{
+            //     console.log('resData ',res);
+            //     res.urlLink = '/' + res.Id;
+            //     if(this.related == 'contact' || this.related == 'Opportunity'){
+            //         res.accName = res.Account.Name;
+            //         res.urlLinkAcc = '/' + res.Account.Id;
+            //     }
+            //     if(this.related == 'Job__c' ){
+            //         res.accNamee = res.ClientId__r.Name;
+            //         res.urlLinkAcc = '/' + res.ClientId__r.Id;
+            //     }
+            //     if(this.related == 'Investor__c'){
+            //        res.accNameeInv = res.Client__r.Name;
+            //             res.urlLinkAcc = '/' + res.Client__r.Id;
+            //     }
+            //     // if(this.related == 'Job__c' ){
+            //     //     res.accNamee = res.ClientId__r.Name;
+            //     // }
+            // })
+            
+        })
+        .catch(error => {
+            this.error = 'Error retrieving records: ' + error.body.message;
+        });
+
+}
+connectedCallback() {
+    this.options = [];
+
+    this.data = [];
+    console.log('recordId', this.recordId);
+    //console.log('Apiobject',this.ApiNameOfObject);
+    //console.log('ApiField',this.ApiNamesOfField);
+    console.log('tttt', this.object);
+    console.log('t22', this.field);
+    if (this.object && this.field)
+        this.retrieveRecords();
+    //this.retrieveRecords1();
+}
+
+async retrieveRecords() {
+    this.data = [];
+    await getRecordsByObjectApi({ objectApiName: this.object, relatedObject: this.related, fieldApiNames: this.field, recordId: this.recordId, clause:this.clause })
+        .then(result => {
+            console.log('result 123 ', result);
+            let resultOpt = JSON.parse(JSON.stringify(result.ListOfFilterContact));
+            console.log('resultOpt ',resultOpt);
+            if (result.ListOfAll) {
+                console.log('listOfall>>>>>');
+                console.log('RESULT LIST OF ALL ',result.ListOfAll);
+                this.generateColumns(result.ListOfAll);
+                console.log('columns', this.columns);
+                console.log('result ', result.ListOfAll);
+                
+                // this.data.forEach(res =>{
+                //     console.log('resData ',res);
+                //     res.urlLink = '/' + res.Id;
+                //     //res.urlLinkAcc = '/' + res.AccountId;
+                //     if(this.related == 'contact' || this.related == 'Opportunity' ){
+                //         res.accName = res.Account.Name;
+                //         res.urlLinkAcc = '/' + res.Account.Id;
+                //     }
+                //     if(this.related == 'Job__c' ){
+                //         res.accNamee = res.ClientId__r.Name;
+                //         res.urlLinkAcc = '/' + res.ClientId__r.Id;
+                //     }
+                //     if(this.related == 'Investor__c' ){
+                //         res.accNameeInv = res.Client__r.Name;
+                //         res.urlLinkAcc = '/' + res.Client__r.Id;
+                //     }
+                    
+                // })
+            }
+            if (resultOpt) {
+                this.options = [];
+                this.options.push({label:'All' , value: 'All'})
+                resultOpt.forEach(element=>{
+                    console.log('ELEMENT ',element);
+                    this.options.push({ label:element.Name, value: element.Id });
+                });
+                // for (let res in resultOpt) {
+                //     console.log('res', res);
+                //     console.log('Name ', result[res].Name);
+                //     this.options.push({ label: result[res].Name, value: result[res].Id });
+                // }
+                this.options = JSON.parse(JSON.stringify(this.options));
+                //console.log('options',JSON.stringify());
+            }
+        })
+        .catch(error => {
+            console.log('errror ', error);
+            //this.error = 'Error retrieving records: ' + error.body.message;
+        });
+}
+
+// retrieveRecords1() {
+//         getRecordsByObjectApi({ objectApiName: this.object, relatedObject: this.related,fieldApiNames: this.field ,recordId : this.recordId})
+//             .then(result => {
+//                 console.log('result ',result);
+//                 this.data = result;
+//                 this.columns = this.generateColumns(result);
+//             })
+//             .catch(error => {
+//                 this.error = 'Error retrieving records: ' + error.body.message;
+//             });
+//     }
+
+    generateColumns(records) {
+        let makeColumns;
+        var columns = [];
+        
+        getLabel({Fields : this.field , related : this.related})
+        .then(result =>{
+            console.log('result>>ListOfFieldList>>', result);  
+            makeColumns = JSON.parse(JSON.stringify(result));
+            console.log('makeColumns>>',makeColumns);
+            if (makeColumns) {
+                console.log('makeColumns  INNNNN>>');
+                for (const field in makeColumns) {
+                    console.log('feiled INNNNN>>');
+                    console.log('Field$$', makeColumns[field]);
+                    console.log('fildKa0' , makeColumns[field][0]);
+                    columns.push({
+                        label: makeColumns[field][0],
+                        fieldName: makeColumns[field][1],
+                        type: typeof makeColumns[field][1]
+                    });
+                }
+                this.columns = columns
+        
+        this.data = JSON.parse(JSON.stringify(records));
+        console.log('columnss>>Last',this.columns);
+        console.log('data>>Last',this.data);
+            }  
+            console.log('cols', columns);
+            
+        })
+        .catch(error =>{
+            console.log('error' ,error);
+        })
+        // const firstRecord = records[0];
+        // console.log('firstRecord?? ',firstRecord);
+        // if (firstRecord) {
+        //     for (const field in firstRecord) {
+        //         console.log(this.related+' field??',field);
+        //         if (firstRecord.hasOwnProperty(field) && field !== 'Id') {
+        //             console.log('field @@ ',field);
+        //             // var url = 'https://'+location.host+'/'+firstRecord.Id;
+        //             // console.log(url);
+        //             columns.push({
+        //                 label: field,
+        //                 fieldName: field,
+        //                 type: typeof firstRecord[field]
+        //             });
+        //         }
+        //     }
+        // }
+        // console.log('cols', columns);
+        
+
+    }
+    
+}
+ -->
+
+<!-- correct one -->
+<!-- 
+ import { LightningElement, api, track } from 'lwc';
+import getFilterRecords from '@salesforce/apex/SObjectDataTableController.getFilterRecords';
+import getAllRecords from '@salesforce/apex/SObjectDataTableController.getAllRecords';
+import genrateColumns from '@salesforce/apex/SObjectDataTableController.genrateColumns';
+export default class SObjectDataTable extends LightningElement {
+    //@api ApiNameOfObject ;
+    //@api ApiNamesOfField ;
+    @api dependent;
+    @api object;
+    @api field;
+    @api related;
+    @api clause;
+    // @api title;
+    @track options;
+    @track data = [];
+    columns = [];
+    error;
+    @api recordId;
+
+    handleChange(event) {
+        this.value = event.detail.value;
+        this.data = [];
+        if (this.value == 'All') {
+            this.retrieveRecords();
+            return;
+        }
+
+        getFilterRecords({ objectApiName: this.object, relatedObject: this.related, fieldApiNames: this.field, recordId: this.recordId, value: this.value, clause: this.clause, dependent: this.dependent })
+            .then(result => {
+                console.log('result ', result);
+                this.columns = this.generateColumns(result);
+                this.data = JSON.parse(JSON.stringify(result));
+                console.log('this.data>>????', this.data);
+                // this.data.forEach(res =>{
+                //     console.log('resData ',res);
+                //     res.urlLink = '/' + res.Id;
+                //     if(this.related == 'contact' || this.related == 'Opportunity'){
+                //         res.accName = res.Account.Name;
+                //         res.urlLinkAcc = '/' + res.Account.Id;
+                //     }
+                //     if(this.related == 'Job__c' ){
+                //         res.accNamee = res.ClientId__r.Name;
+                //         res.urlLinkAcc = '/' + res.ClientId__r.Id;
+                //     }
+                //     if(this.related == 'Investor__c'){
+                //        res.accNameeInv = res.Client__r.Name;
+                //             res.urlLinkAcc = '/' + res.Client__r.Id;
+                //     }
+                //     // if(this.related == 'Job__c' ){
+                //     //     res.accNamee = res.ClientId__r.Name;
+                //     // }
+                // })
+
+            })
+            .catch(error => {
+                this.error = 'Error retrieving records: ' + error.body.message;
+            });
+
+    }
+    connectedCallback() {
+        this.options = [];
+
+        this.data = [];
+        console.log('recordId', this.recordId);
+        //console.log('Apiobject',this.ApiNameOfObject);
+        //console.log('ApiField',this.ApiNamesOfField);
+        console.log('tttt', this.object);
+        console.log('t22', this.field);
+        if (this.object && this.field)
+            this.retrieveRecords();
+        //this.retrieveRecords1();
+    }
+
+    async retrieveRecords() {
+        this.data = [];
+        await getAllRecords({ objectApiName: this.object, relatedObject: this.related, fieldApiNames: this.field, recordId: this.recordId, clause: this.clause, dependent: this.dependent })
+            .then(result => {
+                console.log('result 123 ', result);
+                let resultOpt = JSON.parse(JSON.stringify(result.ListOfFilterOptions));
+                console.log('resultOpt ', resultOpt);
+                if (result.ListOfAll) {
+                    console.log('listOfall>>>>>');
+                    console.log('RESULT LIST OF ALL ', result.ListOfAll);
+                    this.generateColumns(result.ListOfAll);
+                    //console.log('columns', this.columns);
+                    //console.log('result ', result.ListOfAll);
+
+                    // this.data.forEach(res =>{
+                    //     console.log('resData ',res);
+                    //     res.urlLink = '/' + res.Id;
+                    //res.urlLinkAcc = '/' + res.AccountId;
+                    //     if(this.related == 'contact' || this.related == 'Opportunity' ){
+                    //         res.accName = res.Account.Name;
+                    //         res.urlLinkAcc = '/' + res.Account.Id;
+                    //     }
+                    //     if(this.related == 'Job__c' ){
+                    //         res.accNamee = res.ClientId__r.Name;
+                    //         res.urlLinkAcc = '/' + res.ClientId__r.Id;
+                    //     }
+                    //     if(this.related == 'Investor__c' ){
+                    //         res.accNameeInv = res.Client__r.Name;
+                    //         res.urlLinkAcc = '/' + res.Client__r.Id;
+                    //     }
+
+                    // })
+                }
+                if (resultOpt) {
+                    this.options = [];
+                    this.options.push({ label: 'All', value: 'All' })
+                    resultOpt.forEach(element => {
+                        console.log('ELEMENT ', element);
+                        this.options.push({ label: element.Name, value: element.Id });
+                    });
+                    this.options = JSON.parse(JSON.stringify(this.options));
+                    //console.log('options',JSON.stringify());
+                }
+            })
+            .catch(error => {
+                console.log('errror ', error);
+                //this.error = 'Error retrieving records: ' + error.body.message;
+            });
+    }
+
+    async generateColumns(records) {
+
+
+        let makeColumns;
+        var columns = [];
+
+        await genrateColumns({ Fields: this.field, related: this.related, Records: records })
+            .then(result => {
+                this.data = JSON.parse(JSON.stringify(records));
+                console.log('columnss>>Last', this.columns);
+                console.log('data>>Last', this.data);
+
+                this.data.forEach(res => {
+                    console.log('resData before ', res);
+                    res.urlLink = '/' + res.Id;
+                    if (this.dependent) {
+                        console.log('this.dependent', this.dependent);
+                        console.log('res' + res);
+                        var key = this.dependent.split('.')[0];
+                        if(res[key].Name != null){
+                        res.accName = res[key].Name;
+                        res.urlLinkAcc = '/' + res[key].Id;
+                        }
+                    }
+                    console.log('resData after ', res);
+                });
+
+                console.log('THIS DATA AFTER ',this.data);
+
+                console.log('result>>ListOfFieldList>>', result);
+                makeColumns = JSON.parse(JSON.stringify(result));
+                console.log('makeColumns>>', makeColumns);
+                if (makeColumns) {
+                    console.log('makeColumns  INNNNN>>');
+                    for (const field in makeColumns) {
+                        if (makeColumns[field][1] == 'Name') {
+                            console.log('feiled INNNNN>>NAme');
+                            console.log('Field$$Name', makeColumns[field]);
+                            console.log('fildKa0Name', makeColumns[field][0]);
+                            console.log('fildKa1Name', makeColumns[field][1]);
+                            columns.push({
+                                label: makeColumns[field][0],
+                                fieldName: 'urlLink',
+                                type: 'url',
+                                typeAttributes: { label: { fieldName: makeColumns[field][1] }, target: '_blank' }
+                            });
+                        }
+                        else if (makeColumns[field][1] == this.dependent) {
+                            console.log('feiled INNNNN>>elseiff');
+                            console.log('Field$$Name', makeColumns[field]);
+                            console.log('fildKa0Name', makeColumns[field][0]);
+                            console.log('fildKa1Name', makeColumns[field][1]);
+                            columns.push({
+                                label: makeColumns[field][0],
+                                fieldName: 'urlLinkAcc',
+                                type: 'url',
+                                typeAttributes: { label: { fieldName: 'accName' }, target: '_blank' }
+                            });
+                        }
+                        // else if(makeColumns[field][1] == 'ClientId__r.Name'){
+                        //     console.log('feiled INNNNN>>elseiff');
+                        //     console.log('Field$$Name', makeColumns[field]);
+                        //     console.log('fildKa0Name' , makeColumns[field][0]);
+                        //     console.log('fildKa1Name' , makeColumns[field][1]);
+                        //         columns.push({
+                        //             label: makeColumns[field][0],
+                        //             fieldName: 'urlLinkAcc',
+                        //             type: 'url',
+                        //             typeAttributes: { label: { fieldName: makeColumns[field][1]}, target: '_blank' }
+                        //         });
+                        // }
+                        // else if(makeColumns[field][1] == 'Client__r.Name'){
+                        //     console.log('feiled INNNNN>>elseiff');
+                        //     console.log('Field$$Name', makeColumns[field]);
+                        //     console.log('fildKa0Name' , makeColumns[field][0]);
+                        //     console.log('fildKa1Name' , makeColumns[field][1]);
+                        //         columns.push({
+                        //             label: makeColumns[field][0],
+                        //             fieldName: 'urlLinkAcc',
+                        //             type: 'url',
+                        //             typeAttributes: { label: { fieldName: makeColumns[field][1]}, target: '_blank' }
+                        //         });
+                        // }
+                        // else if(makeColumns[field][1] == 'ClientGroupName__r.Name'){
+                        //     console.log('feiled INNNNN>>elseiff');
+                        //     console.log('Field$$Name', makeColumns[field]);
+                        //     console.log('fildKa0Name' , makeColumns[field][0]);
+                        //     console.log('fildKa1Name' , makeColumns[field][1]);
+                        //         columns.push({
+                        //             label: makeColumns[field][0],
+                        //             fieldName: 'urlLinkAccOfGt',
+                        //             type: 'url',
+                        //             typeAttributes: { label: { fieldName: makeColumns[field][1]}, target: '_blank' }
+                        //         });
+                        // }
+                        else {
+                            console.log('feiled INNNNN>>');
+                            console.log('Field$$', makeColumns[field]);
+                            console.log('fildKa0', makeColumns[field][0]);
+                            columns.push({
+                                label: makeColumns[field][0],
+                                fieldName: makeColumns[field][1],
+                                //type: typeof makeColumns[field][1]
+                            });
+                        }
+                    }
+                    this.columns = columns
+                    
+
+
+                    // this.data = JSON.parse(JSON.stringify(records));
+                    // console.log('columnss>>Last',this.columns);
+                    // console.log('data>>Last',this.data);
+
+                    // this.data.forEach(res =>{
+                    // console.log('resData ',res);
+                    // res.urlLink = '/' + res.Id;
+
+                    // if(this.related == 'contact'){
+                    // res.accName = res.Account.Name;   
+                    // res.urlLinkAcc = '/' + res.Account.Id;
+                    // }
+                    // })
+                }
+                console.log('cols', columns);
+
+            })
+            .catch(error => {
+                console.log('error', error);
+            })
+
+    }
+
+}
+ -->

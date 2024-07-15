@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>ED/Partner (FS Risk)_GT-PAR-0226_Tarun Tokas(P)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ED/Partner (FS Risk)_GT-PAR-0226_Tarun Tokas(P)</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>ED_Partner_FS_Risk_GT_EMP_6109_Prerna_Kuchchal_EA</parentRole>
+</Role>

@@ -1,0 +1,47 @@
+<!-- <template>
+    <lightning-card title="Clients By GT Client Group">
+        <lightning-accordion class="example-accordion" allow-multiple-sections-open>
+            <template for:each={data} for:item="mapkey" for:index="index">
+                <lightning-accordion-section name={mapkey.key} key={mapkey.key} label={mapkey.key}>
+                    <template if:true={mapkey.value}>
+                        <lightning-datatable key-field="Id" data={mapkey.value} columns={columns}
+                            hide-checkbox-column="true">
+                        </lightning-datatable>
+                    </template>
+                </lightning-accordion-section>
+            </template>
+        </lightning-accordion>
+    </lightning-card>
+</template> -->
+
+<template>
+    <lightning-card >
+        <lightning-accordion class="example-accordion" >
+            <lightning-accordion-section name="Related Client Entities" label="Related Client Entities">
+        <lightning-combobox
+            name="progress"
+            label="Clients"
+            value={value}
+            placeholder="Select"
+            options={options}
+            onchange={handleChange}>
+        </lightning-combobox>
+        <template if:true={allData}>
+            <div class="slds-scrollable" style="height: 23rem; width:" tabindex="0">
+            <lightning-datatable
+                key-field="Id"
+                data={allData}
+                columns={columns}
+                hide-checkbox-column="true">
+            </lightning-datatable>
+            </div>
+        </template>
+        <template if:true={error}>
+            <div class="slds-m-vertical_medium slds-p-vertical_medium">
+                {error}
+            </div>
+        </template>
+    </lightning-accordion-section>
+</lightning-accordion>
+    </lightning-card>
+</template>

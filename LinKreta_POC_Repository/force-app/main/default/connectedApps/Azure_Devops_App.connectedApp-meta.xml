@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>abdul.v860@techmatrixconsulting.com</contactEmail>
+    <label>Azure Devops App</label>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com</callbackUrl>
+        <certificate>MIIDmDCCAoACCQDg7tX0rxbRCTANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCSU4xDzANBgNVBAgMBk11bWJhaTEPMA0GA1UEBwwGTXVtYmFpMQswCQYDVQQKDAJHVDELMAkGA1UECwwCR1QxDjAMBgNVBAMMBUdyYW50MTIwMAYJKoZIhvcNAQkBFiNhYmR1bC52ODYwQHRlY2htYXRyaXhjb25zdWx0aW5nLmNvbTAeFw0yMzA2MTIwNzE4MTNaFw0yNDA2MTEwNzE4MTNaMIGNMQswCQYDVQQGEwJJTjEPMA0GA1UECAwGTXVtYmFpMQ8wDQYDVQQHDAZNdW1iYWkxCzAJBgNVBAoMAkdUMQswCQYDVQQLDAJHVDEOMAwGA1UEAwwFR3JhbnQxMjAwBgkqhkiG9w0BCQEWI2FiZHVsLnY4NjBAdGVjaG1hdHJpeGNvbnN1bHRpbmcuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAysL3GEDKvV50dYDhfSajz+0FDEhnTiINm/DZM//yrxA31y9bWuDoSw+aemJ5fFJfK5cVWm19rl3t7TuJGuOIdnBvZNzxSz5cUILxJLX+ZAVfJ6l83nfLUMdWL3Y7sCHT5p7mJcTxFzrsrjIdSmz5oCf923K6LQFbsBDEY+r/aOKp+ACQ5w93Ah07rdcPnwwhd2Nhq2hwikpw6gXVl3sVLsahrJuUt+9TlpUsd6R4spnzCmJ1dnBdI1cdPO5XJQuaXzi4oEhn52p5DQ2c65dlrw7VIlo0Ve+47QGK1UEe0KJlqX127d2+Bd02besaN0z7uRD5ex+spmVjZRQfe6/OHwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCOBKliXbdRd50Hm5fyHJzxOOSHdAmcJ1v2PAlGXk/FJMdFb1El9UnCONdl3oL2bEkuJubiQe9w64yMPqNcivzRKtixKkBoRV1kb6Qf0tR9SbppRznt8Pxk4uyJ0J5yVDwarP6SseNhfN07OtkRFjQjw5zn4F3mTA0QUIIikO4Fb6LsRZjXc0xMy7IXi7YCw2CEIjEEBig0LVRamhtkwM3aNQdW1YBiUDsyXx2r2vc5KMf3vo7ukfkLyAcmLdNZ6vivTw9gUDLEmJJJGwllU9Q1vzdCm8iM96hR9pM2EZ/Bq9z4nU4ZxTiJO3JM0mu9e/gGTNU2cv2BgzdF0QWjDzen</certificate>
+        <consumerKey>3MVG9u0ll7_j5qFyN2ajaJmTA6x9wI01tfB4IOeAT1Yhv8uGTJeehYNMJbcXYZ9DZ.dgKo8zrctnicCXZDO9W</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>

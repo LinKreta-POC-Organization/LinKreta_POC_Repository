@@ -1,0 +1,16 @@
+.message::after {
+    position: absolute;
+    content: 'Please wait while we are fetching the data from the external platform.';
+    width: 100%;
+    text-align: center;
+    top: calc(50% + 3em);
+    font-weight: bold;
+}
+.cssClass{
+    text-align: center;
+}
+
+.slds-modal__container{
+    width: 70% !important;
+    max-width: 70% !important;
+}

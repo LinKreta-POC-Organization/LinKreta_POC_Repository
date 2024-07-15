@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Reason for not sharing feedback --></label>
+    <name>Any_reason_for_not_sharing_your_feedback__c</name>
+</CustomFieldTranslation>

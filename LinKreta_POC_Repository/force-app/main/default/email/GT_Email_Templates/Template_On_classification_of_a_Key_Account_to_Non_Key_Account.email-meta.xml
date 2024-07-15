@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Template On classification of a Key Account to Non-Key Account</name>
+    <style>none</style>
+    <subject>Key Account Classfication</subject>
+    <textOnly>Dear {recipient.name}, ,
+
+The Key Account {!Account.Name} has been classified into a Non-Key Account. Kindly request you to make a note.
+
+Note:- This is a system generated email. Please do not reply to this mail.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

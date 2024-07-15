@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Agriculture</fullName>
+        <default>false</default>
+        <label>Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Asset Management</fullName>
+        <default>false</default>
+        <label>Asset Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto &amp; EV</fullName>
+        <default>false</default>
+        <label>Auto &amp; EV</label>
+    </customValue>
+    <customValue>
+        <fullName>Aviation</fullName>
+        <default>false</default>
+        <label>Aviation</label>
+    </customValue>
+    <customValue>
+        <fullName>Banking</fullName>
+        <default>false</default>
+        <label>Banking</label>
+    </customValue>
+    <customValue>
+        <fullName>Education &amp; Ed tech</fullName>
+        <default>false</default>
+        <label>Education &amp; Ed tech</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy &amp; Renewables</fullName>
+        <default>false</default>
+        <label>Energy &amp; Renewables</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineering &amp; Industrial Products</fullName>
+        <default>false</default>
+        <label>Engineering &amp; Industrial Products</label>
+    </customValue>
+    <customValue>
+        <fullName>Fintech</fullName>
+        <default>false</default>
+        <label>Fintech</label>
+    </customValue>
+    <customValue>
+        <fullName>FMCG &amp; Consumer Goods</fullName>
+        <default>false</default>
+        <label>FMCG &amp; Consumer Goods</label>
+    </customValue>
+    <customValue>
+        <fullName>Food Processing</fullName>
+        <default>false</default>
+        <label>Food Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>Gaming</fullName>
+        <default>false</default>
+        <label>Gaming</label>
+    </customValue>
+    <customValue>
+        <fullName>Healthcare Services</fullName>
+        <default>false</default>
+        <label>Healthcare Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Insurance</fullName>
+        <default>false</default>
+        <label>Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Media</fullName>
+        <default>false</default>
+        <label>Media</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Devices</fullName>
+        <default>false</default>
+        <label>Medical Devices</label>
+    </customValue>
+    <customValue>
+        <fullName>Metals &amp; Mining</fullName>
+        <default>false</default>
+        <label>Metals &amp; Mining</label>
+    </customValue>
+    <customValue>
+        <fullName>NBFC</fullName>
+        <default>false</default>
+        <label>NBFC</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharma Bio Tech &amp; Life Sciences</fullName>
+        <default>false</default>
+        <label>Pharma Bio Tech &amp; Life Sciences</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate</fullName>
+        <default>false</default>
+        <label>Real Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail &amp; Ecommerce</fullName>
+        <default>false</default>
+        <label>Retail &amp; Ecommerce</label>
+    </customValue>
+    <customValue>
+        <fullName>Speciality Chemicals</fullName>
+        <default>false</default>
+        <label>Speciality Chemicals</label>
+    </customValue>
+    <customValue>
+        <fullName>Sports</fullName>
+        <default>false</default>
+        <label>Sports</label>
+    </customValue>
+    <customValue>
+        <fullName>Tech</fullName>
+        <default>false</default>
+        <label>Tech</label>
+    </customValue>
+    <customValue>
+        <fullName>Telecom</fullName>
+        <default>false</default>
+        <label>Telecom</label>
+    </customValue>
+    <customValue>
+        <fullName>Tourism &amp; Hospitality</fullName>
+        <default>false</default>
+        <label>Tourism &amp; Hospitality</label>
+    </customValue>
+    <customValue>
+        <fullName>Transportation &amp; Logistics</fullName>
+        <default>false</default>
+        <label>Transportation &amp; Logistics</label>
+    </customValue>
+    <customValue>
+        <fullName>Urban Infrastructure</fullName>
+        <default>false</default>
+        <label>Urban Infrastructure</label>
+    </customValue>
+    <customValue>
+        <fullName>Not for profit</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Not for profit</label>
+    </customValue>
+    <customValue>
+        <fullName>Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate &amp; Construction</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Real Estate &amp; Construction</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto &amp; Auto Components</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Auto &amp; Auto Components</label>
+    </customValue>
+    <customValue>
+        <fullName>CIP &amp; Retail</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CIP &amp; Retail</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Financial Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Delivery</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Global Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>Government</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Government</label>
+    </customValue>
+    <customValue>
+        <fullName>Law Firms</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Law Firms</label>
+    </customValue>
+    <customValue>
+        <fullName>Owners &amp; Private Clients</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Owners &amp; Private Clients</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel, tourism &amp; leisure</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Travel, tourism &amp; leisure</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharma &amp; Healthcare Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pharma &amp; Healthcare Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate &amp; Infra</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Real Estate &amp; Infra</label>
+    </customValue>
+    <customValue>
+        <fullName>TMT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TMT</label>
+    </customValue>
+    <customValue>
+        <fullName>Others</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Others</label>
+    </customValue>
+    <customValue>
+        <fullName>Technology, Media &amp; Telecom</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Technology, Media &amp; Telecom</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate &amp; Infrastructure</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Real Estate &amp; Infrastructure</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Equity / Venture Capital</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Private Equity / Venture Capital</label>
+    </customValue>
+    <customValue>
+        <fullName>Consumers &amp; Industrial Products and Retail</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consumers &amp; Industrial Products and Retail</label>
+    </customValue>
+    <customValue>
+        <fullName>Individual private clients</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Individual private clients</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy &amp; Renewables`</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Energy &amp; Renewables`</label>
+    </customValue>
+    <customValue>
+        <fullName>PE/VC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PE/VC</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrial products</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Industrial products</label>
+    </customValue>
+    <customValue>
+        <fullName>Public sector</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Public sector</label>
+    </customValue>
+    <customValue>
+        <fullName>Technology, media &amp; telecommunications</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Technology, media &amp; telecommunications</label>
+    </customValue>
+    <customValue>
+        <fullName>Healthcare</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Healthcare</label>
+    </customValue>
+    <customValue>
+        <fullName>Consumer products</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consumer products</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy &amp; resources</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Energy &amp; resources</label>
+    </customValue>
+    <description>This is having all the sector details of GT.</description>
+    <masterLabel>Industry GVS</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

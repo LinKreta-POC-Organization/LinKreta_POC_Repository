@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PartnerLogin_UserFullName__c</fullName>
+    <description>This field has been created as part of the LinKreta initiative and is a part of the function to support an EA to login as a Partner. This formula represents the Full Name of the Partner User an EA has logged in as.</description>
+    <externalId>false</externalId>
+    <formula>IF
+(
+NOT(ISBLANK(PartnerLogin_UserID__c)),
+PartnerLogin_UserID__r.FirstName + &quot; &quot; + PartnerLogin_UserID__r.LastName,
+&quot;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Partner Login - User Full Name</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

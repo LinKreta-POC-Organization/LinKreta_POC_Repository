@@ -1,0 +1,5 @@
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Dear {!Account.OwnerFullName}</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Your request to Change the Account Name for {!Account.Name} has been rejected due to the following reasons {!Account.Reason_Description__c}. Kindly request you to look into this.</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri"><span style="color:red;font-weight:bold">Note:- This is a system generated email. Please do not reply to this mail.</span></span></span></p>

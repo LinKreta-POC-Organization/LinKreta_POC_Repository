@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsNameChange__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used for the Name change from update and sync button and restrict other</description>
+    <externalId>false</externalId>
+    <label>Is Name Change</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

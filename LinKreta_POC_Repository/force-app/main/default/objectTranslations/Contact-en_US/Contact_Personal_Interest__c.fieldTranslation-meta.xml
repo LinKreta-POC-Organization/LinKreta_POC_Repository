@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Contact Personal Interest --></label>
+    <name>Contact_Personal_Interest__c</name>
+    <picklistValues>
+        <masterLabel>Adventure Sports Enthusiast</masterLabel>
+        <translation><!-- Adventure Sports Enthusiast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Art Lover</masterLabel>
+        <translation><!-- Art Lover --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Avid Reader</masterLabel>
+        <translation><!-- Avid Reader --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cricket Enthusiast</masterLabel>
+        <translation><!-- Cricket Enthusiast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fitness freak</masterLabel>
+        <translation><!-- Fitness freak --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Golf Enthusiast</masterLabel>
+        <translation><!-- Golf Enthusiast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Movie Buff</masterLabel>
+        <translation><!-- Movie Buff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports follower</masterLabel>
+        <translation><!-- Sports follower --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech Buff</masterLabel>
+        <translation><!-- Tech Buff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Travel Junkie</masterLabel>
+        <translation><!-- Travel Junkie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wine connoisseur</masterLabel>
+        <translation><!-- Wine connoisseur --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pending_with_DS_Team_Clients</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>Assigned_to_DS_Team_Member__c</columns>
+    <columns>Pick_Record__c</columns>
+    <columns>Status__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>DS_Team_Approval_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Pending Verification</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Client</value>
+    </filters>
+    <filters>
+        <field>Pick_Record__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>DS_Team_Approval_Status__c</field>
+        <operation>notEqual</operation>
+        <value>DS Rejected</value>
+    </filters>
+    <label>Pending with DS Team (Clients)</label>
+    <sharedTo>
+        <group>C_M_Team</group>
+        <group>DS_Team</group>
+    </sharedTo>
+</ListView>

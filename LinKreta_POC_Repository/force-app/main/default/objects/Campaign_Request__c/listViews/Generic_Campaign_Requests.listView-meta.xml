@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Generic_Campaign_Requests</fullName>
+    <columns>NAME</columns>
+    <columns>Campaign_Title__c</columns>
+    <columns>Target_Audience__c</columns>
+    <columns>Solution_to_Market__c</columns>
+    <columns>Pick_Record__c</columns>
+    <columns>Assigned_to_Marcom_Team_Member__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Is_Generic__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Generic Campaign Requests</label>
+    <sharedTo>
+        <group>Marcom_Team</group>
+    </sharedTo>
+</ListView>

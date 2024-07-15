@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_Database_Source__c</fullName>
+    <externalId>false</externalId>
+    <label>External Database Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Null</fullName>
+                <default>false</default>
+                <label>Null</label>
+            </value>
+            <value>
+                <fullName>MCA</fullName>
+                <default>false</default>
+                <label>MCA</label>
+            </value>
+            <value>
+                <fullName>CapIQ</fullName>
+                <default>false</default>
+                <label>CapIQ</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>None of them</fullName>
+                <default>false</default>
+                <label>None of them</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

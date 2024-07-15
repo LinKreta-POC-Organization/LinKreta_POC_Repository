@@ -1,0 +1,27 @@
+<template>
+    <lightning-card style = "width:100px;height:100px">
+        
+        <lightning-combobox
+            name="progress"
+            label="Clients"
+            value={value}
+            placeholder="Select"
+            options={options}
+            onchange={handleChange} ></lightning-combobox>
+        <template if:true={data}>
+             <div class="slds-scrollable" style={heightWidth} tabindex="0">
+            <lightning-datatable
+                key-field="Id"
+                data={data}
+                columns={columns}
+                hide-checkbox-column="true">
+            </lightning-datatable>
+            </div>
+        </template>
+        <template if:true={error}>
+            <div class="slds-m-vertical_medium slds-p-vertical_medium">
+                {error}
+            </div>
+        </template>
+    </lightning-card>
+</template>

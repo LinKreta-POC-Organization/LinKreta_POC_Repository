@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email Template for notification to NCO channel manual</name>
+    <style>none</style>
+    <subject>Your new client created</subject>
+    <textOnly>Dear {!Lead.OwnerFullName},
+
+You have successfully created the new client {!Lead.NewClientNo__c} - {!Lead.Company} and are now the designated owner. Please find the details below:
+
+Prospect Name:‎‎‎‎ {!Lead.FirstName} {!Lead.LastName}
+Prospect Email: {!Lead.Email}
+Prospect Mobile: {!Lead.MobilePhone}
+Industry: {!Lead.Industry__c}
+
+To access the record on LinKreta, please click on the link: {!Lead.Link}
+
+Note:- This is a system generated email. Please do not reply to this mail.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RestrictStatusToInitialStage</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+     $Profile.Name &lt;&gt; &apos;System Administrator&apos;,
+     OR(
+        ISPICKVAL(PRIORVALUE(Contact_status__c ),&quot;Active&quot;),
+        ISPICKVAL(PRIORVALUE(Contact_status__c ),&quot;Inactive&quot;)
+     ),
+     OR(
+         ISPICKVAL(Contact_status__c , &apos;New Contact Creation&apos;),
+         ISPICKVAL(Contact_status__c , &apos;Pending DS Team Approval&apos;)
+     )
+     
+)</errorConditionFormula>
+    <errorDisplayField>Contact_status__c</errorDisplayField>
+    <errorMessage>Contact Status cannot be moved to &quot;New Contact Creation&quot; or &quot;Pending DS Team Approval&quot; from &quot;Active / Inactive&quot;.</errorMessage>
+</ValidationRule>

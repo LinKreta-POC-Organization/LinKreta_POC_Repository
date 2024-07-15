@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Law Firm Contacts --></label>
+    <name>Law_Firm_Contacts__c</name>
+    <relationshipLabel><!-- Client Contacts (Law Firm Contacts) --></relationshipLabel>
+</CustomFieldTranslation>

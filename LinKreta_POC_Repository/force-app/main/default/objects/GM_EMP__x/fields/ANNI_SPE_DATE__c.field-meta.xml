@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ANNI_SPE_DATE__c</fullName>
+    <description>ANNI_SPE_DATE</description>
+    <externalDeveloperName>ANNI_SPE_DATE</externalDeveloperName>
+    <externalId>false</externalId>
+    <isFilteringDisabled>false</isFilteringDisabled>
+    <isNameField>false</isNameField>
+    <isSortingDisabled>false</isSortingDisabled>
+    <label>ANNI_SPE_DATE</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

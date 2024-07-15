@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Segment --></label>
+    <name>Segment__c</name>
+    <picklistValues>
+        <masterLabel>Channels - GCC</masterLabel>
+        <translation><!-- Channels - GCC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Channels - Law Firms</masterLabel>
+        <translation><!-- Channels - Law Firms --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Channels - OPC</masterLabel>
+        <translation><!-- Channels - OPC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Channels - PE/VC</masterLabel>
+        <translation><!-- Channels - PE/VC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Digital Natives</masterLabel>
+        <translation><!-- Digital Natives --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government</masterLabel>
+        <translation><!-- Government --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Large Corporates</masterLabel>
+        <translation><!-- Large Corporates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mid Market</masterLabel>
+        <translation><!-- Mid Market --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PIE Audit</masterLabel>
+        <translation><!-- PIE Audit --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

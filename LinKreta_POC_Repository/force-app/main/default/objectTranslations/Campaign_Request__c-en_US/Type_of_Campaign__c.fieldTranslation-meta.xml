@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type of Campaign --></label>
+    <name>Type_of_Campaign__c</name>
+    <picklistValues>
+        <masterLabel>Demo Signup / Trial</masterLabel>
+        <translation><!-- Demo Signup / Trial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email</masterLabel>
+        <translation><!-- Email --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Event</masterLabel>
+        <translation><!-- Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Referral Program</masterLabel>
+        <translation><!-- Referral Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Search</masterLabel>
+        <translation><!-- Search --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social media</masterLabel>
+        <translation><!-- Social media --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thought Leadership</masterLabel>
+        <translation><!-- Thought Leadership --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Website Direct</masterLabel>
+        <translation><!-- Website Direct --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

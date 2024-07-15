@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Channel and Alliance Type --></label>
+    <name>Channel_and_Alliance_Type__c</name>
+    <picklistValues>
+        <masterLabel>AIMA</masterLabel>
+        <translation><!-- AIMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AMCHAM</masterLabel>
+        <translation><!-- AMCHAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ANZ India Business Chamber</masterLabel>
+        <translation><!-- ANZ India Business Chamber --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASSOCHAM</masterLabel>
+        <translation><!-- ASSOCHAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Academia</masterLabel>
+        <translation><!-- Academia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alumni</masterLabel>
+        <translation><!-- Alumni --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Association of UK Chartered Accountants in India</masterLabel>
+        <translation><!-- Association of UK Chartered Accountants in India --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BBG</masterLabel>
+        <translation><!-- BBG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BO &amp; family office</masterLabel>
+        <translation><!-- BO &amp; family office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bangalore Chamber of Industry and Commerce</masterLabel>
+        <translation><!-- Bangalore Chamber of Industry and Commerce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Banking</masterLabel>
+        <translation><!-- Banking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CA Firms</masterLabel>
+        <translation><!-- CA Firms --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CFO</masterLabel>
+        <translation><!-- CFO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHRO</masterLabel>
+        <translation><!-- CHRO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CII</masterLabel>
+        <translation><!-- CII --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CIO CDO CISO</masterLabel>
+        <translation><!-- CIO CDO CISO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CMO</masterLabel>
+        <translation><!-- CMO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chambers</masterLabel>
+        <translation><!-- Chambers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Confederation of British Industry (CBI)</masterLabel>
+        <translation><!-- Confederation of British Industry (CBI) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EBG Federation</masterLabel>
+        <translation><!-- EBG Federation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FICCI</masterLabel>
+        <translation><!-- FICCI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin-Tech Association for Consumer Empowerment (FACE)</masterLabel>
+        <translation><!-- Fin-Tech Association for Consumer Empowerment (FACE) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GCC</masterLabel>
+        <translation><!-- GCC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IACC Bangalore</masterLabel>
+        <translation><!-- IACC Bangalore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IACC Chennai</masterLabel>
+        <translation><!-- IACC Chennai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IACC Hyderabad</masterLabel>
+        <translation><!-- IACC Hyderabad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IACC Kolkata</masterLabel>
+        <translation><!-- IACC Kolkata --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IACC Mumbai</masterLabel>
+        <translation><!-- IACC Mumbai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ICC - Kolkata</masterLabel>
+        <translation><!-- ICC - Kolkata --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IMA CFO Forum</masterLabel>
+        <translation><!-- IMA CFO Forum --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INDO-AMERICAN CHAMBER OF COMMERCE Delhi</masterLabel>
+        <translation><!-- INDO-AMERICAN CHAMBER OF COMMERCE Delhi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indo German Chamber of Commerce</masterLabel>
+        <translation><!-- Indo German Chamber of Commerce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indo-Australian Chamber of Commerce - Chennai</masterLabel>
+        <translation><!-- Indo-Australian Chamber of Commerce - Chennai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indo-Japan Chamber of Commerce &amp; Industry</masterLabel>
+        <translation><!-- Indo-Japan Chamber of Commerce &amp; Industry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>International Fiscal Association</masterLabel>
+        <translation><!-- International Fiscal Association --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Japan Chamber of Commerce &amp; Industry</masterLabel>
+        <translation><!-- Japan Chamber of Commerce &amp; Industry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Key Account Leaders</masterLabel>
+        <translation><!-- Key Account Leaders --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Law Firm</masterLabel>
+        <translation><!-- Law Firm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mahratta Chamber of Commerce Industries and Agriculture (MCCIA)</masterLabel>
+        <translation><!-- Mahratta Chamber of Commerce Industries and Agriculture (MCCIA) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Member Firms Leaders</masterLabel>
+        <translation><!-- Member Firms Leaders --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NASSCOM - Bengaluru (GT US SSC)</masterLabel>
+        <translation><!-- NASSCOM - Bengaluru (GT US SSC) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NEDs &amp; ACs</masterLabel>
+        <translation><!-- NEDs &amp; ACs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PEVC</masterLabel>
+        <translation><!-- PEVC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PHDCCI</masterLabel>
+        <translation><!-- PHDCCI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMOs</masterLabel>
+        <translation><!-- PMOs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regulators</masterLabel>
+        <translation><!-- Regulators --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retailers Association of India</masterLabel>
+        <translation><!-- Retailers Association of India --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEPC</masterLabel>
+        <translation><!-- SEPC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SIDM (Society of Indian Defence Manufacturers)</masterLabel>
+        <translation><!-- SIDM (Society of Indian Defence Manufacturers) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specialised Advisory Firms</masterLabel>
+        <translation><!-- Specialised Advisory Firms --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech Alliances</masterLabel>
+        <translation><!-- Tech Alliances --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The Madras Chamber of Commerce and Industry</masterLabel>
+        <translation><!-- The Madras Chamber of Commerce and Industry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TiE Chandigarh</masterLabel>
+        <translation><!-- TiE Chandigarh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tie Chennai</masterLabel>
+        <translation><!-- Tie Chennai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tie Delhi</masterLabel>
+        <translation><!-- Tie Delhi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UKIBC</masterLabel>
+        <translation><!-- UKIBC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>USIBC</masterLabel>
+        <translation><!-- USIBC --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

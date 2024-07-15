@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>isWilfulBankDefaulter</label>
+    <protected>false</protected>
+    <values>
+        <field>Alert_Description__c</field>
+        <value xsi:type="xsd:string">Entity reported as Wilful Defaulter by Bank due to default in repayment of loan despite having the capacity to repay, or due to misutilization or siphoning of funds lent for the purpose of business.</value>
+    </values>
+    <values>
+        <field>Header__c</field>
+        <value xsi:type="xsd:string">Wilful Defaulter</value>
+    </values>
+</CustomMetadata>

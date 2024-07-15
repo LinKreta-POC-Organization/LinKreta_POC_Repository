@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>ED/Partner (Technology Advisory)_GT-EMP-5445_Somenath Bhattacharya(P)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ED/Partner (Technology Advisory)_GT-EMP-5445_Somenath Bhattacharya(P)</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>ED_Partner_Technology_Advisory_GT_EMP_4493_Ankeeta_Dutta_EA</parentRole>
+</Role>

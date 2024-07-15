@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_for_Digital_Channels__c</fullName>
+    <externalId>false</externalId>
+    <label>Industry for Digital Channels</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Industries_for_digital_channels</valueSetName>
+    </valueSet>
+</CustomField>

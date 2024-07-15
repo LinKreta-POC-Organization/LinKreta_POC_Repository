@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Business as Usual (BAU)</fullName>
+        <default>false</default>
+        <label>Business as Usual (BAU)</label>
+    </customValue>
+    <customValue>
+        <fullName>Strategic (STR)</fullName>
+        <default>false</default>
+        <label>Strategic (STR)</label>
+    </customValue>
+    <masterLabel>Enquiry Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

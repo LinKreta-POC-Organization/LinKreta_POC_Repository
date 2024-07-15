@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GT_Client_Office__c</fullName>
+    <externalId>false</externalId>
+    <label>GT Client Office</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GT_Bengaluru</fullName>
+                <default>false</default>
+                <label>GT Bengaluru</label>
+            </value>
+            <value>
+                <fullName>GT_Bhopal</fullName>
+                <default>false</default>
+                <label>GT Bhopal</label>
+            </value>
+            <value>
+                <fullName>GT_Chennai</fullName>
+                <default>false</default>
+                <label>GT Chennai</label>
+            </value>
+            <value>
+                <fullName>GT_Delhi</fullName>
+                <default>false</default>
+                <label>GT Delhi</label>
+            </value>
+            <value>
+                <fullName>GT_Hyderabad</fullName>
+                <default>false</default>
+                <label>GT Hyderabad</label>
+            </value>
+            <value>
+                <fullName>GT_Lucknow</fullName>
+                <default>false</default>
+                <label>GT Lucknow</label>
+            </value>
+            <value>
+                <fullName>GT_Mumbai</fullName>
+                <default>false</default>
+                <label>GT Mumbai</label>
+            </value>
+            <value>
+                <fullName>GT_Noida</fullName>
+                <default>false</default>
+                <label>GT Noida</label>
+            </value>
+            <value>
+                <fullName>GT_One</fullName>
+                <default>false</default>
+                <label>GT One</label>
+            </value>
+            <value>
+                <fullName>GT_Pune</fullName>
+                <default>false</default>
+                <label>GT Pune</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

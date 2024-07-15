@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IntroHive__HOST_URL__c</fullName>
+    <defaultValue>&apos;https://app.introhive.com/&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This URL points to a specific hosted installation of Introhive used by the Introhive app</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Original:&apos;https://app.introhive.com&apos;</inlineHelpText>
+    <label>Host Url</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

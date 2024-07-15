@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Client Contact</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Client Contacts</value>
+    </caseValues>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Contact Type Information --></label>
+            <section>Contact Type Information</section>
+        </sections>
+        <sections>
+            <label><!-- DS Team Approval Information --></label>
+            <section>DS Team Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Directorship Details --></label>
+            <section>Directorship Details</section>
+        </sections>
+        <sections>
+            <label><!-- Industry and Segment --></label>
+            <section>Industry and Segment</section>
+        </sections>
+        <sections>
+            <label><!-- Key Account Details --></label>
+            <section>Key Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- New Client Details --></label>
+            <section>New Client Details</section>
+        </sections>
+        <sections>
+            <label><!-- Referral Information --></label>
+            <section>Referral Information</section>
+        </sections>
+        <sections>
+            <label><!-- Social Information --></label>
+            <section>Social Information</section>
+        </sections>
+        <sections>
+            <label><!-- Survey Details --></label>
+            <section>Survey Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Minutes of Meeting --></label>
+        <name>Add_Minutes_of_Meeting</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Meeting --></label>
+        <name>Create_Meeting</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Introhive on Mobile --></label>
+        <name>Introhive_on_Mobile</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Only for Admin --></label>
+        <name>Submit_for_DS_Approval</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Chamber Contacts --></label>
+        <name>Chamber_Contacts</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GT Client Contacts --></label>
+        <name>GTClientContacts</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GT Employee --></label>
+        <name>GTEmployee</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Investor Contacts --></label>
+        <name>Investor_Contacts</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Law Firm Contacts --></label>
+        <name>LawFirmContacts</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please add a comma-separated address in Contact Address (Street) . --></errorMessage>
+        <name>Client_Contact_address_Check_Comma</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Character length should be less than 10. --></errorMessage>
+        <name>Contact_AddressZip_Code</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter FirstName. --></errorMessage>
+        <name>First_Name_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter LinkedIn URL --></errorMessage>
+        <name>LinkedIn_URL_not_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Character length should be less than 10. --></errorMessage>
+        <name>Mailing_Address_ZipCode</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill Contact Address City, Contact Address Country Code, Contact Address Postal Code, Contact Address Street,Contact Address State. --></errorMessage>
+        <name>Mandate_ContactAddress</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide value for &quot;Other Passions&quot; --></errorMessage>
+        <name>Mandate_OtherPassions</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter &quot;Rationale for Name Change&quot;. --></errorMessage>
+        <name>Reason_for_name_change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contact Status cannot be moved to &quot;New Contact Creation&quot; or &quot;Pending DS Team Approval&quot; from &quot;Active / Inactive&quot;. --></errorMessage>
+        <name>RestrictStatusToInitialStage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot create Contact when Client is Inactive or DS Rejected. --></errorMessage>
+        <name>Restrict_ContactCreation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only markets ecosystems team can change the Contact Status to Active/Inactive. --></errorMessage>
+        <name>Restrict_StatusUpdate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Contact Owner can change the Contact Status to &quot;Pending DS Team Approval&quot;. --></errorMessage>
+        <name>Restrict_StatusUpdateForOwner</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Pardot_Email --></label>
+        <name>pi__Send_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Pardot_Emails --></label>
+        <name>pi__Send_Pardot_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Single_Pardot_Email --></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Prospect_Insight --></label>
+        <name>pi__Send_to_Prospect_Insight</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Webinar_Contact --></label>
+        <name>zoom_app__Add_to_Webinar_Contact</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Webinar_Contacts --></label>
+        <name>zoom_app__Add_to_Webinar_Contacts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Start_Zoom_Meeting --></label>
+        <name>zoom_app__Start_Zoom_Meeting</name>
+    </webLinks>
+</CustomObjectTranslation>

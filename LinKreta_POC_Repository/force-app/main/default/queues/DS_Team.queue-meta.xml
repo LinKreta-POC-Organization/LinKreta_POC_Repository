@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>DS Team</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>DS_Team</publicGroup>
+        </publicGroups>
+        <users>
+            <user>chetna.tyagi@in.gt.com</user>
+            <user>preetam.singh@in.gt.com</user>
+            <user>sakshi.singhal1@in.gt.com</user>
+            <user>srishti.vasisht@in.gt.com</user>
+            <user>vineeth.peter@in.gt.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Account_Requests__c</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>URL__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>During API callout of this End Point URL we are receiving the exception.</inlineHelpText>
+    <label>URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

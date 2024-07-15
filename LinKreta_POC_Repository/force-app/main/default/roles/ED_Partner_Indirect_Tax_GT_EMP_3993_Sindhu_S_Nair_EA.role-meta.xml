@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>ED/Partner (Indirect Tax)_GT-EMP-3993_Sindhu S Nair(EA)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ED/Partner (Indirect Tax)_GT-EMP-3993_Sindhu S Nair(EA)</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>SME_L_Indirect_Tax</parentRole>
+</Role>

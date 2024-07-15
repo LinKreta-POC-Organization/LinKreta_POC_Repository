@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_Pending_with_DS_Team</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Pick_Record__c</columns>
+    <columns>Assigned_to_DS_Team_Member__c</columns>
+    <columns>Assignment_Date__c</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Contact_status__c</field>
+        <operation>equals</operation>
+        <value>New Contact Creation,Pending DS Team Approval</value>
+    </filters>
+    <filters>
+        <field>Pick_Record__c</field>
+        <operation>notEqual</operation>
+        <value>1</value>
+    </filters>
+    <label>Copy of Pending with DS Team</label>
+</ListView>

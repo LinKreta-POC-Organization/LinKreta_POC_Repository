@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GovernorLimit__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The use of Salesforce Governor Limit During the execution of process.</inlineHelpText>
+    <label>Governor Limit</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

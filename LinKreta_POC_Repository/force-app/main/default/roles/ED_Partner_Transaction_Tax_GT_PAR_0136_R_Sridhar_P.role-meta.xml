@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>ED/Partner (Transaction Tax)_GT-PAR-0136_R Sridhar(P)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ED/Partner (Transaction Tax)_GT-PAR-0136_R Sridhar(P)</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>ED_Partner_Transaction_Tax_GT_EMP_3992_Mahalakshmi_Karthikeyan_EA</parentRole>
+</Role>

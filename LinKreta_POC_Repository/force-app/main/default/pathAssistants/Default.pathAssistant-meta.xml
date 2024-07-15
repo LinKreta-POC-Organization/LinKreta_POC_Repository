@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Default</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Current_Steps__c</fieldNames>
+        <info>&lt;p&gt;&lt;strong&gt;In case of New Client&lt;/strong&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Go to the ‘Client’ Tab &amp;amp; finish creating the client&lt;/li&gt;&lt;li&gt;Enquiry, Client &amp;amp; Contact will be visible in WCGT360 after DS Approval.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;strong&gt;In case of Existing Client&lt;/strong&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Go to the WCGT 360 platform to create the pipeline.&lt;/li&gt;&lt;li&gt;Enquiry will be visible in WCGT360 after conversion.&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Converted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Current_Steps__c</fieldNames>
+        <fieldNames>Completed_Steps__c</fieldNames>
+        <info>&lt;p&gt;&lt;strong&gt;Business-As-Usual&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;1. Reach out &amp;amp; have a discussion about the opportunity with the relevant BUEL&lt;/p&gt;&lt;p&gt;2. Capture &amp;amp; record “Next Steps and Recommendations from BUEL”&lt;/p&gt;&lt;p&gt;3. Update Expertise/Enquiry Type, if required&lt;/p&gt;&lt;p&gt;4. Mark Stage as Complete &amp;amp; Convert the Enquiry&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Strategic&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;5. Have a discussion about the opportunity with the Solution Council&lt;/p&gt;&lt;p&gt;6. Capture &amp;amp; record “Next Steps and Recommendations from Solution Council; and Save&lt;/p&gt;&lt;p&gt;7. Update Expertise/Enquiry Type, if required&lt;/p&gt;&lt;p&gt;8. Mark Stage as Complete &amp;amp; Convert the Enquiry&lt;/p&gt;</info>
+        <picklistValueName>Internal / External Discussions</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Current_Steps__c</fieldNames>
+        <fieldNames>Completed_Steps__c</fieldNames>
+        <info>&lt;p&gt;1. Enter the client name and select from the Search results, as applicable&lt;/p&gt;&lt;p&gt;2. Fill in the mandatory (*) details under “Enquiry Details”; and Save&lt;/p&gt;&lt;p&gt;3. Mark Stage as Complete&lt;/p&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

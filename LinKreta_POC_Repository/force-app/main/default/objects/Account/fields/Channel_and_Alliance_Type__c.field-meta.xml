@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel_and_Alliance_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Channel and Alliance Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Member Firms Leaders</fullName>
+                <default>false</default>
+                <label>Member Firms Leaders</label>
+            </value>
+            <value>
+                <fullName>NEDs &amp; ACs</fullName>
+                <default>false</default>
+                <label>NEDs &amp; ACs</label>
+            </value>
+            <value>
+                <fullName>PEVC</fullName>
+                <default>false</default>
+                <label>PEVC</label>
+            </value>
+            <value>
+                <fullName>BO &amp; family office</fullName>
+                <default>false</default>
+                <label>BO &amp; family office</label>
+            </value>
+            <value>
+                <fullName>Banking</fullName>
+                <default>false</default>
+                <label>Banking</label>
+            </value>
+            <value>
+                <fullName>Law Firm</fullName>
+                <default>false</default>
+                <label>Law Firm</label>
+            </value>
+            <value>
+                <fullName>GCC</fullName>
+                <default>false</default>
+                <label>GCC</label>
+            </value>
+            <value>
+                <fullName>Alumni</fullName>
+                <default>false</default>
+                <label>Alumni</label>
+            </value>
+            <value>
+                <fullName>Academia</fullName>
+                <default>false</default>
+                <label>Academia</label>
+            </value>
+            <value>
+                <fullName>Regulators</fullName>
+                <default>false</default>
+                <label>Regulators</label>
+            </value>
+            <value>
+                <fullName>CIO CDO CISO</fullName>
+                <default>false</default>
+                <label>CIO CDO CISO</label>
+            </value>
+            <value>
+                <fullName>CHRO</fullName>
+                <default>false</default>
+                <label>CHRO</label>
+            </value>
+            <value>
+                <fullName>CFO</fullName>
+                <default>false</default>
+                <label>CFO</label>
+            </value>
+            <value>
+                <fullName>CMO</fullName>
+                <default>false</default>
+                <label>CMO</label>
+            </value>
+            <value>
+                <fullName>Chambers</fullName>
+                <default>false</default>
+                <label>Chambers</label>
+            </value>
+            <value>
+                <fullName>Tech Alliances</fullName>
+                <default>false</default>
+                <label>Tech Alliances</label>
+            </value>
+            <value>
+                <fullName>CA Firms</fullName>
+                <default>false</default>
+                <label>CA Firms</label>
+            </value>
+            <value>
+                <fullName>Specialised Advisory Firms</fullName>
+                <default>false</default>
+                <label>Specialised Advisory Firms</label>
+            </value>
+            <value>
+                <fullName>PMOs</fullName>
+                <default>false</default>
+                <label>PMOs</label>
+            </value>
+            <value>
+                <fullName>ASSOCHAM</fullName>
+                <default>false</default>
+                <label>ASSOCHAM</label>
+            </value>
+            <value>
+                <fullName>ANZ India Business Chamber</fullName>
+                <default>false</default>
+                <label>ANZ India Business Chamber</label>
+            </value>
+            <value>
+                <fullName>Retailers Association of India</fullName>
+                <default>false</default>
+                <label>Retailers Association of India</label>
+            </value>
+            <value>
+                <fullName>EBG Federation</fullName>
+                <default>false</default>
+                <label>EBG Federation</label>
+            </value>
+            <value>
+                <fullName>Mahratta Chamber of Commerce Industries and Agriculture (MCCIA)</fullName>
+                <default>false</default>
+                <label>Mahratta Chamber of Commerce Industries and Agriculture (MCCIA)</label>
+            </value>
+            <value>
+                <fullName>FICCI</fullName>
+                <default>false</default>
+                <label>FICCI</label>
+            </value>
+            <value>
+                <fullName>ICC - Kolkata</fullName>
+                <default>false</default>
+                <label>ICC - Kolkata</label>
+            </value>
+            <value>
+                <fullName>AMCHAM</fullName>
+                <default>false</default>
+                <label>AMCHAM</label>
+            </value>
+            <value>
+                <fullName>SEPC</fullName>
+                <default>false</default>
+                <label>SEPC</label>
+            </value>
+            <value>
+                <fullName>Indo-Japan Chamber of Commerce &amp; Industry</fullName>
+                <default>false</default>
+                <label>Indo-Japan Chamber of Commerce &amp; Industry</label>
+            </value>
+            <value>
+                <fullName>INDO-AMERICAN CHAMBER OF COMMERCE Delhi</fullName>
+                <default>false</default>
+                <label>INDO-AMERICAN CHAMBER OF COMMERCE Delhi</label>
+            </value>
+            <value>
+                <fullName>IACC Bangalore</fullName>
+                <default>false</default>
+                <label>IACC Bangalore</label>
+            </value>
+            <value>
+                <fullName>IACC Mumbai</fullName>
+                <default>false</default>
+                <label>IACC Mumbai</label>
+            </value>
+            <value>
+                <fullName>IACC Chennai</fullName>
+                <default>false</default>
+                <label>IACC Chennai</label>
+            </value>
+            <value>
+                <fullName>IACC Kolkata</fullName>
+                <default>false</default>
+                <label>IACC Kolkata</label>
+            </value>
+            <value>
+                <fullName>IACC Hyderabad</fullName>
+                <default>false</default>
+                <label>IACC Hyderabad</label>
+            </value>
+            <value>
+                <fullName>CII</fullName>
+                <default>false</default>
+                <label>CII</label>
+            </value>
+            <value>
+                <fullName>Association of UK Chartered Accountants in India</fullName>
+                <default>false</default>
+                <label>Association of UK Chartered Accountants in India</label>
+            </value>
+            <value>
+                <fullName>Bangalore Chamber of Industry and Commerce</fullName>
+                <default>false</default>
+                <label>Bangalore Chamber of Industry and Commerce</label>
+            </value>
+            <value>
+                <fullName>BBG</fullName>
+                <default>false</default>
+                <label>BBG</label>
+            </value>
+            <value>
+                <fullName>Confederation of British Industry (CBI)</fullName>
+                <default>false</default>
+                <label>Confederation of British Industry (CBI)</label>
+            </value>
+            <value>
+                <fullName>Indo-Australian Chamber of Commerce - Chennai</fullName>
+                <default>false</default>
+                <label>Indo-Australian Chamber of Commerce - Chennai</label>
+            </value>
+            <value>
+                <fullName>Indo German Chamber of Commerce</fullName>
+                <default>false</default>
+                <label>Indo German Chamber of Commerce</label>
+            </value>
+            <value>
+                <fullName>IMA CFO Forum</fullName>
+                <default>false</default>
+                <label>IMA CFO Forum</label>
+            </value>
+            <value>
+                <fullName>International Fiscal Association</fullName>
+                <default>false</default>
+                <label>International Fiscal Association</label>
+            </value>
+            <value>
+                <fullName>Japan Chamber of Commerce &amp; Industry</fullName>
+                <default>false</default>
+                <label>Japan Chamber of Commerce &amp; Industry</label>
+            </value>
+            <value>
+                <fullName>NASSCOM - Bengaluru (GT US SSC)</fullName>
+                <default>false</default>
+                <label>NASSCOM - Bengaluru (GT US SSC)</label>
+            </value>
+            <value>
+                <fullName>PHDCCI</fullName>
+                <default>false</default>
+                <label>PHDCCI</label>
+            </value>
+            <value>
+                <fullName>The Madras Chamber of Commerce and Industry</fullName>
+                <default>false</default>
+                <label>The Madras Chamber of Commerce and Industry</label>
+            </value>
+            <value>
+                <fullName>UKIBC</fullName>
+                <default>false</default>
+                <label>UKIBC</label>
+            </value>
+            <value>
+                <fullName>USIBC</fullName>
+                <default>false</default>
+                <label>USIBC</label>
+            </value>
+            <value>
+                <fullName>AIMA</fullName>
+                <default>false</default>
+                <label>AIMA</label>
+            </value>
+            <value>
+                <fullName>TiE Chandigarh</fullName>
+                <default>false</default>
+                <label>TiE Chandigarh</label>
+            </value>
+            <value>
+                <fullName>Tie Chennai</fullName>
+                <default>false</default>
+                <label>Tie Chennai</label>
+            </value>
+            <value>
+                <fullName>Tie Delhi</fullName>
+                <default>false</default>
+                <label>Tie Delhi</label>
+            </value>
+            <value>
+                <fullName>SIDM (Society of Indian Defence Manufacturers)</fullName>
+                <default>false</default>
+                <label>SIDM (Society of Indian Defence Manufacturers)</label>
+            </value>
+            <value>
+                <fullName>Fin-Tech Association for Consumer Empowerment (FACE)</fullName>
+                <default>false</default>
+                <label>Fin-Tech Association for Consumer Empowerment (FACE)</label>
+            </value>
+            <value>
+                <fullName>Key Account Leaders</fullName>
+                <default>false</default>
+                <label>Key Account Leaders</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>Member Firms Leaders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>NEDs &amp; ACs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>PEVC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>BO &amp; family office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>Banking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>Law Firm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>GCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>Alumni</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>Academia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>Regulators</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>CIO CDO CISO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>CHRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>CFO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>CMO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>Tech Alliances</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>CA Firms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>Specialised Advisory Firms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>PMOs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel</controllingFieldValue>
+            <valueName>Key Account Leaders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chamber</controllingFieldValue>
+            <valueName>UKIBC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chamber</controllingFieldValue>
+            <valueName>USIBC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chamber</controllingFieldValue>
+            <valueName>AIMA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chamber</controllingFieldValue>
+            <valueName>TiE Chandigarh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chamber</controllingFieldValue>
+            <valueName>Tie Chennai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chamber</controllingFieldValue>
+            <valueName>Tie Delhi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chamber</controllingFieldValue>
+            <valueName>SIDM (Society of Indian Defence Manufacturers)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chamber</controllingFieldValue>
+            <valueName>Fin-Tech Association for Consumer Empowerment (FACE)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

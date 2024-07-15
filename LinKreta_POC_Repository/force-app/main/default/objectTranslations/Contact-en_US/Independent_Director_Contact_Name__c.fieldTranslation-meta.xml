@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Independent Director Contact Name --></label>
+    <name>Independent_Director_Contact_Name__c</name>
+    <relationshipLabel><!-- Client Contacts (Independent Director Contact Name) --></relationshipLabel>
+</CustomFieldTranslation>

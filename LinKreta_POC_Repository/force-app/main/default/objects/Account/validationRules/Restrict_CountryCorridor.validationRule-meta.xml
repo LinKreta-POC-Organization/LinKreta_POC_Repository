@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_CountryCorridor</fullName>
+    <active>true</active>
+    <description>This rule is used to restrict the users other than ME Team members from changing the Country Corridor after the client is active.</description>
+    <errorConditionFormula>AND(
+	OR(
+		ISCHANGED( Country_Corridor__c ),
+		ISCHANGED( Corridor__c )
+	),
+
+        ISPICKVAL(PRIORVALUE(Status__c ),&quot;Active&quot;),
+	NOT($Profile.Name = &quot;System Administrator&quot;),
+	NOT($Profile.Name = &quot;Markets Ecosystems&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Country_Corridor__c</errorDisplayField>
+    <errorMessage>You cannot change the Country Corridor/Corridor on Active Client.</errorMessage>
+</ValidationRule>

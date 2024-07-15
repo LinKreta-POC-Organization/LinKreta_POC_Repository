@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- TYPE_OFJOB --></label>
+    <name>TYPE_OFJOB__c</name>
+</CustomFieldTranslation>

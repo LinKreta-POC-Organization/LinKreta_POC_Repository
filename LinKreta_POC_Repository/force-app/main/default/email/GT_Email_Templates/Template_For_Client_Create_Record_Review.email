@@ -1,0 +1,8 @@
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Dear DS Team,</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">This is to notify you that a client {!Account.Name} is created recently.<br/>
+Click on the below link for more information.</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">{!Account.Link}</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri"><span style="color:red;font-weight:bold">Note:- This is a system generated email. Please do not reply to this mail.</span></span></span></p>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expertise__c</fullName>
+    <description>This stores and represents the dependency between the Expertise (Controlling) field and Sub Expertise (Controlled) field.</description>
+    <externalId>false</externalId>
+    <label>Expertise</label>
+    <referenceTo>ExpertisePL__c</referenceTo>
+    <relationshipLabel>Sub Expertise</relationshipLabel>
+    <relationshipName>Sub_Expertise</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

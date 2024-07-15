@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chamber_contacts__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field contains information of &quot;Chamber contacts&quot; of the new client on conversion of which contact record is created.</description>
+    <externalId>false</externalId>
+    <label>Chamber contacts</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Client Contacts (Chamber contacts)</relationshipLabel>
+    <relationshipName>Client_Contacts1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

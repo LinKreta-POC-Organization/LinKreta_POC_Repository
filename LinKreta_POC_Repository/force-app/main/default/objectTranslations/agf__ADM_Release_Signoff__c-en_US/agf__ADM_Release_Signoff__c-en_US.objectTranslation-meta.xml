@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <description><!-- GUS --></description>
+        <label><!-- GUS --></label>
+        <name>agf__GUS</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- R0 --></label>
+        <name>agf__R0</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- R1 --></label>
+        <name>agf__R1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- R2 --></label>
+        <name>agf__R2</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is the overall release signoff record --></description>
+        <label><!-- Release Freeze --></label>
+        <name>agf__Release_Freeze</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sandbox --></label>
+        <name>agf__Sandbox</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,68 @@
+:host{
+
+    --slds-c-accordion-summary-color-background : #e5e5e5;
+    }
+    .list-first {
+        margin-top: 11px;
+    }
+
+    .mobile-visible{
+        --slds-c-accordion-heading-text-color: black;
+        --slds-c-accordion-heading-font-size: 12px;
+        --slds-c-accordion-summary-color-background : #ffffff;
+    
+    }
+
+     .mobile-visible th{
+         font-weight: bold;
+     }
+
+     .mobile-visible{
+         display: none;
+     }
+     @media screen and (max-width: 792px) {
+        .slds-form-element_horizontal .slds-form-element__help, .slds-form_horizontal .slds-form-element .slds-form-element__help, .slds-form_stacked .slds-form-element_horizontal .slds-form-element__help {
+          
+        }
+        .mobileviewvalidate{
+            margin-left: 25% !important;
+        }
+         .mobile-visible{
+              display: block;
+        }
+         .web-visible{
+             display: none;
+         }
+     }
+     .slds-table th, .slds-table td{
+         white-space: normal;
+     }
+     .backgroundInverse {
+        position: relative;
+        background-color: #16325c;
+        height: 80px;
+    }
+
+    .wht-remove{
+        white-space: nowrap !important;
+    }
+    .slds-modal__container {
+        max-width: 80rem !important;
+        width: 80% !important;
+    }
+
+
+.TestOne{
+
+}
+
+.AlignDesignation{
+    position: relative;
+    margin: 10px 0;
+    
+}
+
+.AlignDesignation label{
+    position: absolute;
+    margin-left: 8px;
+}

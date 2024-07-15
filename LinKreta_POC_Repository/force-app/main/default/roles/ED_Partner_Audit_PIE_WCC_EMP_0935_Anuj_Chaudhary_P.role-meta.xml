@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>ED/Partner (Audit -PIE)_WCC-EMP-0935_Anuj Chaudhary(P)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ED/Partner (Audit -PIE)_WCC-EMP-0935_Anuj Chaudhary(P)</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>ED_Partner_Audit_PIE_WCC_EMP_3799_Shalini_Bharat_Bawale_EA</parentRole>
+</Role>

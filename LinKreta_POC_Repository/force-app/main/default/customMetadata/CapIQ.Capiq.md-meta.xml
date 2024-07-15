@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Capiq</label>
+    <protected>false</protected>
+    <values>
+        <field>EndPointURL__c</field>
+        <value xsi:type="xsd:string">https://api-ciq.marketintelligence.spglobal.com/gdsapi/rest/v3/clientservice.json</value>
+    </values>
+    <values>
+        <field>NumberofBoardMember__c</field>
+        <value xsi:type="xsd:double">13.0</value>
+    </values>
+    <values>
+        <field>NumberofRecordforSearch__c</field>
+        <value xsi:type="xsd:double">10.0</value>
+    </values>
+    <values>
+        <field>Password__c</field>
+        <value xsi:type="xsd:string">GTBharat@123</value>
+    </values>
+    <values>
+        <field>UserName__c</field>
+        <value xsi:type="xsd:string">apiadmin@in.gt.com</value>
+    </values>
+</CustomMetadata>

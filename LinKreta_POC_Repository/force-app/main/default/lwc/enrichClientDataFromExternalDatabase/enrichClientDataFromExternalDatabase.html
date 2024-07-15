@@ -1,0 +1,138 @@
+<template>
+    <div>
+
+        <lightning-card if:true={showSpinner}>
+            <lightning-spinner variant="brand" size="medium" class="" alternative-text="Loading.."></lightning-spinner>
+        </lightning-card>
+        <lightning-card if:true={showSpinnerMassage}>
+            <lightning-spinner variant="brand" size="medium" class="message" alternative-text="Loading..">
+            </lightning-spinner>
+        </lightning-card>
+        <template if:true={show1}>
+            <template if:false={notHasCapIqMCAId}>
+                <template if:true={noData}>
+                    <lightning-spinner variant="brand" size="medium" class="message" alternative-text="Loading..">
+                    </lightning-spinner>
+                </template>
+                <lightning-card if:false={noData}>
+                    <div
+                        class="slds-col slds-size_1-of-1 slds-align_absolute-center slds-p-bottom_medium mobileViewWidth">
+                        <strong><lightning-input type="text" label="Linkreta Company Name" value={accountName}
+                                placeholder="Linkreta Company Name" disabled></lightning-input>
+                            <lightning-input type="text" label="Registered Company Name" value={registeredCompanyName}
+                                placeholder="Registered Company Name" disabled></lightning-input>
+                            <br><br>Do You Want To Update ? </strong>
+                    </div>
+                    <div class="slds-col slds-size_1-of-1 slds-align_absolute-center">
+                        <lightning-button variant="brand" label="Yes" onclick={giveCompany} style="padding-right :10%">
+                        </lightning-button>
+
+                        <lightning-button variant="brand" label="No" title="No"
+                            onclick={refreshPage}></lightning-button>
+                    </div>
+                </lightning-card>
+            </template>
+            <template if:true={notHasCapIqMCAId}>
+                <template if:true={dataReceived}>
+                    <b>Please choose the appropriate Company from the list</b>
+                    <div class="slds-box">
+                        <lightning-datatable data={mapOfValuesCapIQ} columns={cols} key-field="companyName"
+                            hide-checkbox-column="true" show-row-number-column="true" onrowaction={callRowAction}>
+                        </lightning-datatable>
+                    </div>
+                    <template if:true={selectedCustomerName}>
+                        <template if:true={show2}>
+                            <template if:true={ifResult}>
+                                <!-- <div><b>Please select a Client if your Client exists below.</b></div> -->
+                                <br /><br />
+                                <div>
+                                    <!-- <b>Found below client in SF database, so enriching is not needed on this record, please deactivate this client.</b> -->
+                                    <b>The client already exists. Please select a different Name for Data enrichment or
+                                        please reach out to ME Team for client deactivation.</b>
+                                </div>
+                                <div class="slds-box">
+                                    <div class="slds-scrollable web-visible" style="height:100%;width:100%">
+                                        <table
+                                            class="slds-table slds-no-row-hover slds-table_bordered slds-table_col-bordered size=12 small-device-size=6 medium-device-size=4 large-device-size=3">
+                                            <thead>
+                                                <tr class="slds-line-height_reset">
+                                                    <th class="" scope="col">
+                                                        <div class="slds-truncate" title="rowNumber">Sr.No.</div>
+                                                    </th>
+                                                    <th class="" scope="col">
+                                                        <div class="slds-truncate" title="Name">Client Name</div>
+                                                    </th>
+                                                    <th class="" scope="col">
+                                                        <div class="slds-truncate" title="Last Name">Client Group</div>
+                                                    </th>
+                                                    <th class="" scope="col">
+                                                        <div class="slds-truncate" title="Owner Name">Owner Name</div>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <template for:each={clientData} for:item="acc">
+                                                    <tr key={acc.Id}>
+                                                        <th scope="col">
+                                                            <div>{acc.rowNumber}</div>
+                                                        </th>
+                                                        <th scope="col">
+                                                            <div><a data-id={acc.Id}
+                                                                    onclick={handleClientClick}>{acc.Name}</a>
+                                                            </div>
+                                                        </th>
+                                                        <th scope="col">
+                                                            <template if:true={acc.ShowParent}>
+                                                                <div>{acc.Parent.Name}</div>
+                                                            </template>
+                                                        </th>
+                                                        <th scope="col">
+                                                            <div>{acc.Owner.Name}</div>
+                                                        </th>
+                                                        <th scope="col">
+                                                            <div>
+                                                                <lightning-button class="wht-remove" data-id={acc.Id}
+                                                                    data-name={acc.Name}
+                                                                    label="Send Inactivation Email to ME Team"
+                                                                    onclick={handleSendEmail}>Select</lightning-button>
+                                                            </div>
+                                                        </th>
+                                                    </tr>
+                                                </template>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </template>
+                            <template if:false={ifResult}>
+                                <br /><br />
+                                <b>Enrichment can be done.</b>
+                            </template>
+                        </template>
+                    </template>
+                </template>
+            </template>
+        </template>
+
+        <lightning-card if:true={noData}>
+            <div class="slds-col slds-size_1-of-1 slds-align_absolute-center slds-p-bottom_medium mobileViewWidth">
+                <strong>{message}</strong>
+            </div>
+        </lightning-card>
+        <lightning-card if:true={noData2}>
+            <div class="slds-col slds-size_1-of-1 slds-align_absolute-center slds-p-bottom_medium mobileViewWidth">
+                <strong>No Data found in External systems</strong><br /><br /><br />
+            </div>
+            <div class="slds-col slds-size_1-of-1 slds-align_absolute-center slds-p-bottom_medium mobileViewWidth">
+                <lightning-button variant="brand" label="Send Email to ME Team" onclick={sendEmailForNoDataFound}
+                    style="padding-right :10%">
+                </lightning-button>
+            </div>
+            <!-- <template if:true={sendNoDataEmail}>
+            <lightning-flow flow-api-name='Send_Email_Client_No_data_received_from_CapIQ_and_MCA'
+        flow-input-variables={inputVariables} onstatuschange={handleStatusChange}>
+    </lightning-flow>
+    </template> -->
+        </lightning-card>
+    </div>
+</template>

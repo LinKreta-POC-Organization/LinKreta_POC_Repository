@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Event_Updation</fullName>
+    <active>false</active>
+    <description>Restrict event updation if WCGT status is success</description>
+    <errorConditionFormula>AND(
+    NOT(ISNEW()),
+    NOT(ISCHANGED( WhoId )), 
+    ISPICKVAL(PRIORVALUE(WCGTStatus__c),&quot;Success&quot;)
+)</errorConditionFormula>
+    <errorMessage>This meeting is already submitted for Timesheet entry to WCGT</errorMessage>
+</ValidationRule>

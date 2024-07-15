@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <customErrors>
+        <name>Default_Error</name>
+        <label>Default Error</label>
+        <locationX>1370</locationX>
+        <locationY>503</locationY>
+        <customErrorMessages>
+            <errorMessage>{!$Label.Flow_FaultMessage}</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <customErrors>
+        <name>Deletion_Error</name>
+        <label>Deletion Error</label>
+        <locationX>50</locationX>
+        <locationY>395</locationY>
+        <customErrorMessages>
+            <errorMessage>{!$Label.Restrict_ContactTeam_DeletionMsg}</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <customErrors>
+        <name>Deletion_Error2</name>
+        <label>Deletion Error</label>
+        <locationX>314</locationX>
+        <locationY>395</locationY>
+        <customErrorMessages>
+            <errorMessage>Record Creator cannot be deleted.</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <decisions>
+        <name>Check_Contact_Share_record_found_or_not</name>
+        <label>Check Contact Share record found or not</label>
+        <locationX>842</locationX>
+        <locationY>503</locationY>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Found</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Contact_Share_Records</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Delete_Contact_Share</targetReference>
+            </connector>
+            <label>Found</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Restrcit_CCRT_deletion</name>
+        <label>Restrcit CCRT deletion</label>
+        <locationX>446</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Get_Contact_Share_Records</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>1 AND (2 OR 3 OR 4)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.System_Deletion__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Role__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Key Account – CSL</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Role__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Key Account – Co-CSL</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Role__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Young CSL</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Deletion_Error</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+        <rules>
+            <name>Restrict_Record_Creator_Deletion</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Role__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Record Creator</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Deletion_Error2</targetReference>
+            </connector>
+            <label>Restrict Record Creator Deletion</label>
+        </rules>
+    </decisions>
+    <description>This flow is used to delete manual sharing for User in the Client Relationship Team for associated client contact on delete.
+[Suraj Kumar 18-10-2023]: Added custom error message for all DMLs in fault path.</description>
+    <environments>Default</environments>
+    <interviewLabel>Client Contact Relationship Team | Delete Contact Share {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Client Contact Relationship Team | Delete Contact Share</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordDeletes>
+        <name>Delete_Contact_Share</name>
+        <label>Delete Contact Share</label>
+        <locationX>578</locationX>
+        <locationY>611</locationY>
+        <faultConnector>
+            <isGoTo>true</isGoTo>
+            <targetReference>Default_Error</targetReference>
+        </faultConnector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ContactId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Client_Contact__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>RowCause</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Manual</stringValue>
+            </value>
+        </filters>
+        <object>ContactShare</object>
+    </recordDeletes>
+    <recordLookups>
+        <description>Used to get contact share record that need to be deleted on deletion of Client Contact Relationship Team record.</description>
+        <name>Get_Contact_Share_Records</name>
+        <label>Get Contact Share Records</label>
+        <locationX>842</locationX>
+        <locationY>395</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check_Contact_Share_record_found_or_not</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>Default_Error</targetReference>
+        </faultConnector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ContactId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Client_Contact__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>RowCause</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Manual</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>ContactShare</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Restrcit_CCRT_deletion</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Client_Contact__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Access__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>User__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Client_Contact_Relationship_Team__c</object>
+        <recordTriggerType>Delete</recordTriggerType>
+        <triggerType>RecordBeforeDelete</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

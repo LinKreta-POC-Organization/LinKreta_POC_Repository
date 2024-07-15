@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Audit</fullName>
+        <default>false</default>
+        <label>Audit</label>
+    </customValue>
+    <customValue>
+        <fullName>CFO Services</fullName>
+        <default>false</default>
+        <label>CFO Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate Intelligence</fullName>
+        <default>false</default>
+        <label>Corporate Intelligence</label>
+    </customValue>
+    <customValue>
+        <fullName>Cyber &amp; IT Risk (Cyber)</fullName>
+        <default>false</default>
+        <label>Cyber &amp; IT Risk (Cyber)</label>
+    </customValue>
+    <customValue>
+        <fullName>DGTL</fullName>
+        <default>false</default>
+        <label>DGTL</label>
+    </customValue>
+    <customValue>
+        <fullName>ESG</fullName>
+        <default>false</default>
+        <label>ESG</label>
+    </customValue>
+    <customValue>
+        <fullName>Forensic</fullName>
+        <default>false</default>
+        <label>Forensic</label>
+    </customValue>
+    <customValue>
+        <fullName>FS Consulting</fullName>
+        <default>false</default>
+        <label>FS Consulting</label>
+    </customValue>
+    <customValue>
+        <fullName>FS Risk</fullName>
+        <default>false</default>
+        <label>FS Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>Growth</fullName>
+        <default>false</default>
+        <label>Growth</label>
+    </customValue>
+    <customValue>
+        <fullName>GT Global Delivery</fullName>
+        <default>false</default>
+        <label>GT Global Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>Human Capital Consulting</fullName>
+        <default>false</default>
+        <label>Human Capital Consulting</label>
+    </customValue>
+    <customValue>
+        <fullName>IKCC</fullName>
+        <default>false</default>
+        <label>IKCC</label>
+    </customValue>
+    <customValue>
+        <fullName>Lead Advisory</fullName>
+        <default>false</default>
+        <label>Lead Advisory</label>
+    </customValue>
+    <customValue>
+        <fullName>Operations</fullName>
+        <default>false</default>
+        <label>Operations</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Client Service</fullName>
+        <default>false</default>
+        <label>Private Client Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Sector Consulting (PSC)</fullName>
+        <default>false</default>
+        <label>Public Sector Consulting (PSC)</label>
+    </customValue>
+    <customValue>
+        <fullName>Recovery &amp; Reorganisation</fullName>
+        <default>false</default>
+        <label>Recovery &amp; Reorganisation</label>
+    </customValue>
+    <customValue>
+        <fullName>Risk</fullName>
+        <default>false</default>
+        <label>Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>Tax</fullName>
+        <default>false</default>
+        <label>Tax</label>
+    </customValue>
+    <customValue>
+        <fullName>Technology Advisory</fullName>
+        <default>false</default>
+        <label>Technology Advisory</label>
+    </customValue>
+    <customValue>
+        <fullName>Transformation Solutions</fullName>
+        <default>false</default>
+        <label>Transformation Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>plzRemove</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>plzRemove</label>
+    </customValue>
+    <customValue>
+        <fullName>Solutions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Sector Advisory</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Public Sector Advisory</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Transformation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Digital Transformation</label>
+    </customValue>
+    <customValue>
+        <fullName>Assurance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Assurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Expertise</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Expertise</label>
+    </customValue>
+    <customValue>
+        <fullName>Cyber</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cyber</label>
+    </customValue>
+    <customValue>
+        <fullName>Forensics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Forensics</label>
+    </customValue>
+    <customValue>
+        <fullName>GRO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GRO</label>
+    </customValue>
+    <customValue>
+        <fullName>C&amp;O</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>C&amp;O</label>
+    </customValue>
+    <description>This is having details of GT Expertise.</description>
+    <masterLabel>Expertise</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

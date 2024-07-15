@@ -1,0 +1,11 @@
+<template>
+    <template if:true={contentVersion}>
+        Uploaded Files
+        <br/>
+        <template for:each={contentVersion} for:item="imgName" for:index="index">
+            {imgName.Title}
+            <lightning-button key={imgName.ContentDocumentId} data-id={imgName.ContentDocumentId} variant="base" label="View File" title="View Uploaded File" onclick={viewHandleClick} class="slds-m-left_x-small"></lightning-button>
+                <br key={imgName.ContentDocumentId}/>
+        </template>
+    </template>
+</template>

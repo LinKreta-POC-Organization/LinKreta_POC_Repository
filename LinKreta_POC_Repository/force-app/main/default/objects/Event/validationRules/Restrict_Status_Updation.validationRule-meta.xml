@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Status_Updation</fullName>
+    <active>true</active>
+    <description>Restrict Status Updation To Completed before adding Minutes of Meeting.</description>
+    <errorConditionFormula>AND(
+NOT(ISNEW()),
+ISCHANGED( Status__c ),
+ISBLANK(Meeting_agenda__c  ),  ISBLANK(Any_other_comments__c ) ,
+ISPICKVAL((Status__c ),&quot;Completed&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>CurrencyIsoCode</errorDisplayField>
+    <errorMessage>Status cannot be changed To Completed before adding Minutes of Meeting.</errorMessage>
+</ValidationRule>

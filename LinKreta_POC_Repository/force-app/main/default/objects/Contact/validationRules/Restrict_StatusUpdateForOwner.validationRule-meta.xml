@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_StatusUpdateForOwner</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT( ISNEW() ),
+    $Profile.Name &lt;&gt; &apos;GT Marcom Team&apos;,
+    $Profile.Name &lt;&gt; &apos;Pardot Admin&apos;,
+    $Profile.Name &lt;&gt; &apos;System Administrator&apos;,
+    ISCHANGED( Contact_status__c ),
+    NOT(ISBLANK(PRIORVALUE(Contact_status__c ))),
+    ISPICKVAL(PRIORVALUE(Contact_status__c),&quot;New Contact Creation&quot;),
+    ISPICKVAL(Contact_status__c, &apos;Pending DS Team Approval&apos;),
+    OwnerId &lt;&gt; $User.Id,
+				OwnerId &lt;&gt; $User.PartnerLogin_UserID__c 
+        
+)</errorConditionFormula>
+    <errorMessage>Only Contact Owner can change the Contact Status to &quot;Pending DS Team Approval&quot;.</errorMessage>
+</ValidationRule>

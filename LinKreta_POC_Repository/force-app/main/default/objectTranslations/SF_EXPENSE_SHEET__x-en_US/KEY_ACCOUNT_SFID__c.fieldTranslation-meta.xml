@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- KEY_ACCOUNT_SFID --></label>
+    <name>KEY_ACCOUNT_SFID__c</name>
+    <relationshipLabel><!-- Business Developement Expenses Cost Spent --></relationshipLabel>
+</CustomFieldTranslation>

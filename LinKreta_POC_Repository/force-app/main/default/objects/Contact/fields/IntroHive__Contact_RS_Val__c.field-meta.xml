@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IntroHive__Contact_RS_Val__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is the representation of how strong your relationship is based on calculating how frequently you are in communicatation.</description>
+    <externalId>false</externalId>
+    <label>Corporate Relationship Strength</label>
+    <precision>7</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

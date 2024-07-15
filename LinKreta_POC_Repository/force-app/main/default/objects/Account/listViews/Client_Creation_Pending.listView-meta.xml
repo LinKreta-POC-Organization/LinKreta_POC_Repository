@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Creation_Pending</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Industry__c</columns>
+    <columns>Segment__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>ClientGroupName__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>External_Database_Source__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Client</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New Client Creation</value>
+    </filters>
+    <label>Clients Pending Details</label>
+</ListView>

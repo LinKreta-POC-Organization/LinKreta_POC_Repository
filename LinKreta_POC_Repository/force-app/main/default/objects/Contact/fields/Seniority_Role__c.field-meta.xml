@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Seniority_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business Owner, Partner &amp; Promoter</fullName>
+                <default>false</default>
+                <label>Business Owner, Partner &amp; Promoter</label>
+            </value>
+            <value>
+                <fullName>CFO</fullName>
+                <default>false</default>
+                <label>CFO</label>
+            </value>
+            <value>
+                <fullName>CHRO</fullName>
+                <default>false</default>
+                <label>CHRO</label>
+            </value>
+            <value>
+                <fullName>CIO CDO CISO</fullName>
+                <default>false</default>
+                <label>CIO CDO CISO</label>
+            </value>
+            <value>
+                <fullName>CMO</fullName>
+                <default>false</default>
+                <label>CMO</label>
+            </value>
+            <value>
+                <fullName>Director</fullName>
+                <default>false</default>
+                <label>Director</label>
+            </value>
+            <value>
+                <fullName>Manager / Mid Level</fullName>
+                <default>false</default>
+                <label>Manager / Mid Level</label>
+            </value>
+            <value>
+                <fullName>NED &amp; AC</fullName>
+                <default>false</default>
+                <label>NED &amp; AC</label>
+            </value>
+            <value>
+                <fullName>Other - CXOs</fullName>
+                <default>false</default>
+                <label>Other - CXOs</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>VP &amp; Business Head</fullName>
+                <default>false</default>
+                <label>VP &amp; Business Head</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

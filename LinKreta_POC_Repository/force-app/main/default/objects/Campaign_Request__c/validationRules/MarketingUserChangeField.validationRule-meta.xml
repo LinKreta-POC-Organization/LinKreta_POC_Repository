@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MarketingUserChangeField</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND
+(
+  OR
+	(
+	  ISCHANGED( Assets__c ),
+	  ISCHANGED( Type_of_Campaign__c),
+	  ISCHANGED(campaign_request_status__c)
+	  
+	),
+	  $Profile.Name &lt;&gt; &quot;Markets Ecosystems&quot;,
+	  $Profile.Name &lt;&gt; &quot;System Administrator&quot;
+)</errorConditionFormula>
+    <errorMessage>You are not allowed to change the Campaign Request after it has been created.</errorMessage>
+</ValidationRule>

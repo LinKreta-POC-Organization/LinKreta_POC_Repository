@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- MultiSelectExpertise --></label>
+    <name>MultiSelectExpertise__c</name>
+    <picklistValues>
+        <masterLabel>Assurance</masterLabel>
+        <translation><!-- Assurance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Audit</masterLabel>
+        <translation><!-- Audit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CFO services</masterLabel>
+        <translation><!-- CFO services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporate Intelligence</masterLabel>
+        <translation><!-- Corporate Intelligence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cyber &amp; IT Risk (Cyber)</masterLabel>
+        <translation><!-- Cyber &amp; IT Risk (Cyber) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DGTL</masterLabel>
+        <translation><!-- DGTL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Digital Transformation</masterLabel>
+        <translation><!-- Digital Transformation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ESG</masterLabel>
+        <translation><!-- ESG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FS Consulting</masterLabel>
+        <translation><!-- FS Consulting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FS Risk</masterLabel>
+        <translation><!-- FS Risk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Forensic</masterLabel>
+        <translation><!-- Forensic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GT Global Delivery</masterLabel>
+        <translation><!-- GT Global Delivery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Growth</masterLabel>
+        <translation><!-- Growth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Human Capital Consulting</masterLabel>
+        <translation><!-- Human Capital Consulting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IKCC</masterLabel>
+        <translation><!-- IKCC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lead Advisory</masterLabel>
+        <translation><!-- Lead Advisory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operations</masterLabel>
+        <translation><!-- Operations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Client Service</masterLabel>
+        <translation><!-- Private Client Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Sector Advisory</masterLabel>
+        <translation><!-- Public Sector Advisory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Sector Consulting (PSC)</masterLabel>
+        <translation><!-- Public Sector Consulting (PSC) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recovery &amp; Re-organization</masterLabel>
+        <translation><!-- Recovery &amp; Re-organization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Risk</masterLabel>
+        <translation><!-- Risk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solutions</masterLabel>
+        <translation><!-- Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tax</masterLabel>
+        <translation><!-- Tax --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technology Advisory</masterLabel>
+        <translation><!-- Technology Advisory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transformation Solutions</masterLabel>
+        <translation><!-- Transformation Solutions --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Global_Ultimate_Owner__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Entity at the top of the global corporate ownership structure</inlineHelpText>
+    <label>Global Ultimate Owner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

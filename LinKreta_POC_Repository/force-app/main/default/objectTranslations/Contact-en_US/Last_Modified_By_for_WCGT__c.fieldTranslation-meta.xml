@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Last Modified By for WCGT --></label>
+    <name>Last_Modified_By_for_WCGT__c</name>
+    <relationshipLabel><!-- Client Contacts (Last Modified By for WCGT) --></relationshipLabel>
+</CustomFieldTranslation>

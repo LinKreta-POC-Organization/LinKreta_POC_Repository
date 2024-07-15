@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandate_OtherPassions</fullName>
+    <active>true</active>
+    <description>This rule is used to mandate &quot;Other Passions&quot; field if &quot;Contact Personal Interest
+&quot; field contains &quot;Others&quot;.</description>
+    <errorConditionFormula>AND( 
+    INCLUDES(Contact_Personal_Interest__c , &apos;Others&apos;), 
+    ISBLANK( Other_Passions__c ) 
+ )</errorConditionFormula>
+    <errorDisplayField>Other_Passions__c</errorDisplayField>
+    <errorMessage>Please provide value for &quot;Other Passions&quot;</errorMessage>
+</ValidationRule>

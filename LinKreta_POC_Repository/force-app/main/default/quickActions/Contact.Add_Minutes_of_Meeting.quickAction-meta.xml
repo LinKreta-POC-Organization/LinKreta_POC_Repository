@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This button is used to Add Add Minutes of Meeting in Client Contact.</description>
+    <flowDefinition>Job_Enquiry_Flow_to_Update_MOM</flowDefinition>
+    <label>Add Minutes of Meeting</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

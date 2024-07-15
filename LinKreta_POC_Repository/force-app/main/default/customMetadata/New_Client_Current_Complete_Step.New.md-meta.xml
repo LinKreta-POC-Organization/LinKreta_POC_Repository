@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>New</label>
+    <protected>false</protected>
+    <values>
+        <field>Add_Client_Background__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Add_Client_Council_Review_Quip__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Add_Industry__c</field>
+        <value xsi:type="xsd:string">Add Industry</value>
+    </values>
+    <values>
+        <field>Add_Next_Steps_and_Recommendations__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Add_Prospect_Email_Phone_Address__c</field>
+        <value xsi:type="xsd:string">Add Prospect Email, Phone, Address</value>
+    </values>
+    <values>
+        <field>Add_Remarks__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Add_Sector__c</field>
+        <value xsi:type="xsd:string">Add Sector</value>
+    </values>
+    <values>
+        <field>Add_Solution_Expertise__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Assign_New_Client_owner__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Choose_Expertise__c</field>
+        <value xsi:type="xsd:string">Choose Expertise</value>
+    </values>
+    <values>
+        <field>Client_Council_Approval__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Complete_meeting_with_BUEL_SC__c</field>
+        <value xsi:type="xsd:string">Complete meeting with BUEL/SC</value>
+    </values>
+    <values>
+        <field>Growth_Potential_Of_Client__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>How_did_you_arrive_at_this_tentative_fee__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>NSL_approval__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Navigate_to_Client_page_for_DS_Approval__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Navigate_to_WCGT_for_Pipeline_creation__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Select_Enquiry_Type__c</field>
+        <value xsi:type="xsd:string">Select Enquiry Type</value>
+    </values>
+    <values>
+        <field>Summary_Challenges_Opportunities_etc__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Tentative_Fee__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

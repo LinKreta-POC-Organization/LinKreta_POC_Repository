@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NameofArtifact__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This Shows the Name of Apex Class, Flow , Apex Jobs In which exception occurred.</inlineHelpText>
+    <label>Name of Artifact</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

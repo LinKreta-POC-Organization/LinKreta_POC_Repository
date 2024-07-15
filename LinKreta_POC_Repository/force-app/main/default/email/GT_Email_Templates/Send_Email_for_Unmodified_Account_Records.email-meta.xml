@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Send Email for Unmodified Account Records</name>
+    <style>none</style>
+    <subject>No activity performed on your account.</subject>
+    <textOnly>Dear Key Account Team, Client Team
+
+This is a reminder that there have been no field updates and no task/event updates for {Object.Name} for 15 days. Request you to look into this.
+
+Please click on the following link to access the record on LinKreta, {Object.Link}
+
+Note:- This is a system generated email. Please do not reply to this mail.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

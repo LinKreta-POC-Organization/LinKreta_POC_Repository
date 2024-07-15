@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MultiSelectExpertise__c</fullName>
+    <externalId>false</externalId>
+    <label>MultiSelectExpertise</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Assurance</fullName>
+                <default>false</default>
+                <label>Assurance</label>
+            </value>
+            <value>
+                <fullName>CFO services</fullName>
+                <default>false</default>
+                <label>CFO services</label>
+            </value>
+            <value>
+                <fullName>Digital Transformation</fullName>
+                <default>false</default>
+                <label>Digital Transformation</label>
+            </value>
+            <value>
+                <fullName>Public Sector Advisory</fullName>
+                <default>false</default>
+                <label>Public Sector Advisory</label>
+            </value>
+            <value>
+                <fullName>Tax</fullName>
+                <default>false</default>
+                <label>Tax</label>
+            </value>
+            <value>
+                <fullName>Solutions</fullName>
+                <default>false</default>
+                <label>Solutions</label>
+            </value>
+            <value>
+                <fullName>Risk</fullName>
+                <default>false</default>
+                <label>Risk</label>
+            </value>
+            <value>
+                <fullName>Growth</fullName>
+                <default>false</default>
+                <label>Growth</label>
+            </value>
+            <value>
+                <fullName>Technology Advisory</fullName>
+                <default>false</default>
+                <label>Technology Advisory</label>
+            </value>
+            <value>
+                <fullName>Recovery &amp; Re-organization</fullName>
+                <default>false</default>
+                <label>Recovery &amp; Re-organization</label>
+            </value>
+            <value>
+                <fullName>Audit</fullName>
+                <default>false</default>
+                <label>Audit</label>
+            </value>
+            <value>
+                <fullName>Operations</fullName>
+                <default>false</default>
+                <label>Operations</label>
+            </value>
+            <value>
+                <fullName>GT Global Delivery</fullName>
+                <default>false</default>
+                <label>GT Global Delivery</label>
+            </value>
+            <value>
+                <fullName>Public Sector Consulting (PSC)</fullName>
+                <default>false</default>
+                <label>Public Sector Consulting (PSC)</label>
+            </value>
+            <value>
+                <fullName>ESG</fullName>
+                <default>false</default>
+                <label>ESG</label>
+            </value>
+            <value>
+                <fullName>Corporate Intelligence</fullName>
+                <default>false</default>
+                <label>Corporate Intelligence</label>
+            </value>
+            <value>
+                <fullName>Forensic</fullName>
+                <default>false</default>
+                <label>Forensic</label>
+            </value>
+            <value>
+                <fullName>Cyber &amp; IT Risk (Cyber)</fullName>
+                <default>false</default>
+                <label>Cyber &amp; IT Risk (Cyber)</label>
+            </value>
+            <value>
+                <fullName>Private Client Service</fullName>
+                <default>false</default>
+                <label>Private Client Service</label>
+            </value>
+            <value>
+                <fullName>Lead Advisory</fullName>
+                <default>false</default>
+                <label>Lead Advisory</label>
+            </value>
+            <value>
+                <fullName>FS Consulting</fullName>
+                <default>false</default>
+                <label>FS Consulting</label>
+            </value>
+            <value>
+                <fullName>Transformation Solutions</fullName>
+                <default>false</default>
+                <label>Transformation Solutions</label>
+            </value>
+            <value>
+                <fullName>IKCC</fullName>
+                <default>false</default>
+                <label>IKCC</label>
+            </value>
+            <value>
+                <fullName>FS Risk</fullName>
+                <default>false</default>
+                <label>FS Risk</label>
+            </value>
+            <value>
+                <fullName>DGTL</fullName>
+                <default>false</default>
+                <label>DGTL</label>
+            </value>
+            <value>
+                <fullName>Human Capital Consulting</fullName>
+                <default>false</default>
+                <label>Human Capital Consulting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

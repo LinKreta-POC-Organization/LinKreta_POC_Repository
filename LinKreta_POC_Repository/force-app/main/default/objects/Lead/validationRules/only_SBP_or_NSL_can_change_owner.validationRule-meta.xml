@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>only_SBP_or_NSL_can_change_owner</fullName>
+    <active>true</active>
+    <description>Only Market Ecosystems user can change the Enquiry Owner.</description>
+    <errorConditionFormula>AND
+(       
+        NOT( $User.Id = $Label.Linkreta_Integration_User_Id ),
+	NOT(ISNEW()),
+	ISCHANGED(OwnerId),
+	$User.Id != Industry_Leader__c,
+	$Profile.Name != &apos;System Administrator&apos;,
+	$Profile.Name != &apos;SectorAssignment&apos;,
+	$Profile.Name != &apos;SectorBusinessPartner&apos;,
+        $Profile.Name != &apos;B2BMA Integration User&apos;,
+        $Profile.Name != &apos;GT Integration&apos;,
+        $Profile.Name != &apos;Markets Ecosystems&apos;
+)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>Only Market Ecosystems user can change the Enquiry Owner.</errorMessage>
+</ValidationRule>

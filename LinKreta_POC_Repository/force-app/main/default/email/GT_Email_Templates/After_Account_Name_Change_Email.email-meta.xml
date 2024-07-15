@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>After Account name change approval</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>After Account Name Change Email</name>
+    <style>none</style>
+    <subject>Account Name Change Approval</subject>
+    <textOnly>Dear [Recipeint User],
+
+The Account Name for {!Account.Name} has been changed. The change is from {!Account.Formerly_Known_As__c} to {!Account.Name}.
+
+Please click on the following link to access the account on LinKreta, {!Account.Link}
+
+Note:- This is a system generated email. Please do not reply to this mail.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

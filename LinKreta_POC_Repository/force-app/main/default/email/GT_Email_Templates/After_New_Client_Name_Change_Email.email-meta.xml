@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Client Name Change Request Approved</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>After New Client Name Change Email</name>
+    <style>none</style>
+    <subject>Account Name Change Request on New Client</subject>
+    <textOnly>Dear [Recipeint User],
+
+The Account Name change request on New Client for {!Lead.Company} has been updated. The Account Name has changed from {!Lead.Formerly_Known_As__c} to {!Lead.Company}.
+
+Please click on the following link to view the changes on Linkerta,
+{!Lead.Link}
+
+Note:- This is a system generated email. Please do not reply to this mail.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

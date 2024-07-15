@@ -1,0 +1,8 @@
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Dear Client Contact Relationship Team,</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">This is to notify you that the Contact {!Contact.Name} has been deassociated with the Key Account {!Contact.Client_Name__c}.<br/>
+Click on the below link for more information.</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">{!Contact.Link}</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri"><span style="color:red;font-weight:bold">Note:- This is a system generated email. Please do not reply to this mail.</span></span></span></p>

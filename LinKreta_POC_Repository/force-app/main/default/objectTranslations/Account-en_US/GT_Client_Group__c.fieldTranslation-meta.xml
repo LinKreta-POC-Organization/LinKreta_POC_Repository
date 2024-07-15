@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- GT Client Group --></label>
+    <lookupFilter>
+        <errorMessage><!-- Account does not exist or is not a GT Client --></errorMessage>
+    </lookupFilter>
+    <name>GT_Client_Group__c</name>
+    <relationshipLabel><!-- Clients --></relationshipLabel>
+</CustomFieldTranslation>

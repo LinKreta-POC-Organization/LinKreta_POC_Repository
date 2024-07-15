@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email emplate for deassociation of client Contact Relationship Team</name>
+    <style>none</style>
+    <subject>The Contact has been deassociated with the Key Account</subject>
+    <textOnly>Dear Client Contact Relationship Team,
+
+The Contact {Object.Name} has been deassociated with the Key Account {Account.Name}.
+
+Please click on the following link to access on LinKreta, {Object.Link}
+Note:- This is a system generated email. Please do not reply to this mail.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

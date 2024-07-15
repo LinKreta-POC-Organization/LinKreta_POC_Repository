@@ -1,0 +1,15 @@
+<template>
+    <div class="accordian-set">
+        <lightning-accordion class="example-accordion" onsectiontoggle={handleToggleSection} allow-multiple-sections-open active-section-name="A">
+            <lightning-accordion-section name="A" label="Related Contacts">
+                <lightning-datatable class="slds-no-row-hover slds-table_striped" hide-checkbox-column key-field="srno" data={relatedContacts} columns={columnsCont}></lightning-datatable>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="B" label="Related Enquiries">
+                <lightning-datatable hide-checkbox-column key-field="srno" data={relatedEnquiries} columns={columnsEnq}></lightning-datatable>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="C" label="Related Jobs">
+                <lightning-datatable hide-checkbox-column key-field="srno" data={relatedJobs} columns={columnsJobs}></lightning-datatable>
+            </lightning-accordion-section>
+        </lightning-accordion>
+    </div>
+</template>

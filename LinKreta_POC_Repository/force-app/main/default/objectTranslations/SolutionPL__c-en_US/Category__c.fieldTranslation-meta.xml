@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Category --></label>
+    <name>Category__c</name>
+    <picklistValues>
+        <masterLabel>Firm solution</masterLabel>
+        <translation><!-- Firm solution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sector solution - New</masterLabel>
+        <translation><!-- Sector solution - New --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sector solution - Next</masterLabel>
+        <translation><!-- Sector solution - Next --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sector solution - Now</masterLabel>
+        <translation><!-- Sector solution - Now --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

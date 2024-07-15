@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email Template For Change in fields of Account</name>
+    <style>none</style>
+    <subject>Change in fields of Account</subject>
+    <textOnly>Dear [Name],
+
+This is to notify you that there has been a change in the {fields.name} for {!Account.Name}. Please make a note of the following changes.
+
+Please click on the following link to access on LinKreta ‎   : ‎   {!Account.Link}
+
+Note:- This is a system generated email. Please do not reply to this mail.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

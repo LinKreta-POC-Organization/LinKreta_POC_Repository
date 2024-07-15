@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Field_editable_by_Only_CANDM_NSL</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(Status__c ),
+OR(
+AND(
+ISPICKVAL(PRIORVALUE(Status__c),&quot;New Client Creation&quot;),
+
+ISPICKVAL(Status__c, &quot;Pending Verification&quot;),
+NOT($Profile.Name = &quot;Markets Ecosystems&quot;),
+NOT($Profile.Name = &quot;NSLProfile&quot;),
+NOT($Profile.Name = &quot;System Administrator&quot;),
+NOT($Profile.Name = &quot;NewClientOwner&quot;),
+NOT($Profile.Name = &quot;GT DS Team&quot;),
+NOT( OwnerId = $User.PartnerLogin_UserID__c ),
+NOT( OwnerId = $User.Id )
+),
+
+AND(
+ISPICKVAL(PRIORVALUE(Status__c),&quot;New Client Creation&quot;),
+OR(
+ISPICKVAL(Status__c, &quot;Active&quot;),
+ISPICKVAL(Status__c, &quot;Inactive&quot;)
+)
+),
+
+AND(
+ISPICKVAL(PRIORVALUE(Status__c),&quot;Pending Verification&quot;),
+OR(
+ISPICKVAL(Status__c, &quot;New Client Creation&quot;),
+ISPICKVAL(Status__c, &quot;Active&quot;),
+ISPICKVAL(Status__c, &quot;Inactive&quot;)
+),
+NOT($Profile.Name = &quot;Markets Ecosystems&quot;),
+NOT($Profile.Name = &quot;NSLProfile&quot;),
+NOT($Profile.Name = &quot;System Administrator&quot;)
+),
+
+
+AND(
+ISPICKVAL(PRIORVALUE(Status__c),&quot;Inactive&quot;),
+OR(
+ISPICKVAL(Status__c, &quot;Pending Verification&quot;),
+ISPICKVAL(Status__c, &quot;Active&quot;),
+ISPICKVAL(Status__c, &quot;New Client Creation&quot;)
+
+),
+NOT($Profile.Name = &quot;Markets Ecosystems&quot;),
+NOT($Profile.Name = &quot;NSLProfile&quot;),
+NOT($Profile.Name = &quot;System Administrator&quot;)
+),
+
+AND(
+ISPICKVAL(PRIORVALUE(Status__c),&quot;Active&quot;),
+OR(
+ISPICKVAL(Status__c, &quot;Pending Verification&quot;),
+ISPICKVAL(Status__c, &quot;Inactive&quot;),
+ISPICKVAL(Status__c, &quot;New Client Creation&quot;)
+
+),
+NOT($Profile.Name = &quot;Markets Ecosystems&quot;),
+NOT($Profile.Name = &quot;NSLProfile&quot;),
+NOT($Profile.Name = &quot;System Administrator&quot;),
+NOT($Profile.Name = &quot;ClientCouncilProfile&quot;)
+
+)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>Status Field Is Not Editable</errorMessage>
+</ValidationRule>

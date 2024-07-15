@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Tech and Innovation Leader --></label>
+    <name>Tech_and_Innovation_Leader__c</name>
+    <relationshipLabel><!-- Expertise Master (Tech and Innovation Leader) --></relationshipLabel>
+</CustomFieldTranslation>

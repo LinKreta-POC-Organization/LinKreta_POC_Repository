@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>isBseIlliquidSecurity</label>
+    <protected>false</protected>
+    <values>
+        <field>Alert_Description__c</field>
+        <value xsi:type="xsd:string">Securites will be classified as illiquid if the following conditions are met: 1)Average daily turnover of less than Rs.2 lakhs calculated for previous two quarters 2)The Security is classified as illiquid at all Exchanges where it is traded</value>
+    </values>
+    <values>
+        <field>Header__c</field>
+        <value xsi:type="xsd:string">BSE Illiquid Security</value>
+    </values>
+</CustomMetadata>

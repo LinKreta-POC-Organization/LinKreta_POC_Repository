@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Template For Reject of Ds approval</name>
+    <style>none</style>
+    <subject>DS Team rejected</subject>
+    <textOnly>Dear  {!Account.OwnerFirstName} {!Account.OwnerLastName},
+
+{!Account.Name} has been rejected by the DS Team with the comment(s) &quot;{!ApprovalRequest.Comments}&quot;
+
+Please click on the following link to access on LinKreta,
+{!Account.Link}
+
+Note:- This is a system generated email. Please do not reply to this mail.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

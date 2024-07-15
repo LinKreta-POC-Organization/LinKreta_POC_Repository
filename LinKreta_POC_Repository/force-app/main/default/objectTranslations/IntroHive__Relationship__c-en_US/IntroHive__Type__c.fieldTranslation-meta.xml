@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>IntroHive__Type__c</name>
+    <picklistValues>
+        <masterLabel>Known By</masterLabel>
+        <translation><!-- Known By --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

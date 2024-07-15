@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Segment__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub-Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Segment__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MNC</fullName>
+                <default>false</default>
+                <label>MNC</label>
+            </value>
+            <value>
+                <fullName>LC - Large</fullName>
+                <default>false</default>
+                <label>LC - Large</label>
+            </value>
+            <value>
+                <fullName>LC - Emerging</fullName>
+                <default>false</default>
+                <label>LC - Emerging</label>
+            </value>
+            <value>
+                <fullName>Member Firms</fullName>
+                <default>false</default>
+                <label>Member Firms</label>
+            </value>
+            <value>
+                <fullName>MM - Large</fullName>
+                <default>false</default>
+                <label>MM - Large</label>
+            </value>
+            <value>
+                <fullName>MM - Mid</fullName>
+                <default>false</default>
+                <label>MM - Mid</label>
+            </value>
+            <value>
+                <fullName>MM - Small (SMEs)</fullName>
+                <default>false</default>
+                <label>MM - Small (SMEs)</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Not-for-Profit</fullName>
+                <default>false</default>
+                <label>Not-for-Profit</label>
+            </value>
+            <value>
+                <fullName>Startups</fullName>
+                <default>false</default>
+                <label>Startups</label>
+            </value>
+            <value>
+                <fullName>DGC</fullName>
+                <default>false</default>
+                <label>DGC</label>
+            </value>
+            <value>
+                <fullName>PIE Audit</fullName>
+                <default>false</default>
+                <label>PIE Audit</label>
+            </value>
+            <value>
+                <fullName>Law Firms</fullName>
+                <default>false</default>
+                <label>Law Firms</label>
+            </value>
+            <value>
+                <fullName>PE/VC</fullName>
+                <default>false</default>
+                <label>PE/VC</label>
+            </value>
+            <value>
+                <fullName>OPC</fullName>
+                <default>false</default>
+                <label>OPC</label>
+            </value>
+            <value>
+                <fullName>GCC</fullName>
+                <default>false</default>
+                <label>GCC</label>
+            </value>
+            <value>
+                <fullName>Academia</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Academia</label>
+            </value>
+            <value>
+                <fullName>Alumni</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Alumni</label>
+            </value>
+            <value>
+                <fullName>BO &amp; family office</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BO &amp; family office</label>
+            </value>
+            <value>
+                <fullName>Banking</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Banking</label>
+            </value>
+            <value>
+                <fullName>CA Firms</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CA Firms</label>
+            </value>
+            <value>
+                <fullName>CFO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CFO</label>
+            </value>
+            <value>
+                <fullName>CHRO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CHRO</label>
+            </value>
+            <value>
+                <fullName>CIO CDO CISO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CIO CDO CISO</label>
+            </value>
+            <value>
+                <fullName>CMO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CMO</label>
+            </value>
+            <value>
+                <fullName>GLB Listed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GLB Listed</label>
+            </value>
+            <value>
+                <fullName>Key Account Leaders</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Key Account Leaders</label>
+            </value>
+            <value>
+                <fullName>Law Firm</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Law Firm</label>
+            </value>
+            <value>
+                <fullName>MM - PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MM - PE</label>
+            </value>
+            <value>
+                <fullName>Member Firms Leaders</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Member Firms Leaders</label>
+            </value>
+            <value>
+                <fullName>NEDS &amp; ACs</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NEDS &amp; ACs</label>
+            </value>
+            <value>
+                <fullName>PEVC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PEVC</label>
+            </value>
+            <value>
+                <fullName>PIE Listed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PIE Listed</label>
+            </value>
+            <value>
+                <fullName>PMOs</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PMOs</label>
+            </value>
+            <value>
+                <fullName>Regulators</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Regulators</label>
+            </value>
+            <value>
+                <fullName>Specialised Advisory Firms</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Specialised Advisory Firms</label>
+            </value>
+            <value>
+                <fullName>Tech Alliances</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tech Alliances</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Large Corporates</controllingFieldValue>
+            <valueName>MNC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Large Corporates</controllingFieldValue>
+            <valueName>LC - Large</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Government</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Not-for-Profit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mid Market</controllingFieldValue>
+            <valueName>MM - Large</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mid Market</controllingFieldValue>
+            <valueName>MM - Mid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mid Market</controllingFieldValue>
+            <valueName>MM - Small (SMEs)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PIE Audit</controllingFieldValue>
+            <valueName>PIE Audit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Natives</controllingFieldValue>
+            <valueName>Startups</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Natives</controllingFieldValue>
+            <valueName>DGC</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

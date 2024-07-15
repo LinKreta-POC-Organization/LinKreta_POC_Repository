@@ -1,0 +1,8 @@
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Dear [Recipeint User],</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">The Account Name change request on New Client for {!Lead.Company} has been approved. The Account Name has changed from {!Lead.Proposed_Client_Name__c} to {!Lead.Company}.</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Please click on the following link to view the changes on LinKreta,
+{!Lead.Link}</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri"><span style="color:red;font-weight:bold">Note:- This is a system generated email. Please do not reply to this mail.</span></span></span></p>

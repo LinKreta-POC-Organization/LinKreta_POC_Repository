@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Campaign Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Campaign Requests</value>
+    </caseValues>
+    <layouts>
+        <layout>Campaign Request Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Marcom User --></label>
+            <section>Marcom User</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Camapign --></label>
+        <name>Add_Camapign</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Campaign --></label>
+        <name>Add_Campaign</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You are not allowed to change the Campaign Request after it has been created. --></errorMessage>
+        <name>MarketingUserChangeField</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Once record is picked, It cannot be unpicked.Contact system Administrator. --></errorMessage>
+        <name>Picked_record_cant_be_unpicked</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_CR --></label>
+        <name>New_CR</name>
+    </webLinks>
+</CustomObjectTranslation>

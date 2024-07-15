@@ -1,0 +1,14 @@
+<template>
+    <div class="custom-dual-listbox">
+        <label><span>*</span> Expertise</label>
+
+        <div if:false={desktop}>
+            <br>
+        </div>
+
+        <lightning-dual-listbox name="selectOptions" label="Expertise" source-label="Available Options"
+            selected-label="Selected Options" options={picklistOptions} value={selectedValues} variant="label-hidden"
+            onchange={handleMultiSelect} required></lightning-dual-listbox>
+    </div>
+
+</template>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IntroHive__Lead_To__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Defines the lead (target) of the relationship</description>
+    <externalId>false</externalId>
+    <label>Lead To</label>
+    <referenceTo>Lead</referenceTo>
+    <relationshipLabel>Relationships</relationshipLabel>
+    <relationshipName>Relationships</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

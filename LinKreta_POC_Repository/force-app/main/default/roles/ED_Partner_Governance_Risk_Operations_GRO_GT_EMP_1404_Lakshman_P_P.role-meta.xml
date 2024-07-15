@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>ED/Partner (Governance Risk &amp; Operations (GRO))_GT-EMP-1404_Lakshman P(P)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ED/Partner (Governance Risk &amp; Operations (GRO))_GT-EMP-1404_Lakshman P(P)</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>ED_Partner_Governance_Risk_Operations_GRO_GT_EMP_3988_Bhuvaneswari_Mohanra</parentRole>
+</Role>

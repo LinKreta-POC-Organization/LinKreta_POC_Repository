@@ -1,0 +1,4 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,flexipage:availableForAllPageTypes,lightning:actionOverride">
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    <lightning:flow aura:id="campaignRequestFlow"/>
+</aura:component>

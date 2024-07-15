@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GT_Alumni_Name__c</fullName>
+    <description>If Referral is by GT’s ex-employee, then, the “GT Alumni Name” field to be mandatory,</description>
+    <externalId>false</externalId>
+    <inlineHelpText>GT’s ex-employee</inlineHelpText>
+    <label>GT Alumni Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

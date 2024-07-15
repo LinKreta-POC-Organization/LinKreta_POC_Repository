@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Client Entity --></label>
+    <name>Client_Entity_Name__c</name>
+    <relationshipLabel><!-- Compete Firms --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_LEAD_FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_LEAD_TITLE</field>
+    </columns>
+    <columns>
+        <field>FK_LEAD_EMAIL</field>
+    </columns>
+    <columns>
+        <field>FK_LEAD_COMPANY</field>
+    </columns>
+    <columns>
+        <field>IntroHive__Relationship__c.IntroHive__User_Contact_From__c</field>
+    </columns>
+    <columns>
+        <field>IntroHive__Relationship__c.IntroHive__User_From__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Lead.IntroHive__Title_Category__c</field>
+    </columns>
+    <customDetailFormulas>
+        <calculatedFormula>FK_LEAD_FIRST_NAME + &apos; &apos; + FK_NAME</calculatedFormula>
+        <dataType>Text</dataType>
+        <developerName>CDF1</developerName>
+        <label>Relationship Name</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>IntroHive__Relationship__c.IntroHive__Relationship_Strength__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CDF1</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Lead Relationships by Strength</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$IntroHive__Relationship__c@IntroHive__Relationship__c.IntroHive__Lead_To__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>IntroHive__Relationship__c.IntroHive__Correspondence_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

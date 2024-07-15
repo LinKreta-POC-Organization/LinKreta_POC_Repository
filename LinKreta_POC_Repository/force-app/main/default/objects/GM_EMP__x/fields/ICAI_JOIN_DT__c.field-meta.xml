@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ICAI_JOIN_DT__c</fullName>
+    <description>ICAI_JOIN_DT</description>
+    <externalDeveloperName>ICAI_JOIN_DT</externalDeveloperName>
+    <externalId>false</externalId>
+    <isFilteringDisabled>false</isFilteringDisabled>
+    <isNameField>false</isNameField>
+    <isSortingDisabled>false</isSortingDisabled>
+    <label>ICAI_JOIN_DT</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

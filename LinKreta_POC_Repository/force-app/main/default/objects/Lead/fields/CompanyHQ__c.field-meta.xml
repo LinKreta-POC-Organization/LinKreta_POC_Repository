@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CompanyHQ__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Client headquarters</inlineHelpText>
+    <label>Client HQ</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Address</type>
+</CustomField>

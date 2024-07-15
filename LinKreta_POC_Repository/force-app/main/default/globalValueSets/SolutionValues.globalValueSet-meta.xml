@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ABC Diligence</fullName>
+        <default>false</default>
+        <label>ABC Diligence</label>
+    </customValue>
+    <customValue>
+        <fullName>Actuarial Model Validation and Model Governance</fullName>
+        <default>false</default>
+        <label>Actuarial Model Validation and Model Governance</label>
+    </customValue>
+    <customValue>
+        <fullName>Advanced Analytics Design and Implementation</fullName>
+        <default>false</default>
+        <label>Advanced Analytics Design and Implementation</label>
+    </customValue>
+    <customValue>
+        <fullName>Agri competitiveness &amp; alternative markets</fullName>
+        <default>false</default>
+        <label>Agri competitiveness &amp; alternative markets</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Analytics Solution (Automating Control Procedures and Business Analytics)</fullName>
+        <default>false</default>
+        <label>Auto Analytics Solution (Automating Control Procedures and Business Analytics)</label>
+    </customValue>
+    <customValue>
+        <fullName>Aviation and Defence</fullName>
+        <default>false</default>
+        <label>Aviation and Defence</label>
+    </customValue>
+    <customValue>
+        <fullName>BPS, Financial Reporting Advisory Services and Fund Reporting</fullName>
+        <default>false</default>
+        <label>BPS, Financial Reporting Advisory Services and Fund Reporting</label>
+    </customValue>
+    <customValue>
+        <fullName>Citizen Services - e-Distt, CM Dashboards, e-Pragati</fullName>
+        <default>false</default>
+        <label>Citizen Services - e-Distt, CM Dashboards, e-Pragati</label>
+    </customValue>
+    <customValue>
+        <fullName>Compliance Managed Services (GTCMS)</fullName>
+        <default>false</default>
+        <label>Compliance Managed Services (GTCMS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Controls Stress Testing</fullName>
+        <default>false</default>
+        <label>Controls Stress Testing</label>
+    </customValue>
+    <customValue>
+        <fullName>Cost Pass Through Solutions</fullName>
+        <default>false</default>
+        <label>Cost Pass Through Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Cyber &amp; Digital transformation</fullName>
+        <default>false</default>
+        <label>Cyber &amp; Digital transformation</label>
+    </customValue>
+    <customValue>
+        <fullName>Cyber &amp; ESH Diligence</fullName>
+        <default>false</default>
+        <label>Cyber &amp; ESH Diligence</label>
+    </customValue>
+    <customValue>
+        <fullName>Cyber &amp; IT Risk</fullName>
+        <default>false</default>
+        <label>Cyber &amp; IT Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>Cyber Maturity Assessments, Managed Security Service</fullName>
+        <default>false</default>
+        <label>Cyber Maturity Assessments, Managed Security Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Data Protection, Privacy &amp; Governance for Healthcare and e-pharmacies</fullName>
+        <default>false</default>
+        <label>Data Protection, Privacy &amp; Governance for Healthcare and e-pharmacies</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital, Data Analytics and Financial Transformation</fullName>
+        <default>false</default>
+        <label>Digital, Data Analytics and Financial Transformation</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital &amp; Cyber - Automotive standards</fullName>
+        <default>false</default>
+        <label>Digital &amp; Cyber - Automotive standards</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Agri</fullName>
+        <default>false</default>
+        <label>Digital Agri</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Forensics</fullName>
+        <default>false</default>
+        <label>Digital Forensics</label>
+    </customValue>
+    <customValue>
+        <fullName>Digitally transforming supply chains</fullName>
+        <default>false</default>
+        <label>Digitally transforming supply chains</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital transformation solutions</fullName>
+        <default>false</default>
+        <label>Digital transformation solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Digitizing and transforming your tax function</fullName>
+        <default>false</default>
+        <label>Digitizing and transforming your tax function</label>
+    </customValue>
+    <customValue>
+        <fullName>Downstream - Dealer profitability &amp; continuity solutions</fullName>
+        <default>false</default>
+        <label>Downstream - Dealer profitability &amp; continuity solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Early fraud/financial misconduct warning signals for lending institutions</fullName>
+        <default>false</default>
+        <label>Early fraud/financial misconduct warning signals for lending institutions</label>
+    </customValue>
+    <customValue>
+        <fullName>ECL Modelling</fullName>
+        <default>false</default>
+        <label>ECL Modelling</label>
+    </customValue>
+    <customValue>
+        <fullName>E-commerce market place</fullName>
+        <default>false</default>
+        <label>E-commerce market place</label>
+    </customValue>
+    <customValue>
+        <fullName>Enabling eComm</fullName>
+        <default>false</default>
+        <label>Enabling eComm</label>
+    </customValue>
+    <customValue>
+        <fullName>Enabling your sustainability agenda</fullName>
+        <default>false</default>
+        <label>Enabling your sustainability agenda</label>
+    </customValue>
+    <customValue>
+        <fullName>ESG</fullName>
+        <default>false</default>
+        <label>ESG</label>
+    </customValue>
+    <customValue>
+        <fullName>ESG (incl. responsible procurement)</fullName>
+        <default>false</default>
+        <label>ESG (incl. responsible procurement)</label>
+    </customValue>
+    <customValue>
+        <fullName>ESG Advisory</fullName>
+        <default>false</default>
+        <label>ESG Advisory</label>
+    </customValue>
+    <customValue>
+        <fullName>ESG advisory &amp; reporting</fullName>
+        <default>false</default>
+        <label>ESG advisory &amp; reporting</label>
+    </customValue>
+    <customValue>
+        <fullName>ESOP</fullName>
+        <default>false</default>
+        <label>ESOP</label>
+    </customValue>
+    <customValue>
+        <fullName>Estate Planning</fullName>
+        <default>false</default>
+        <label>Estate Planning</label>
+    </customValue>
+    <customValue>
+        <fullName>EV Financing Solution</fullName>
+        <default>false</default>
+        <label>EV Financing Solution</label>
+    </customValue>
+    <customValue>
+        <fullName>Family Governance</fullName>
+        <default>false</default>
+        <label>Family Governance</label>
+    </customValue>
+    <customValue>
+        <fullName>Family office</fullName>
+        <default>false</default>
+        <label>Family office</label>
+    </customValue>
+    <customValue>
+        <fullName>FDD</fullName>
+        <default>false</default>
+        <label>FDD</label>
+    </customValue>
+    <customValue>
+        <fullName>Forensic &amp; Dispute Litigation</fullName>
+        <default>false</default>
+        <label>Forensic &amp; Dispute Litigation</label>
+    </customValue>
+    <customValue>
+        <fullName>FS Risk services such as Internal Audit, Market &amp; Credit Risk</fullName>
+        <default>false</default>
+        <label>FS Risk services such as Internal Audit, Market &amp; Credit Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>Fund Raise &amp; IPO Support</fullName>
+        <default>false</default>
+        <label>Fund Raise &amp; IPO Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Gati Shakti / Logistics Infrastructure</fullName>
+        <default>false</default>
+        <label>Gati Shakti / Logistics Infrastructure</label>
+    </customValue>
+    <customValue>
+        <fullName>GenNext Induction</fullName>
+        <default>false</default>
+        <label>GenNext Induction</label>
+    </customValue>
+    <customValue>
+        <fullName>Getting ready for PE &amp; Beyond</fullName>
+        <default>false</default>
+        <label>Getting ready for PE &amp; Beyond</label>
+    </customValue>
+    <customValue>
+        <fullName>GIFT City set-ups</fullName>
+        <default>false</default>
+        <label>GIFT City set-ups</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Audit Delivery</fullName>
+        <default>false</default>
+        <label>Global Audit Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>Global compliance and reporting</fullName>
+        <default>false</default>
+        <label>Global compliance and reporting</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Tax optimization</fullName>
+        <default>false</default>
+        <label>Global Tax optimization</label>
+    </customValue>
+    <customValue>
+        <fullName>Gold Standard Audit for NBFC</fullName>
+        <default>false</default>
+        <label>Gold Standard Audit for NBFC</label>
+    </customValue>
+    <customValue>
+        <fullName>Govt. Incentives</fullName>
+        <default>false</default>
+        <label>Govt. Incentives</label>
+    </customValue>
+    <customValue>
+        <fullName>Grant Processing &amp; Assurance</fullName>
+        <default>false</default>
+        <label>Grant Processing &amp; Assurance</label>
+    </customValue>
+    <customValue>
+        <fullName>GRC Transformation Solutions - Integrated GRC Technology</fullName>
+        <default>false</default>
+        <label>GRC Transformation Solutions - Integrated GRC Technology</label>
+    </customValue>
+    <customValue>
+        <fullName>Growth strategy for RE cos</fullName>
+        <default>false</default>
+        <label>Growth strategy for RE cos</label>
+    </customValue>
+    <customValue>
+        <fullName>GTAXPRO, Automation Solution for Returns, State Incentive Policies, PLI Support</fullName>
+        <default>false</default>
+        <label>GTAXPRO, Automation Solution for Returns, State Incentive Policies, PLI Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Health / Digital Health</fullName>
+        <default>false</default>
+        <label>Health / Digital Health</label>
+    </customValue>
+    <customValue>
+        <fullName>IDD &amp; Discreet CDD</fullName>
+        <default>false</default>
+        <label>IDD &amp; Discreet CDD</label>
+    </customValue>
+    <customValue>
+        <fullName>IFRS 17 advisory</fullName>
+        <default>false</default>
+        <label>IFRS 17 advisory</label>
+    </customValue>
+    <customValue>
+        <fullName>Inbound Investment Support (CFO Services)</fullName>
+        <default>false</default>
+        <label>Inbound Investment Support (CFO Services)</label>
+    </customValue>
+    <customValue>
+        <fullName>IND AS for insurance, banking and mutual funds</fullName>
+        <default>false</default>
+        <label>IND AS for insurance, banking and mutual funds</label>
+    </customValue>
+    <customValue>
+        <fullName>India led Global Assurance</fullName>
+        <default>false</default>
+        <label>India led Global Assurance</label>
+    </customValue>
+    <customValue>
+        <fullName>India led Global risk assurance</fullName>
+        <default>false</default>
+        <label>India led Global risk assurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Infra consulting roads, Transportation, water &amp; so on.</fullName>
+        <default>false</default>
+        <label>Infra consulting roads, Transportation, water &amp; so on.</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Audit</fullName>
+        <default>false</default>
+        <label>Internal Audit</label>
+    </customValue>
+    <customValue>
+        <fullName>M&amp;A for Biosimilars</fullName>
+        <default>false</default>
+        <label>M&amp;A for Biosimilars</label>
+    </customValue>
+    <customValue>
+        <fullName>M&amp;A Tax</fullName>
+        <default>false</default>
+        <label>M&amp;A Tax</label>
+    </customValue>
+    <customValue>
+        <fullName>Managed Transformation Office solution</fullName>
+        <default>false</default>
+        <label>Managed Transformation Office solution</label>
+    </customValue>
+    <customValue>
+        <fullName>Moving towards efficient financial reporting &amp; managing compliances</fullName>
+        <default>false</default>
+        <label>Moving towards efficient financial reporting &amp; managing compliances</label>
+    </customValue>
+    <customValue>
+        <fullName>MSME ecosystem development</fullName>
+        <default>false</default>
+        <label>MSME ecosystem development</label>
+    </customValue>
+    <customValue>
+        <fullName>Municipalities / Local Government (WASH, Municipal Finance, Amrut)</fullName>
+        <default>false</default>
+        <label>Municipalities / Local Government (WASH, Municipal Finance, Amrut)</label>
+    </customValue>
+    <customValue>
+        <fullName>Ops Consulting for Life Sciences</fullName>
+        <default>false</default>
+        <label>Ops Consulting for Life Sciences</label>
+    </customValue>
+    <customValue>
+        <fullName>Optimising ITC &amp; promotional schemes - life sciences and healthcare</fullName>
+        <default>false</default>
+        <label>Optimising ITC &amp; promotional schemes - life sciences and healthcare</label>
+    </customValue>
+    <customValue>
+        <fullName>Organisation alignment</fullName>
+        <default>false</default>
+        <label>Organisation alignment</label>
+    </customValue>
+    <customValue>
+        <fullName>Organisation structuring</fullName>
+        <default>false</default>
+        <label>Organisation structuring</label>
+    </customValue>
+    <customValue>
+        <fullName>Other solutions</fullName>
+        <default>false</default>
+        <label>Other solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Solutions for Banks, NBFCs, Insurance Companies</fullName>
+        <default>false</default>
+        <label>Payment Solutions for Banks, NBFCs, Insurance Companies</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Solutions for consumer sector</fullName>
+        <default>false</default>
+        <label>Payment Solutions for consumer sector</label>
+    </customValue>
+    <customValue>
+        <fullName>Personal Compliance Dashboard</fullName>
+        <default>false</default>
+        <label>Personal Compliance Dashboard</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharma/ Med Devices: Computerized System Validation (CSV Solution)</fullName>
+        <default>false</default>
+        <label>Pharma/ Med Devices: Computerized System Validation (CSV Solution)</label>
+    </customValue>
+    <customValue>
+        <fullName>Philanthropy &amp; CSR Impact</fullName>
+        <default>false</default>
+        <label>Philanthropy &amp; CSR Impact</label>
+    </customValue>
+    <customValue>
+        <fullName>PMO Services</fullName>
+        <default>false</default>
+        <label>PMO Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre-IPO advisory</fullName>
+        <default>false</default>
+        <label>Pre-IPO advisory</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Equity deal structuring</fullName>
+        <default>false</default>
+        <label>Private Equity deal structuring</label>
+    </customValue>
+    <customValue>
+        <fullName>Procurement Strategy: Procurement, Cost Optimization, and Sales to OEMs</fullName>
+        <default>false</default>
+        <label>Procurement Strategy: Procurement, Cost Optimization, and Sales to OEMs</label>
+    </customValue>
+    <customValue>
+        <fullName>Promoting women livelihoods</fullName>
+        <default>false</default>
+        <label>Promoting women livelihoods</label>
+    </customValue>
+    <customValue>
+        <fullName>Protecting your data - Data Protection, Privacy Advisory</fullName>
+        <default>false</default>
+        <label>Protecting your data - Data Protection, Privacy Advisory</label>
+    </customValue>
+    <customValue>
+        <fullName>QA for GRC functions</fullName>
+        <default>false</default>
+        <label>QA for GRC functions</label>
+    </customValue>
+    <customValue>
+        <fullName>Ready to transform - emerging TMT Cos.</fullName>
+        <default>false</default>
+        <label>Ready to transform - emerging TMT Cos.</label>
+    </customValue>
+    <customValue>
+        <fullName>REITs &amp; InVITs Advisory</fullName>
+        <default>false</default>
+        <label>REITs &amp; InVITs Advisory</label>
+    </customValue>
+    <customValue>
+        <fullName>Restructuring &amp; Insolvency</fullName>
+        <default>false</default>
+        <label>Restructuring &amp; Insolvency</label>
+    </customValue>
+    <customValue>
+        <fullName>Risk based special reviews</fullName>
+        <default>false</default>
+        <label>Risk based special reviews</label>
+    </customValue>
+    <customValue>
+        <fullName>RPT Governance Solution</fullName>
+        <default>false</default>
+        <label>RPT Governance Solution</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales &amp; Cx optimization</fullName>
+        <default>false</default>
+        <label>Sales &amp; Cx optimization</label>
+    </customValue>
+    <customValue>
+        <fullName>Second Residence</fullName>
+        <default>false</default>
+        <label>Second Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Securing your tech systems (Cyber security &amp; SOC)</fullName>
+        <default>false</default>
+        <label>Securing your tech systems (Cyber security &amp; SOC)</label>
+    </customValue>
+    <customValue>
+        <fullName>Skill PMU</fullName>
+        <default>false</default>
+        <label>Skill PMU</label>
+    </customValue>
+    <customValue>
+        <fullName>Smart City / Water / Transport</fullName>
+        <default>false</default>
+        <label>Smart City / Water / Transport</label>
+    </customValue>
+    <customValue>
+        <fullName>Sports Advisory (PMUs, Events)</fullName>
+        <default>false</default>
+        <label>Sports Advisory (PMUs, Events)</label>
+    </customValue>
+    <customValue>
+        <fullName>Start-ups &amp; Unicorns advisory(fund-raise and digitization of finance and business functions)</fullName>
+        <default>false</default>
+        <label>Start-ups &amp; Unicorns advisory (fund-raise and digitization of finance and business functions)</label>
+    </customValue>
+    <customValue>
+        <fullName>Stat Audit</fullName>
+        <default>false</default>
+        <label>Stat Audit</label>
+    </customValue>
+    <customValue>
+        <fullName>Statutory &amp; Internal audits</fullName>
+        <default>false</default>
+        <label>Statutory &amp; Internal audits</label>
+    </customValue>
+    <customValue>
+        <fullName>Strategy execution support to CEO office</fullName>
+        <default>false</default>
+        <label>Strategy execution support to CEO office</label>
+    </customValue>
+    <customValue>
+        <fullName>System Audits, Cyber Audits, Compliance Audits, SecOps</fullName>
+        <default>false</default>
+        <label>System Audits, Cyber Audits, Compliance Audits, SecOps</label>
+    </customValue>
+    <customValue>
+        <fullName>Tax advisory (Incentives)</fullName>
+        <default>false</default>
+        <label>Tax advisory (Incentives)</label>
+    </customValue>
+    <customValue>
+        <fullName>Tax calculation for NAV working of Cat III AIF</fullName>
+        <default>false</default>
+        <label>Tax calculation for NAV working of Cat III AIF</label>
+    </customValue>
+    <customValue>
+        <fullName>Tax Litigation &amp; Support</fullName>
+        <default>false</default>
+        <label>Tax Litigation &amp; Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Threat Intelligence, Digital Security, Data Privacy, VAPT, Compliance services such as Payment Security</fullName>
+        <default>false</default>
+        <label>Threat Intelligence, Digital Security, Data Privacy, VAPT, Compliance services such as Payment Security</label>
+    </customValue>
+    <customValue>
+        <fullName>Transactions (incl Valuations)</fullName>
+        <default>false</default>
+        <label>Transactions (incl Valuations)</label>
+    </customValue>
+    <customValue>
+        <fullName>Transforming your business and finance function - Digital Transformation for captives (GCCs)</fullName>
+        <default>false</default>
+        <label>Transforming your business and finance function - Digital Transformation for captives (GCCs)</label>
+    </customValue>
+    <customValue>
+        <fullName>Transforming your risk function (advisory &amp; staff augmentation)</fullName>
+        <default>false</default>
+        <label>Transforming your risk function (advisory &amp; staff augmentation)</label>
+    </customValue>
+    <customValue>
+        <fullName>Transition to new assets/investment measurement norms of RBI</fullName>
+        <default>false</default>
+        <label>Transition to new assets/investment measurement norms of RBI</label>
+    </customValue>
+    <customValue>
+        <fullName>Unlocking value through India listings</fullName>
+        <default>false</default>
+        <label>Unlocking value through India listings</label>
+    </customValue>
+    <customValue>
+        <fullName>Unlocking value through M&amp;A and PE  (deal advisory)</fullName>
+        <default>false</default>
+        <label>Unlocking value through M&amp;A and PE  (deal advisory)</label>
+    </customValue>
+    <customValue>
+        <fullName>Unlocking value through Overseas Listings</fullName>
+        <default>false</default>
+        <label>Unlocking value through Overseas Listings</label>
+    </customValue>
+    <customValue>
+        <fullName>US Estate Tax Planning</fullName>
+        <default>false</default>
+        <label>US Estate Tax Planning</label>
+    </customValue>
+    <customValue>
+        <fullName>US Tax</fullName>
+        <default>false</default>
+        <label>US Tax</label>
+    </customValue>
+    <customValue>
+        <fullName>Workforce transformation: HR advisory and ESOP Planning</fullName>
+        <default>false</default>
+        <label>Workforce transformation: HR advisory and ESOP Planning</label>
+    </customValue>
+    <customValue>
+        <fullName>Downstream – Dealer profitability &amp; continuity solutions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Downstream – Dealer profitability &amp; continuity solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>ONDC Setup</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ONDC Setup</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital &amp; Cyber – Automotive standards</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Digital &amp; Cyber – Automotive standards</label>
+    </customValue>
+    <customValue>
+        <fullName>GCCs/GICs</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GCCs/GICs</label>
+    </customValue>
+    <customValue>
+        <fullName>BeSpoke</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BeSpoke</label>
+    </customValue>
+    <customValue>
+        <fullName>Expertise</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Expertise</label>
+    </customValue>
+    <masterLabel>Solution</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

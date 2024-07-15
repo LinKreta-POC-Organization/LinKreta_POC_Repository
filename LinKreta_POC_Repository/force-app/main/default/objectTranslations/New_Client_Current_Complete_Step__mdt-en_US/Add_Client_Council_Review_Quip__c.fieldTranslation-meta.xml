@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Add Client Council Review Quip --></label>
+    <name>Add_Client_Council_Review_Quip__c</name>
+</CustomFieldTranslation>

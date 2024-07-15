@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickActionWithoutHeader" access="global">
+    <aura:handler name="init" value="{!this}" action="{!c.init} "/>
+    <aura:method name="closeQuickAction" action="{!c.getCloseQuickAction}" access="public"> </aura:method>
+    <c:EA_LoginAsAPartnerManager parent="{!this}"/>
+</aura:component>

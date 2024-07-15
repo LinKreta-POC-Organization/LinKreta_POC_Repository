@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email Template for adding CTM on Client Contact</name>
+    <style>none</style>
+    <subject>You have been assigned a teamrole on Client Contact Relationship Team</subject>
+    <textOnly>Dear {recipient.name},
+
+This is to notify that you have been assigned as {Team.Role} on {Account.Name}.
+Click on the below link for more information.
+
+{Object.Link}
+
+Note:- This is a system generated email. Please do not reply to this mail.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- IS_DEALING_CPLX_EVNT --></label>
+    <name>IS_DEALING_CPLX_EVNT__c</name>
+</CustomFieldTranslation>

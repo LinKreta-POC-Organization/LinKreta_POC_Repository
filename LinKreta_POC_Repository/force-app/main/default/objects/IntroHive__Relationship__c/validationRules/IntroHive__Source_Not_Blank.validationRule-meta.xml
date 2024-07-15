@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IntroHive__Source_Not_Blank</fullName>
+    <active>true</active>
+    <description>Source Not Blank</description>
+    <errorConditionFormula>isblank( IntroHive__User_From__c ) &amp;&amp;
+isblank( IntroHive__User_Contact_From__c )</errorConditionFormula>
+    <errorMessage>Please select a User to have this relationship from.</errorMessage>
+</ValidationRule>

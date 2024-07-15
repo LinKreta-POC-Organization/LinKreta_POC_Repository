@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <description><!-- Choose this Record Type if the request for message does not meet RCM criteri but is  a P0 bug, a P1 or P2 bug with significant customer impact (10+ customers or top customer), or by management (Support or Technology) request --></description>
+        <label><!-- Issue Message --></label>
+        <name>agf__Issue_Message</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Choose this record type if this is a request only for a Root Cause Analysis (no messaging request). --></description>
+        <label><!-- RCA Only --></label>
+        <name>agf__RCA_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Choose this record type if a customer has requested an RCM and this meets the criteria for an RCA --></description>
+        <label><!-- RCA/RCM Request --></label>
+        <name>agf__RCA_RCM_Request</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- RCA_RCM_Google_Site --></label>
+        <name>agf__RCA_RCM_Google_Site</name>
+    </webLinks>
+</CustomObjectTranslation>

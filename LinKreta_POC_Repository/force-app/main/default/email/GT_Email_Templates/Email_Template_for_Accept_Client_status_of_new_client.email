@@ -1,0 +1,12 @@
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Dear {!Lead.OwnerFullName},</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Your New Client {!Lead.NewClientNo__c} - {!Lead.Company} is accepted by the Client Council Team. Please find the details below:</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Prospect Name: {!Lead.FirstName} {!Lead.LastName}<br/>
+Propsect Email: {!Lead.Email}<br/>
+Industry: {!Lead.Industry__c}<br/>
+Comments: {!Lead.CCApprovalRejectionRecommendation__c}</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">To access the record on LinKreta, please click on the link: {!Lead.Link}</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri"><span style="color:red;font-weight:bold">Note</span>:- This is a system generated email. Please do not reply to this mail.</span></span></p>

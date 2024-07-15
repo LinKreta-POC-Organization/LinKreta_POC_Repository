@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bill_to_Client__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Will be marked as true when bill to client is converted to client. For internal usage</description>
+    <externalId>false</externalId>
+    <label>Bill to Client</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

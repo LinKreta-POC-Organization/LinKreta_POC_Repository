@@ -1,0 +1,7 @@
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Dear [Recipeint User],</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">{!Account.OwnerFullName} had submitted a request for Account Name to change from {!Account.Name} to {!Account.Proposed_Client_Name__c}. This change has been approved by the DS Team and you are requested to review the Name change request.</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Please click on the following link to access the account on LinKreta, {!Account.Link}</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri"><span style="color:red;font-weight:bold">Note:- This is a system generated email. Please do not reply to this mail.</span></span></span></p>

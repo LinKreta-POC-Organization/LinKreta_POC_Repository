@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domestic_Ultimate_Owner__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Highest level parent within a corporate family tree that is domiciled in the same country</inlineHelpText>
+    <label>Domestic Ultimate Owner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

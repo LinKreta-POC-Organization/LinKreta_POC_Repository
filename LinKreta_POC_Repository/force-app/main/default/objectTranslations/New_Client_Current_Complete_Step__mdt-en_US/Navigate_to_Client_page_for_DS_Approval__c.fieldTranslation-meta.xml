@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Navigate to Client page for DS Approval --></label>
+    <name>Navigate_to_Client_page_for_DS_Approval__c</name>
+</CustomFieldTranslation>

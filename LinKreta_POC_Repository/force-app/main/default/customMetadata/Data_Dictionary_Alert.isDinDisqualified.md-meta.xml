@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>isDinDisqualified</label>
+    <protected>false</protected>
+    <values>
+        <field>Alert_Description__c</field>
+        <value xsi:type="xsd:string">Disqualified Director as on MCA, including directors not eligible to be appointed as a director in any other public companies as per sec 274 1 (g) of Companies Act.</value>
+    </values>
+    <values>
+        <field>Header__c</field>
+        <value xsi:type="xsd:string">DIN Disqualified</value>
+    </values>
+</CustomMetadata>

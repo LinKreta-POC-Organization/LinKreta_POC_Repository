@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DS_Team_Approval_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>DS Team Approval Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending with DS</fullName>
+                <default>false</default>
+                <label>Pending with DS</label>
+            </value>
+            <value>
+                <fullName>DS Approved</fullName>
+                <default>false</default>
+                <label>DS Approved</label>
+            </value>
+            <value>
+                <fullName>DS Rejected</fullName>
+                <default>false</default>
+                <label>DS Rejected</label>
+            </value>
+            <value>
+                <fullName>DS Rework required</fullName>
+                <default>false</default>
+                <label>DS Rework required</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

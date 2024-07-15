@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARTICLE_END_DT__c</fullName>
+    <description>ARTICLE_END_DT</description>
+    <externalDeveloperName>ARTICLE_END_DT</externalDeveloperName>
+    <externalId>false</externalId>
+    <isFilteringDisabled>false</isFilteringDisabled>
+    <isNameField>false</isNameField>
+    <isSortingDisabled>false</isSortingDisabled>
+    <label>ARTICLE_END_DT</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

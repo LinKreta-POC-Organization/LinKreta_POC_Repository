@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Listed/Unlisted --></label>
+    <name>ListedUnlisted__c</name>
+    <picklistValues>
+        <masterLabel>Listed</masterLabel>
+        <translation><!-- Listed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unlisted</masterLabel>
+        <translation><!-- Unlisted --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

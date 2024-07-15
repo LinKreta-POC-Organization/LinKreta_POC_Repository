@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Feedback on meeting &amp; next steps --></label>
+    <name>Feedback_on_meeting_next_steps__c</name>
+</CustomFieldTranslation>

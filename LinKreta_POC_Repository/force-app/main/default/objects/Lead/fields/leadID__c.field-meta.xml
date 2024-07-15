@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>leadID__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>This field was created to allow for the association of the External Object named &quot;Business Development Time Cost Spent&quot; with the lead for which we need a field set as an External ID. The value is updated by the flow named &quot;New Client - After Create Update | Notify To New Client Owner &amp; SBP&quot;</description>
+    <externalId>true</externalId>
+    <label>Lead ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

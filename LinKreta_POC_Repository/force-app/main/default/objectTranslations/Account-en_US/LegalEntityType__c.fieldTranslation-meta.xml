@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Legal Entity Type --></label>
+    <name>LegalEntityType__c</name>
+    <picklistValues>
+        <masterLabel>Public Listed</masterLabel>
+        <translation><!-- Public Listed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Not Listed</masterLabel>
+        <translation><!-- Public Not Listed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pvt. Listed</masterLabel>
+        <translation><!-- Pvt. Listed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pvt. Not Listed</masterLabel>
+        <translation><!-- Pvt. Not Listed --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

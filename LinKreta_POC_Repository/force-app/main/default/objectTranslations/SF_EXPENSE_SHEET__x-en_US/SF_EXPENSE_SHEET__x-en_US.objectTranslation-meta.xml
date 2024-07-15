@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Business Development Expense Cost Spent</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Business Development Expense Cost Spent</value>
+    </caseValues>
+    <layouts>
+        <layout>Business Development Expense Cost Spent - General</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Project Details --></label>
+            <section>Project Details</section>
+        </sections>
+        <sections>
+            <label><!-- Submission Information --></label>
+            <section>Submission Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Business Development Expense Cost Spent - Sys Admin</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Client and Enquiry Information --></label>
+            <section>New Client and Enquiry Information</section>
+        </sections>
+        <sections>
+            <label><!-- Submission Information --></label>
+            <section>Submission Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

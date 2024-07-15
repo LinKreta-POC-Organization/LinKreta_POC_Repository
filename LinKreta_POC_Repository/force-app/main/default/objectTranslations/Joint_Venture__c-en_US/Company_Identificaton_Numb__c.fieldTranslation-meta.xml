@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Company Identificaton Number --></label>
+    <name>Company_Identificaton_Numb__c</name>
+</CustomFieldTranslation>

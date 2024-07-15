@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- CLIENT_SER_LEADER --></label>
+    <name>CLIENT_SER_LEADER__c</name>
+</CustomFieldTranslation>

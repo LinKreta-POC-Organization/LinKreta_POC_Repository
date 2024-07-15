@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <decisions>
+        <name>If_User_Login_as_Partner</name>
+        <label>If User Login as Partner</label>
+        <locationX>182</locationX>
+        <locationY>134</locationY>
+        <defaultConnector>
+            <targetReference>myselfLogginScreen</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Login as myself</defaultConnectorLabel>
+        <rules>
+            <name>Login_as_Partner</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$User.PartnerLogin_UserID__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Partner_Login_Screen</targetReference>
+            </connector>
+            <label>Login as Partner</label>
+        </rules>
+    </decisions>
+    <description>This flow Show detail of login user (EA Requirement)</description>
+    <environments>Default</environments>
+    <interviewLabel>Partner Detail Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Partner Detail Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>myselfLogginScreen</name>
+        <label>myselfLogginScreen</label>
+        <locationX>314</locationX>
+        <locationY>242</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>loginUserDetail</name>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;color: rgb(0, 0, 0); font-size: 14px;&quot;&gt;You are login as yourself&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Name : {!$User.FirstName} {!$User.LastName}&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Profile : {!$User.Profile_Name__c}&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Username : {!$User.Username}&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>false</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Partner_Login_Screen</name>
+        <label>Partner Login Screen</label>
+        <locationX>50</locationX>
+        <locationY>242</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>partnerlogginDetail</name>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;You are login as Partner &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Partner name : {!$User.PartnerLogin_UserFullName__c}﻿&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Partner profile : {!$User.Partner_Login_User_Profile__c}&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Partner username : {!$User.PartnerLogin_UserName__c}&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>false</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>If_User_Login_as_Partner</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

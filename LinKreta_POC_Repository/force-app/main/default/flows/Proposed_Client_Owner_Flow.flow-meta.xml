@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>Proposed Client Owner Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Proposed Client Owner Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordUpdates>
+        <name>Update_Proposed_Client_Owner</name>
+        <label>Update Proposed Client Owner</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>AccountType__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Key Account - CX</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>AccountType__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Key Account - GX</stringValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>ProposedClientOwner__c</field>
+            <value>
+                <elementReference>ChangeOwner.recordId</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <screens>
+        <name>Proposed_Client_Owner_Change</name>
+        <label>Proposed Client Owner Change</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <backButtonLabel>Cancel</backButtonLabel>
+        <connector>
+            <targetReference>Update_Proposed_Client_Owner</targetReference>
+        </connector>
+        <fields>
+            <name>ChangeOwner</name>
+            <extensionName>flowruntime:lookup</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>fieldApiName</name>
+                <value>
+                    <stringValue>ProposedClientOwner__c</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>label</name>
+                <value>
+                    <stringValue>Proposed Client Owner</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>objectApiName</name>
+                <value>
+                    <stringValue>Account</stringValue>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
+        </fields>
+        <nextOrFinishButtonLabel>Submit</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Proposed_Client_Owner_Change</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

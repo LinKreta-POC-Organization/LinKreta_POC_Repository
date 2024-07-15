@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pan_No_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+	NOT(ISCHANGED(Status__c)),
+	ISPICKVAL(Status__c, &quot;Pending Verification&quot;),
+	NOT(Pan_No__c== &apos;na&apos;), 
+	NOT(Pan_No__c== &apos;NA&apos;), 
+	NOT(ISBLANK(Pan_No__c)),
+	NOT( REGEX(Pan_No__c, &quot;[A-Z]{5}[0-9]{4}[A-Z]{1}&quot;) )
+)</errorConditionFormula>
+    <errorDisplayField>Pan_No__c</errorDisplayField>
+    <errorMessage>Please enter a valid PAN number</errorMessage>
+</ValidationRule>

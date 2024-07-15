@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GT_Employee__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field contains information of &quot;GT Employee&quot; of the new client on conversion of which contact record is created.</description>
+    <externalId>false</externalId>
+    <label>GT Employee</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Client_Contacts6</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

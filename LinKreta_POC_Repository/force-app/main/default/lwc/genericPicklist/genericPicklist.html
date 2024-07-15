@@ -1,0 +1,6 @@
+<template>
+    <lightning-combobox name="types" label={label} placeholder="--None--" value={value} options={TypeOptions} onchange={handleTypeChange} disabled={disable} style="margin-top:1%" required={required}></lightning-combobox>
+   <div if:true={error} style="margin-left:3%">
+    <b style="color: red;">{error}</b>
+</div>
+</template>

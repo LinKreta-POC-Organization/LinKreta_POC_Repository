@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Character_Limit_Competitor_Strength</fullName>
+    <active>true</active>
+    <description>U_225</description>
+    <errorConditionFormula>LEN( Competitor_Strength__c ) &gt; 500</errorConditionFormula>
+    <errorDisplayField>Competitor_Strength__c</errorDisplayField>
+    <errorMessage>Character size should not be greater than 500</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel_and_Alliance_Compact_layout</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>Type</fields>
+    <fields>Channel_and_Alliance_Type__c</fields>
+    <label>Channel and Alliance Compact layout</label>
+</CompactLayout>

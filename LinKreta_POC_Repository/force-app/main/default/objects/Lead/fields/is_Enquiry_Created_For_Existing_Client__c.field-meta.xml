@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>is_Enquiry_Created_For_Existing_Client__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is used as an identifier for enquiries created for existing clients.</description>
+    <externalId>false</externalId>
+    <label>is Enquiry Created For Existing Client?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

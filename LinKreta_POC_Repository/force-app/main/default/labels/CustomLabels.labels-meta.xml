@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Automated_Task_Creator_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Automated Task Creator ID</shortDescription>
+        <value>0055j000005XLUTAA4</value>
+    </labels>
+    <labels>
+        <fullName>CaseURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case URL</shortDescription>
+        <value>https://grantthornton--lkdv1dvn.sandbox.lightning.force.com/</value>
+    </labels>
+    <labels>
+        <fullName>Client_Record_Type_Client</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Client Record Type/Client</shortDescription>
+        <value>0121s000000AYEIAA4</value>
+    </labels>
+    <labels>
+        <fullName>Client_Record_Type_Investors_Private_Equity_Firms</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Client Record Type Investors / Private Equity Firms</shortDescription>
+        <value>0121s000000AYEJAA4</value>
+    </labels>
+    <labels>
+        <fullName>Client_Record_Type_Law_Firm_Independent_Directors</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Client Record Type/Law Firm / Independent Directors</shortDescription>
+        <value>0121s000000AYEKAA4</value>
+    </labels>
+    <labels>
+        <fullName>Client_Record_Type_Member_Firm</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Client Record Type/Member_Firm</shortDescription>
+        <value>0121s000000AYELAA4</value>
+    </labels>
+    <labels>
+        <fullName>Client_Section</fullName>
+        <categories>Client</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Client Section</shortDescription>
+        <value>Clients</value>
+    </labels>
+    <labels>
+        <fullName>Client_record_Type_Channel_and_alliance</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Client record Type Channel and alliance</shortDescription>
+        <value>0121s000000AhAnAAK</value>
+    </labels>
+    <labels>
+        <fullName>Default_Creator_Task</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default Creator - Task</shortDescription>
+        <value>0055j000005XLUTAA4</value>
+    </labels>
+    <labels>
+        <fullName>Details_Section</fullName>
+        <categories>details</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Details Section</shortDescription>
+        <value>Enquiry Details</value>
+    </labels>
+    <labels>
+        <fullName>EnquiryTeam_ManagerEnquiryGenerator</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EnquiryTeam_ManagerEnquiryGenerator</shortDescription>
+        <value>System Administrator, Markets Ecosystems</value>
+    </labels>
+    <labels>
+        <fullName>Enquiry_Related_Record_Create_Validation_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enquiry Related Record Create Validation Message</shortDescription>
+        <value>Record creation is not allowed.</value>
+    </labels>
+    <labels>
+        <fullName>Enquiry_Related_Record_Delete_Validation_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enquiry_Related_Record_Delete_Validation_Message</shortDescription>
+        <value>Record deletion is not allowed.</value>
+    </labels>
+    <labels>
+        <fullName>Enquiry_Related_Record_Update_Validation_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enquiry_Related_Record_Update_Validation_Message</shortDescription>
+        <value>Record updation is not allowed.</value>
+    </labels>
+    <labels>
+        <fullName>EnrichDataFromExternalDB_AuthorizationMsg_Body</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EnrichDataFromExternalDB_AuthorizationMsg_Body</shortDescription>
+        <value>You are not authorized to Enrich Data from External Database for the Enquiry. Please contact the ME Team.</value>
+    </labels>
+    <labels>
+        <fullName>EnrichDataFromExternalDB_AuthorizationMsg_Header</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EnrichDataFromExternalDB_AuthorizationMsg_Header</shortDescription>
+        <value>Cannot Process your Request</value>
+    </labels>
+    <labels>
+        <fullName>EnrichDataFromExternalDB_ErrorMsg_Body</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EnrichDataFromExternalDB_ErrorMsg_Body</shortDescription>
+        <value>Record is already locked.</value>
+    </labels>
+    <labels>
+        <fullName>EnrichDataFromNC_ErrorMsg_Body</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EnrichDataFromNC_ErrorMsg_Body</shortDescription>
+        <value>You are not authorized to Enrich Data from External Database for the New Client</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Enquiry_Closed</fullName>
+        <categories>U_225</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message Enquiry Closed</shortDescription>
+        <value>You cannot add or modify GT Competitor an enquiry closed</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Enquiry_Owner_Team_Member</fullName>
+        <categories>U_225</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message Enquiry Owner Team Member</shortDescription>
+        <value>Enquiry Owner/Team Members can only add/edit their own competitor details.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Enquiry_Stage</fullName>
+        <categories>U_225</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message Enquiry Stage</shortDescription>
+        <value>Enquiry stage should be :  Determine problem &amp; impact</value>
+    </labels>
+    <labels>
+        <fullName>FY_Validation_Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FY Validation Date</shortDescription>
+        <value>null</value>
+    </labels>
+    <labels>
+        <fullName>Flow_FaultMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Flow_FaultMessage</shortDescription>
+        <value>Please contact System Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>GT_Client_Contact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GT Client Contact</shortDescription>
+        <value>0121s000000AYENAA4</value>
+    </labels>
+    <labels>
+        <fullName>GT_Partner_Domain</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GT Partner Domain</shortDescription>
+        <value>in.gt.com</value>
+    </labels>
+    <labels>
+        <fullName>JobActivationScreenRequiredFieldsCheck</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JobActivationScreenRequiredFieldsCheck</shortDescription>
+        <value>Statutory Audit &amp; Reviews,Tax audit</value>
+    </labels>
+    <labels>
+        <fullName>JobCodeForPitchDeckProposalCreation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Job Code For PitchDeck/Proposal Creation</shortDescription>
+        <value>13-11-GTBL001-002-NCA-NR-2021-00001</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_ExtendedHeader_ChatStateHeaderGreeting_04I9D0000004CZQ_1775451</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_ExtendedHeader_ChatStateHeaderGreeting_04I9D0000004CZQ_1775451</shortDescription>
+        <value>Thanks for reaching out. Happy to help you today.</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_WithQueuePos_WaitingQueuePosMaxMessageSecondL_04I9D0000004CZQ_8670583</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_WithQueuePos_WaitingQueuePosMaxMessageSecondL_04I9D0000004CZQ_8670583</shortDescription>
+        <value>Our assistant will be with you shortly.</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_WithoutQueuePos_WaitingGreeting_04I1s0000004Cc5_6252194</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_WithoutQueuePos_WaitingGreeting_04I1s0000004Cc5_6252194</shortDescription>
+        <value>Hello, Hope you are having a good day!</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_WithoutQueuePos_WaitingGreeting_04I9D0000004CZQ_2423771</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_WithoutQueuePos_WaitingGreeting_04I9D0000004CZQ_2423771</shortDescription>
+        <value>Hello, Hope you are having a good day!</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_WithoutQueuePos_WaitingMessage_04I1s0000004Cc5_4528780</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_WithoutQueuePos_WaitingMessage_04I1s0000004Cc5_4528780</shortDescription>
+        <value>Our assistant will be with you shortly.</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_WithoutQueuePos_WaitingMessage_04I9D0000004CZQ_1287974</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_WithoutQueuePos_WaitingMessage_04I9D0000004CZQ_1287974</shortDescription>
+        <value>Our assistant will be with you shortly.</value>
+    </labels>
+    <labels>
+        <fullName>Linkreta_Integration_User_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Linkreta Integration User Id</shortDescription>
+        <value>0055j000005XLUT</value>
+    </labels>
+    <labels>
+        <fullName>Linkreta_Integration_User_Id_18_Digits</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Linkreta Integration User Id 18 Digits</shortDescription>
+        <value>0055j000005XLUTAA4</value>
+    </labels>
+    <labels>
+        <fullName>MCAFinancialYear</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MCA Financial Year</shortDescription>
+        <value>2024-25</value>
+    </labels>
+    <labels>
+        <fullName>MOM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MOM</shortDescription>
+        <value>Minutes of the Meeting
+
+
+
+Purpose is to track key outcomes and devise the future roadmap basis feedback received from each client engagement
+
+
+
+Meeting Agenda:
+
+
+
+* Topic 1
+
+* Topic 2
+
+
+
+Meeting Notes (including Potential Obstacles, Challenges &amp; Red Flags):
+
+* Notes on item 1
+
+* Notes on item 2
+
+
+
+Recommendations &amp; Takeaways:
+
+* Feedback 1
+
+* Feedback 2
+
+
+
+Client’s priorities and any additional Interests in our services:
+
+* Point 1
+
+* Point 2
+
+
+
+Next Steps &amp; Action Items:
+
+* Action item 1
+
+* Action item 2</value>
+    </labels>
+    <labels>
+        <fullName>Mandate_Approval_Rejection_Comments</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mandate Approval/Rejection Comments</shortDescription>
+        <value>Please provide comments.</value>
+    </labels>
+    <labels>
+        <fullName>Message_RecordUnderApproval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Message_RecordUnderApproval</shortDescription>
+        <value>Your record is pending for approval.Please try again after approval.</value>
+    </labels>
+    <labels>
+        <fullName>Need_Enquiry_Approval_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EnquiryApprovalScreen_Body</shortDescription>
+        <value>There is a change in one or both of the following fields and requires you to resubmit the Enquiry for Approval - &quot;Enquiry Value&quot; &amp; &quot;Enquiry Expected Recovery %&quot;. Please click on the &quot;Submit For Enquiry Approval&quot; button to resubmit.</value>
+    </labels>
+    <labels>
+        <fullName>NewClientOwnerChanged</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NewClientOwnerChanged</shortDescription>
+        <value>0ML1s0000004FH6GAM</value>
+    </labels>
+    <labels>
+        <fullName>New_Client_Owner_Profile</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Client Owner Profile</shortDescription>
+        <value>NewClientOwner</value>
+    </labels>
+    <labels>
+        <fullName>Org_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Org URL</shortDescription>
+        <value>https://linkreta.lightning.force.com/</value>
+    </labels>
+    <labels>
+        <fullName>Organic_Expertise</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Organic Expertise</shortDescription>
+        <value>Audit, Risk, Tax, Growth, CFO Services</value>
+    </labels>
+    <labels>
+        <fullName>PartnerGroupsForEAPartnerFunctionality</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PartnerGroupsForEAPartnerFunctionality</shortDescription>
+        <value>Client_Council_Approval;C_M_Team;Marcom_Team;DS_Team;BUL;Co_CSL</value>
+    </labels>
+    <labels>
+        <fullName>PartnerQueuesForEAPartnerFunctionality</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PartnerQueuesForEAPartnerFunctionality</shortDescription>
+        <value>ClientCouncilTeam;DS_Team;C_M_Team_Queue;Email_to_Case_Queue;QRMG_Team</value>
+    </labels>
+    <labels>
+        <fullName>Prevent_Determine_Problem_and_Impact_stage_to_another</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Prevent, Determine Problem and Impact stage to another</shortDescription>
+        <value>There are still open Tasks for this Enquiry Please complete all open tasks before moving further.</value>
+    </labels>
+    <labels>
+        <fullName>RCCActualConflictAttachmentDeletionError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RCC Actual Conflict Attachment Deletion Error</shortDescription>
+        <value>Attachment linked to Actual Conflict Record in &apos;No Conflict&apos; Status cannot be deleted.</value>
+    </labels>
+    <labels>
+        <fullName>RCCActualConflictAttachmentMissingError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RCC Actual Conflict Attachment Missing Error</shortDescription>
+        <value>The record must have attachment in order to mark it as &apos;No Conflict&apos;</value>
+    </labels>
+    <labels>
+        <fullName>RCCActualConflictRestrictedFieldUpdateError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RCC Actual Conflict Restricted Field Update Error</shortDescription>
+        <value>External Id is a restricted field and is not updatable</value>
+    </labels>
+    <labels>
+        <fullName>RCC_BillingEO_FilterSize</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RCC_BillingEO_FilterSize</shortDescription>
+        <value>15</value>
+    </labels>
+    <labels>
+        <fullName>RCC_Independent_ChosenBasedOnCustomerName_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RCC_Independent_ChosenBasedOnCustomerName_Msg</shortDescription>
+        <value>Selection of RCC based on the customer&apos;s name is not recommended.</value>
+    </labels>
+    <labels>
+        <fullName>RCC_Joint_Venture_Report_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RCC Joint Venture Report URL</shortDescription>
+        <value>https://grantthornton--lkpauat.sandbox.lightning.force.com/lightning/r/Report/00O1s000000IF9rEAG/view?queryScope=userFolders</value>
+    </labels>
+    <labels>
+        <fullName>RCC_Related_Record_Create_Validation_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RCC Related Record Create Validation Message</shortDescription>
+        <value>No edits can be made as the RCC has already been approved.</value>
+    </labels>
+    <labels>
+        <fullName>RCC_Related_Record_Create_Validation_Message_Submitted_for_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RCC Related Record Create Validation Message - Submitted for Approval</shortDescription>
+        <value>No edits can be made as the RCC has already been submitted</value>
+    </labels>
+    <labels>
+        <fullName>RCC_Related_Record_Delete_Validation_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RCC Related Record Delete Validation Message</shortDescription>
+        <value>No edits can be made as the RCC has already been approved.</value>
+    </labels>
+    <labels>
+        <fullName>RCC_Related_Record_Delete_Validation_Message_Submitted_for_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RCC Related Record Delete Validation Message - Submitted for Approval</shortDescription>
+        <value>Record deletion is not allowed once RCC  is submitted for approval.</value>
+    </labels>
+    <labels>
+        <fullName>RCC_Related_Record_Update_Validation_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RCC Related Record Update Validation Message</shortDescription>
+        <value>No edits can be made as the RCC has already been approved.</value>
+    </labels>
+    <labels>
+        <fullName>RCC_Related_Record_Update_Validation_Message_Submitted_for_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RCC Related Record Update Validation Message - Submitted for Approval</shortDescription>
+        <value>Record updation is not allowed once RCC is submitted for approval.</value>
+    </labels>
+    <labels>
+        <fullName>RCC_Taxonomy_Not_Checked_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RCC Taxonomy Not Checked Message</shortDescription>
+        <value>Please click on the &apos;Show Message&apos; button to access the taxonomy details under &apos;Proposed Service / Relationship&apos; section before proceeding further.</value>
+    </labels>
+    <labels>
+        <fullName>RCC_VendorEO_FilterSize</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RCC_VendorEO_FilterSize</shortDescription>
+        <value>5</value>
+    </labels>
+    <labels>
+        <fullName>Rcc_Error_Msg_Exception</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rcc_Error_Msg_Exception</shortDescription>
+        <value>Cannot insert data, please contact your &apos;Admin&apos;</value>
+    </labels>
+    <labels>
+        <fullName>Rcc_Error_Msg_Name_Field_Blank</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rcc_Error_Msg_Name_Field_Blank</shortDescription>
+        <value>You cannot upload file as name field is mandatory.</value>
+    </labels>
+    <labels>
+        <fullName>Rcc_Upload_Error_Msg_Wrong_Template</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rcc_Upload_Error_Msg_Wrong_Template</shortDescription>
+        <value>Please Select the correct template</value>
+    </labels>
+    <labels>
+        <fullName>Restrict_ContactTeam_Creation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Restrict_ContactTeam_Creation</shortDescription>
+        <value>Client Contact Relationship Team members with the &apos;Key Account CSL&apos;, &apos;Key Account Co-CSL&apos; or &quot;Segment Leader&quot; role can only be added from the Key Account and &apos;Young CSL&apos; from client.</value>
+    </labels>
+    <labels>
+        <fullName>Restrict_ContactTeam_DeletionMsg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Restrict_ContactTeam_DeletionMsg</shortDescription>
+        <value>Client Contact Relationship Team members with the &apos;Key Account CSL&apos;, &apos;Key Account Co-CSL&apos; or &apos;Segment Leader&apos; role can only be deleted from the Key Account and &apos;Young CSL&apos; from client.</value>
+    </labels>
+    <labels>
+        <fullName>Restrict_Contact_Team_Member</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Restrict_Contact_Team_Member</shortDescription>
+        <value>Selected user is already added with the same role as a relationship team member.</value>
+    </labels>
+    <labels>
+        <fullName>Retry_API_Recipient</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Retry API Recipient</shortDescription>
+        <value>dhruv.puri@walkerchandiok.in</value>
+    </labels>
+    <labels>
+        <fullName>SFDX_Reminder_Set_Not_Modify</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>You are not allowed to edit the Reminder Set</shortDescription>
+        <value>You are not allowed to edit the Reminder Set.</value>
+    </labels>
+    <labels>
+        <fullName>Salesforce_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Salesforce URL</shortDescription>
+        <value>https://grantthornton--lkpauat.sandbox.lightning.force.com</value>
+    </labels>
+    <labels>
+        <fullName>Scan2SFDC_ErrorMsg_Body</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Scan2SFDC | Error Message - Body</shortDescription>
+        <value>The functionality of scanning the visiting card is only available through LinKreta mobile app</value>
+    </labels>
+    <labels>
+        <fullName>Scan2SFDC_ErrorMsg_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Scan2SFDC | Error Message - Title</shortDescription>
+        <value>Oops !</value>
+    </labels>
+    <labels>
+        <fullName>Sector_Section</fullName>
+        <categories>sector</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sector Section</shortDescription>
+        <value>Industry &amp; Sub Industry</value>
+    </labels>
+    <labels>
+        <fullName>Sfdx_EO_CreateOneCR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Notify to EO create a one campaign request</shortDescription>
+        <value>Please add at least one campaign before moving further.</value>
+    </labels>
+    <labels>
+        <fullName>Solution_Business_Team_Email_Ids</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Solution Business Team Email Ids</shortDescription>
+        <value>soumya.palchoudhuri@in.gt.com,meghna.ramchandani@in.gt.com</value>
+    </labels>
+    <labels>
+        <fullName>Submission_Comment_For_DS_Team_Approval_on_Client_Contact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submission Comment For DS Team Approval on Client Contact</shortDescription>
+        <value>Auto-submitted by the system.</value>
+    </labels>
+    <labels>
+        <fullName>Task_Edit_Error_Restrict_editing_Owner_of_task_for_Mark_Ecosystem</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Edit Error - Restrict editing Owner of task for Mark Ecosystem</shortDescription>
+        <value>You do not have permission to change assignee of this task</value>
+    </labels>
+    <labels>
+        <fullName>Task_Edit_Error_Restrict_editing_Status_of_task_for_Mark_Ecosystem</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Edit Error - Restrict editing Status of task for Mark Ecosystem</shortDescription>
+        <value>Only market ecosystem user can mark this task as completed</value>
+    </labels>
+    <labels>
+        <fullName>Validation_DS_Team_Approve_Record</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error When DS Team  Approve Enquiry Record</shortDescription>
+        <value>You cannot approve this record because Client and Client Contact is not Approved yet</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_EnquiryGeneratorRoleCanNotBeModified</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message if Enquiry generator Role is Modified</shortDescription>
+        <value>You cannot change the role of Finding Partner with Enquiry Generator role.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_EnquiryTeamCannotBeModifiedForClosedEnquiries</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message if enquiry team is modified for closed won / closed lost enquiries</shortDescription>
+        <value>You cannot modify the &apos;Enquiry Team&apos; for Closed Enquiry.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_EnquiryTeamMemberRoleCannotBeUpdated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_EnquiryTeamMember_EnquiryTeamMemberRoleCannotBeUpdated</shortDescription>
+        <value>If you want to edit the role, please contact EO/ME/GT-IT/Enquiry Generator</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_IfRole_Segment_Leader_Account_director</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_EnquiryTeamMember_IfRole_Segment_Leader_Account director</shortDescription>
+        <value>You are not allowed to Select a Segment Leader and Account Director. Please select another Role.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_KeyAccCSLCanOnlyBeAddedBySysAdmOrMarkestsEcosystems</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_EnquiryTeamMember_KeyAccCSLCanOnlyBeAddedBySysAdmOrMarkestsEcosystems</shortDescription>
+        <value>You cannot add Key Account - CSL on enquiry, please ask C&amp;M Team to add Key Account - CSL on Client.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_KeyAccCoCSLCanOnlyBeAddedBySysAdmOrMarkestsEco</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_EnquiryTeamMember_KeyAccCoCSLCanOnlyBeAddedBySysAdmOrMarkestsEco</shortDescription>
+        <value>You cannot add Key Account - Co-CSL on enquiry, please ask C&amp;M Team to add Key Account - Co-CSL on Client.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_KeyAccountCSLCannotBeAddedForNonKeyAccount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_EnquiryTeamMember_KeyAccountCSLCannotBeAddedForNonKeyAccount</shortDescription>
+        <value>You cannot add Finding Partner with &apos;Key Account - CSL&apos; role for Non-Key Account.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_KeyAccountCSLRoleCanNotBeModified</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_EnquiryTeamMember_KeyAccountCSLRoleCanNotBeModified</shortDescription>
+        <value>You cannot change the role of Finding Partner with Key Account - CSL role.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_KeyAccountCoCSLRoleCanNotBeModified</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_EnquiryTeamMember_KeyAccountCoCSLRoleCanNotBeModified</shortDescription>
+        <value>You cannot change the role of Finding Partner with Key Account - Co-CSL role.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_MoreThan11EnquiryTeamMembersCannotBeAdded</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_EnquiryTeamMember_MoreThan11EnquiryTeamMembersCannotBeAdded</shortDescription>
+        <value>You cannot add more than 11 Enquiry Team Members.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_OnlyOneTeamMmberWithEnquiryGeneratorRoleCanBeAdded</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message if more than 1 Enquiry Generator is added</shortDescription>
+        <value>Only 1 Enquiry Team Member with Enquiry Generator Role can be added.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_OtherRoleCannotHaveValueIfTeamRoleIsNotOther</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message when selected Role is Other and &apos;Other Role&apos; is not Blank</shortDescription>
+        <value>When the selected Role is not &quot;Other&quot;, the field named &quot;Other Role&quot; cannot have a value.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_TeamMemberCountWithOtherAsRoleIsMoreThan2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message When More than 2 Enquiry Team Members with Role as Other is Added</shortDescription>
+        <value>Only 2 Enquiry Team Members with Other Role can be added.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_TeamMemberWithEnquiryGeneratorRoleCannotBeDeleted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation EnquiryTeamMember TeamMemberWithEnquiryGeneratorRoleCannotBeDeleted</shortDescription>
+        <value>Enquiry Generator cannot be removed from Enquiry Team.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_TeamMemberWithKeyAccountCSLRoleCannotBeDeleted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_EnquiryTeamMember_TeamMemberWithKeyAccountCSLRoleCannotBeDeleted</shortDescription>
+        <value>Key Account - CSL cannot be removed from Enquiry Team.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_TeamMemberWithKeyAccountCoCSLRoleCannotBeDeleted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_EnquiryTeamMember_TeamMemberWithKeyAccountCoCSLRoleCannotBeDeleted</shortDescription>
+        <value>Key Account Co-CSL cannot be removed from Enquiry Team.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_EnquiryTeamMember_TeamRoleIsotherAndOtherRoleFieldIsBlank</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message for Enquiry Team Member When Team Role is other</shortDescription>
+        <value>When you select the Role as &quot;Other&quot;, you need to specify the role related information in the field named &quot;Other Role&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_ValidatEnquiryTeamMember_KeyAccountCoCSLCannotBeAddedForNonKeyAccount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_EnquiryTeamMember_KeyAccountCoCSLCannotBeAddedForNonKeyAccount</shortDescription>
+        <value>You cannot add Finding Partner with &apos;Key Account - Co-CSL&apos; role for Non-Key Account.</value>
+    </labels>
+    <labels>
+        <fullName>VisitingCardBody</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visiting Card Body</shortDescription>
+        <value>The functionality of scanning the visiting card is only available through LinKreta mobile app</value>
+    </labels>
+    <labels>
+        <fullName>VisitingCardTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Title of Visiting Card</shortDescription>
+        <value>Oops !</value>
+    </labels>
+    <labels>
+        <fullName>VisualMessageLWC_Alert</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VisualMessageLWC_Alert</shortDescription>
+        <value>Matching Client Found |</value>
+    </labels>
+    <labels>
+        <fullName>VisualMessageLWC_ClientName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VisualMessageLWC_ClientName</shortDescription>
+        <value>Client Name -</value>
+    </labels>
+    <labels>
+        <fullName>VisualMessageLWC_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VisualMessageLWC_Msg</shortDescription>
+        <value>Your new client has already been accepted by the Client council. Please proceed to create an Integrated Enquiry / Enquiry for your client.</value>
+    </labels>
+    <labels>
+        <fullName>WCC_Partner_Domain</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WCC Partner Domain</shortDescription>
+        <value>walkerchandiok.in</value>
+    </labels>
+    <labels>
+        <fullName>dhruvPuriUserId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dhruv Puri UserId used in Client Contact Validations</shortDescription>
+        <value>0055j000005XRmp</value>
+    </labels>
+    <labels>
+        <fullName>enquiryApprovalScreen_Header</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EnquiryApprovalScreen_Header</shortDescription>
+        <value>Please Resubmit for Approval</value>
+    </labels>
+    <labels>
+        <fullName>fsc_AccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccessLevel</shortDescription>
+        <value>Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Back</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ButtonIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ButtonIsNotSupportedMessage</shortDescription>
+        <value>Following buttons are note supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ConditionLogicHelpText</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ConditionLogicHelpText</shortDescription>
+        <value>Use parentheses, AND, OR, and NOT to customize the logic. For example, if you enter “(1 AND 2 AND 3) OR 4”, the flow evaluates whether the first three conditions are true or only the fourth condition is true.</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Delete</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FieldIsNotSupportedMessage</shortDescription>
+        <value>Following fields are not supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldTypeNotSuportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fsc_FieldTypeNotSuportedMessage</shortDescription>
+        <value>You provided an unsupported value for the DataTypeFilter input on Object and Field Picker. Currently the only supported value is ’picklist’</value>
+    </labels>
+    <labels>
+        <fullName>fsc_For</fullName>
+        <categories>Buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>For</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Key_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Key Label</shortDescription>
+        <value>Key</value>
+    </labels>
+    <labels>
+        <fullName>fsc_LackingPermissions</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LackingPermissions</shortDescription>
+        <value>You don\&apos;t have the proper permissions for ths action</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ManagerEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ManagerEmptyMessage</shortDescription>
+        <value>&quot;Manager APEX Class&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_MultipleGroupsForRole</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MultipleGroupsForRole</shortDescription>
+        <value>There are multiple groups for that role</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Name</fullName>
+        <categories>quicklinks, Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>fsc_NonePicklistValueLabel</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NonePicklistValueLabel</shortDescription>
+        <value>-- None --</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OWDReadWrite</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OWDReadWrite</shortDescription>
+        <value>Sharing Settings must be private or public read/write to enable manual sharing</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OwnerAdminModify</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OwnerAdminModify</shortDescription>
+        <value>Only the record owner or administrators can modify permissions</value>
+    </labels>
+    <labels>
+        <fullName>fsc_PublicGroups</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PublicGroups</shortDescription>
+        <value>Public Groups</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Queues</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queues</shortDescription>
+        <value>Queues</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Read</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Read</shortDescription>
+        <value>Read</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ReadWrite</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReadWrite</shortDescription>
+        <value>Read / Write</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Reason</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reason</shortDescription>
+        <value>Reason</value>
+    </labels>
+    <labels>
+        <fullName>fsc_RelatedUsers</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RelatedUsers</shortDescription>
+        <value>Related Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Roles</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Roles</shortDescription>
+        <value>Roles</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Search</fullName>
+        <categories>Actions,Buttons,quicklinks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search in</shortDescription>
+        <value>Search in</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SearchFor</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchFor</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SetAccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetAccessLevel</shortDescription>
+        <value>Set Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedAddCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedAddCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Add Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedButtonsEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedButtonsEmptyMessage</shortDescription>
+        <value>&quot;Supported Buttons&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedEditCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedEditCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Edit Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_TooManyResultsMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TooManyResultsMessage</shortDescription>
+        <value>Your search found more than 200 results.  Keep typing to make it more specific</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Type</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>fsc_UserOrGroup</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserOrGroup</shortDescription>
+        <value>User Or Group</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Users</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Users</shortDescription>
+        <value>Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Value_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Value Label</shortDescription>
+        <value>Value</value>
+    </labels>
+    <labels>
+        <fullName>referral</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>referral</shortDescription>
+        <value>Referral Information</value>
+    </labels>
+</CustomLabels>

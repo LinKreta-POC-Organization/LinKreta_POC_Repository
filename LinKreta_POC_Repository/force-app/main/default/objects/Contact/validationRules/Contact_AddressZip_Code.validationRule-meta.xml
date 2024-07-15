@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_AddressZip_Code</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(ISNEW()),
+    NOT(ISBLANK(Client_Location__PostalCode__s)),
+    LEN(Client_Location__PostalCode__s) &gt; 10
+)</errorConditionFormula>
+    <errorDisplayField>Client_Location__PostalCode__s</errorDisplayField>
+    <errorMessage>Character length should be less than 10.</errorMessage>
+</ValidationRule>

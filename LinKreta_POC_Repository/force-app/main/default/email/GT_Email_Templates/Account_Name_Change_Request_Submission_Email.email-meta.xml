@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Account Name Change Request Submission Email</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Account Name Change Request Submission Email</name>
+    <style>none</style>
+    <subject>Account Request for Name Change</subject>
+    <textOnly>Dear DS Team,
+
+You are requested to approve the request for Name Change {!Account_Requests__c.Client_Name__c}.
+
+Please click on the following link to access the request on LinKreta {!Account_Requests__c.Link}
+
+Note:- This is a system generated email. Please do not reply to this mail.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

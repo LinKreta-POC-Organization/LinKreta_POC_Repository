@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsTaskOpen__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>It will check for Open Tasks on Client Take On Stage. We are using it in Validation Rule to display error , if user try to Convert Lead without completing the open tasks.</description>
+    <externalId>false</externalId>
+    <label>Is Task Open</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

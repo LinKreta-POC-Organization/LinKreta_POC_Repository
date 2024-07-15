@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <assignments>
+        <name>Add_Delimiter_to_the_End</name>
+        <label>Add Delimiter to the End</label>
+        <locationX>50</locationX>
+        <locationY>350</locationY>
+        <assignmentItems>
+            <assignToReference>UnparsedText</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>DelimiterUsed</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_Unparsed_Text_Empty</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Add_Parsed_Value_to_Collection</name>
+        <label>Add Parsed Value to Collection</label>
+        <locationX>314</locationX>
+        <locationY>650</locationY>
+        <assignmentItems>
+            <assignToReference>ParsedText_SingleValue</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ParsedText_SingleValueFormula</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>ParsedText_SingleValueCollection</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>ParsedText_SingleValue</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Reset_Unparsed_Text</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Processed_Parsed_Text</name>
+        <label>Assign Processed &amp; Parsed Text</label>
+        <locationX>50</locationX>
+        <locationY>650</locationY>
+        <assignmentItems>
+            <assignToReference>ParsedTextCollection</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ParsedText_SingleValueCollection</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Text_Received_for_Parsing</name>
+        <label>Assign Text Received for Parsing</label>
+        <locationX>182</locationX>
+        <locationY>134</locationY>
+        <assignmentItems>
+            <assignToReference>UnparsedText</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>TextReceivedForParsing</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_Unparsed_Text_Delimited_Correctly</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Reset_Unparsed_Text</name>
+        <label>Reset Unparsed Text</label>
+        <locationX>314</locationX>
+        <locationY>758</locationY>
+        <assignmentItems>
+            <assignToReference>UnparsedText</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>UnparsedText_Updated</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <isGoTo>true</isGoTo>
+            <targetReference>Is_Unparsed_Text_Empty</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Is_Unparsed_Text_Delimited_Correctly</name>
+        <label>Is Unparsed Text Delimited Correctly?</label>
+        <locationX>182</locationX>
+        <locationY>242</locationY>
+        <defaultConnector>
+            <targetReference>Is_Unparsed_Text_Empty</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Delimited Correctly - Yes</defaultConnectorLabel>
+        <rules>
+            <name>Delimited_Correctly_No</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>UnparsedTextDelimitedCorrectly</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Add_Delimiter_to_the_End</targetReference>
+            </connector>
+            <label>Delimited Correctly - No</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_Unparsed_Text_Empty</name>
+        <label>Is Unparsed Text Empty?</label>
+        <locationX>182</locationX>
+        <locationY>542</locationY>
+        <defaultConnector>
+            <targetReference>Add_Parsed_Value_to_Collection</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Empty - No</defaultConnectorLabel>
+        <rules>
+            <name>Empty_Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>UnparsedText</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Processed_Parsed_Text</targetReference>
+            </connector>
+            <label>Empty - Yes</label>
+        </rules>
+    </decisions>
+    <description>This flow is used to parse a string into list of string.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>ParsedText_SingleValueFormula</name>
+        <dataType>String</dataType>
+        <expression>TRIM
+(                                                                                                         
+	SUBSTITUTE(LEFT( {!UnparsedText} , FIND({!DelimiterUsed},  {!UnparsedText} )),{!DelimiterUsed},&quot;&quot;)
+)</expression>
+    </formulas>
+    <formulas>
+        <name>UnparsedText_Updated</name>
+        <dataType>String</dataType>
+        <expression>TRIM
+(
+RIGHT({!UnparsedText}, len({!UnparsedText})-FIND({!DelimiterUsed}, {!UnparsedText}))
+)</expression>
+    </formulas>
+    <formulas>
+        <name>UnparsedTextDelimitedCorrectly</name>
+        <dataType>Boolean</dataType>
+        <expression>IF
+(
+	RIGHT({!UnparsedText},1) = {!DelimiterUsed},
+	TRUE,
+	FALSE
+)</expression>
+    </formulas>
+    <interviewLabel>General Purpose | Parse a string into list of String {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>General Purpose | Parse a String into list of String</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <runInMode>SystemModeWithoutSharing</runInMode>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Assign_Text_Received_for_Parsing</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>DelimiterUsed</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>ParsedText_SingleValue</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>ParsedText_SingleValueCollection</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>ParsedTextCollection</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>TextReceivedForParsing</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>UnparsedText</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

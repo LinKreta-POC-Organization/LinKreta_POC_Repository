@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segment_Leader_Mapped__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Temporary Field</description>
+    <externalId>false</externalId>
+    <label>Segment Leader Mapped</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

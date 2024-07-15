@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Chamber / Association contact who has referred the new client --></help>
+    <label><!-- Chamber contacts --></label>
+    <name>Chamber_contacts__c</name>
+    <relationshipLabel><!-- New Clients (Chamber contacts) --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>GT Competitor</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>GT Competitors</value>
+    </caseValues>
+    <layouts>
+        <layout>GT competitor Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Strength and Weakness --></label>
+            <section>Strength and Weakness</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Character size should not be greater than 500 --></errorMessage>
+        <name>Character_Limit_Competitor_Strength</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Character size should not be greater than 500 --></errorMessage>
+        <name>Character_Limit_Competitor_Weakness</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Character size should not be greater than 500 --></errorMessage>
+        <name>Character_Limit_Remarks</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You are Restricted to add/edit GT Competitor. --></errorMessage>
+        <name>RestrictGTCompetitor</name>
+    </validationRules>
+</CustomObjectTranslation>

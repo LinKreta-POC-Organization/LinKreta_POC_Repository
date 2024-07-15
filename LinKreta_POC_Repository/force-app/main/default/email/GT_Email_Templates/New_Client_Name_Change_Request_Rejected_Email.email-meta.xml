@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>New Client Name Change Request Rejected Email</name>
+    <style>none</style>
+    <subject>New Client Name Change Request Rejected</subject>
+    <textOnly>Dear {!Lead.OwnerFullName},
+
+Your request to change the Account name for {!Lead.Company}  has been rejected due to the following reasons: {!Lead.Reason_Description__c}
+Request you to look into this.
+
+Note:- This is a system generated email. Please do not reply to this mail.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

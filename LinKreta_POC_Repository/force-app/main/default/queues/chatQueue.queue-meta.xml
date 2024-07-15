@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>chatQueue</name>
+    <queueMembers>
+        <users>
+            <user>rohitash705@techmatrixconsulting.in</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>chat_bot_Routing</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>AgentWork</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>LiveAgentSession</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>LiveChatTranscript</sobjectType>
+    </queueSobject>
+</Queue>

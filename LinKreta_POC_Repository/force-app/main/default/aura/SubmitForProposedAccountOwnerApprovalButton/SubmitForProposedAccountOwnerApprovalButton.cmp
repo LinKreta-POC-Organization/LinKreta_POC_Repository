@@ -1,0 +1,10 @@
+<aura:component controller="SubmitForApprovalButtonController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<aura:attribute name="recordId" type="Id"/>
+    <aura:attribute name="myVal" type="String" />
+    <div class="textarea">
+         <lightning:textarea name="input3" value="{!v.myVal}" label="Comments" placeholder="type here..."/>
+    </div>
+    <div class="slds-float_right" style="margin-top: 5px;">
+        <lightning:button variant="brand" label="Submit" title="Brand action" onclick="{! c.submitComments}"/>
+    </div>
+</aura:component>

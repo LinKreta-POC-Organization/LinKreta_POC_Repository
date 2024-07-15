@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Account</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>Account Status Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Status__c</fieldNames>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Post DS approval, account becomes &amp;#39;Active&amp;#39;&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Active</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Status__c</fieldNames>
+        <fieldNames>Reason__c</fieldNames>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Account can be marked &amp;#39;Inactive&amp;#39; manually by NSL and C&amp;amp;M.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Inactive</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>GT_Client_Group__c</fieldNames>
+        <info>&lt;p&gt;Client Owner will tag GT client group &lt;/p&gt;&lt;p&gt;Client Owner will submit for DS approval&lt;/p&gt;&lt;p&gt;Click on the &amp;#39;Enrich Data from External Database&amp;#39; button&lt;/p&gt;</info>
+        <picklistValueName>New Client Creation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>GT_Client_Group__c</fieldNames>
+        <fieldNames>DS_Team_Approval_Rejection_Remarks__c</fieldNames>
+        <fieldNames>Remark__c</fieldNames>
+        <fieldNames>DS_Team_Approval_Rejection_Date__c</fieldNames>
+        <fieldNames>Client_Category__c</fieldNames>
+        <info>&lt;p&gt;DS team will review the Client /GT Client Group relationship&lt;/p&gt;&lt;p&gt;DS team will add additional info&lt;/p&gt;</info>
+        <picklistValueName>Pending Verification</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Client</recordTypeName>
+</PathAssistant>

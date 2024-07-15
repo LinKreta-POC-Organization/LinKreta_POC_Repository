@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter a number value here for the height of the Introhive panel Lightning component; empty will default to 600. --></help>
+    <label><!-- Panel Height --></label>
+    <name>IntroHive__PANEL_HEIGHT__c</name>
+</CustomFieldTranslation>

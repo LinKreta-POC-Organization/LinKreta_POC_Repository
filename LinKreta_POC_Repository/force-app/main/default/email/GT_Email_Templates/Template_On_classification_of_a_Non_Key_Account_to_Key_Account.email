@@ -1,0 +1,6 @@
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Dear {recipient.name}, 
+,</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">The Non-Key Account {!Account.Name} has been classified into a Key Account. Kindly request you to make a note.</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri"><span style="color:red;font-weight:bold">Note:- This is a system generated email. Please do not reply to this mail.</span></span></span></p>

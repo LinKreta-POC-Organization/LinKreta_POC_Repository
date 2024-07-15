@@ -1,0 +1,8 @@
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Dear [Recipeint User],</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">The Account Name for {!Account.Name} has been changed. The change is from {!Account.Formerly_Known_As__c} to {!Account.Name}. <br/></span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Please click on the following link to access the account on LinKreta,
+{!Account.Link}</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri"><span style="color:red;font-weight:bold">Note:- This is a system generated email. Please do not reply to this mail.</span></span></span></p>

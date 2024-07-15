@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>Monitoring_App_Icon</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Displays APDEX and Availability monitors of features on configured Salesforce Orgs</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Monitoring</label>
+    <navType>Standard</navType>
+    <tabs>Feature_Monitoring</tabs>
+    <tabs>OrgAvailabilityMonitor__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Feature_Monitoring_UtilityBar</utilityBar>
+</CustomApplication>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Entity_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Entity Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Artificial juridical person</fullName>
+                <default>false</default>
+                <label>Artificial juridical person</label>
+            </value>
+            <value>
+                <fullName>Association of persons</fullName>
+                <default>false</default>
+                <label>Association of persons</label>
+            </value>
+            <value>
+                <fullName>Banking Company</fullName>
+                <default>false</default>
+                <label>Banking Company</label>
+            </value>
+            <value>
+                <fullName>Body of Individuals</fullName>
+                <default>false</default>
+                <label>Body of Individuals</label>
+            </value>
+            <value>
+                <fullName>Co-operative Society</fullName>
+                <default>false</default>
+                <label>Co-operative Society</label>
+            </value>
+            <value>
+                <fullName>Corporation</fullName>
+                <default>false</default>
+                <label>Corporation</label>
+            </value>
+            <value>
+                <fullName>Domestic Co. - Public Ltd.</fullName>
+                <default>false</default>
+                <label>Domestic Co. - Public Ltd.</label>
+            </value>
+            <value>
+                <fullName>Domestic Co. - Public Ltd. by Guarantee</fullName>
+                <default>false</default>
+                <label>Domestic Co. - Public Ltd. by Guarantee</label>
+            </value>
+            <value>
+                <fullName>Domestic Co. - Public Ltd.-Listed India</fullName>
+                <default>false</default>
+                <label>Domestic Co. - Public Ltd.-Listed India</label>
+            </value>
+            <value>
+                <fullName>Domestic Co. - Public Ltd. - Listed India &amp; overseas</fullName>
+                <default>false</default>
+                <label>Domestic Co. - Public Ltd. - Listed India &amp; overseas</label>
+            </value>
+            <value>
+                <fullName>Domestic Co. - Public Ltd. - PSU</fullName>
+                <default>false</default>
+                <label>Domestic Co. - Public Ltd. - PSU</label>
+            </value>
+            <value>
+                <fullName>Domestic Co. - Pvt. Ltd.</fullName>
+                <default>false</default>
+                <label>Domestic Co. - Pvt. Ltd.</label>
+            </value>
+            <value>
+                <fullName>Domestic Co. - Pvt. Ltd. by Guarantee</fullName>
+                <default>false</default>
+                <label>Domestic Co. - Pvt. Ltd. by Guarantee</label>
+            </value>
+            <value>
+                <fullName>Domestic Co. - Pvt. Ltd. - subsidiary of Foreign Co.</fullName>
+                <default>false</default>
+                <label>Domestic Co. - Pvt. Ltd. - subsidiary of Foreign Co.</label>
+            </value>
+            <value>
+                <fullName>Domestic Co. - Pvt. Ltd. - subsidiary of Public Ltd. Co.</fullName>
+                <default>false</default>
+                <label>Domestic Co. - Pvt. Ltd. - subsidiary of Public Ltd. Co.</label>
+            </value>
+            <value>
+                <fullName>Domestic Co. - Pvt. Unlimited Liability</fullName>
+                <default>false</default>
+                <label>Domestic Co. - Pvt. Unlimited Liability</label>
+            </value>
+            <value>
+                <fullName>Domestic Co. - Section 25</fullName>
+                <default>false</default>
+                <label>Domestic Co. - Section 25</label>
+            </value>
+            <value>
+                <fullName>Foreign Co.- Grant Thornton member entity</fullName>
+                <default>false</default>
+                <label>Foreign Co.- Grant Thornton member entity</label>
+            </value>
+            <value>
+                <fullName>Foreign Co. - Indian Branch</fullName>
+                <default>false</default>
+                <label>Foreign Co. - Indian Branch</label>
+            </value>
+            <value>
+                <fullName>Foreign Co. - Indian Liaison</fullName>
+                <default>false</default>
+                <label>Foreign Co. - Indian Liaison</label>
+            </value>
+            <value>
+                <fullName>Foreign Co. - Indian Project</fullName>
+                <default>false</default>
+                <label>Foreign Co. - Indian Project</label>
+            </value>
+            <value>
+                <fullName>Foreign Co.- only foreign operations</fullName>
+                <default>false</default>
+                <label>Foreign Co.- only foreign operations</label>
+            </value>
+            <value>
+                <fullName>Foreign Co -Listed non-US</fullName>
+                <default>false</default>
+                <label>Foreign Co -Listed non-US</label>
+            </value>
+            <value>
+                <fullName>Foreign Co -Listed US</fullName>
+                <default>false</default>
+                <label>Foreign Co -Listed US</label>
+            </value>
+            <value>
+                <fullName>Foreign company unlisted</fullName>
+                <default>false</default>
+                <label>Foreign company unlisted</label>
+            </value>
+            <value>
+                <fullName>Government Authority</fullName>
+                <default>false</default>
+                <label>Government Authority</label>
+            </value>
+            <value>
+                <fullName>Government – Foreign</fullName>
+                <default>false</default>
+                <label>Government – Foreign</label>
+            </value>
+            <value>
+                <fullName>Government – Indian</fullName>
+                <default>false</default>
+                <label>Government – Indian</label>
+            </value>
+            <value>
+                <fullName>Hindu Undivided Family</fullName>
+                <default>false</default>
+                <label>Hindu Undivided Family</label>
+            </value>
+            <value>
+                <fullName>Individual</fullName>
+                <default>false</default>
+                <label>Individual</label>
+            </value>
+            <value>
+                <fullName>Institution</fullName>
+                <default>false</default>
+                <label>Institution</label>
+            </value>
+            <value>
+                <fullName>Insurance Company</fullName>
+                <default>false</default>
+                <label>Insurance Company</label>
+            </value>
+            <value>
+                <fullName>International donor or aid agency or fund</fullName>
+                <default>false</default>
+                <label>International donor or aid agency or fund</label>
+            </value>
+            <value>
+                <fullName>International Network Firm</fullName>
+                <default>false</default>
+                <label>International Network Firm</label>
+            </value>
+            <value>
+                <fullName>Local Authority</fullName>
+                <default>false</default>
+                <label>Local Authority</label>
+            </value>
+            <value>
+                <fullName>Partnership - Firm</fullName>
+                <default>false</default>
+                <label>Partnership - Firm</label>
+            </value>
+            <value>
+                <fullName>Partnership - Limited liability</fullName>
+                <default>false</default>
+                <label>Partnership - Limited liability</label>
+            </value>
+            <value>
+                <fullName>Public Financial Institutions</fullName>
+                <default>false</default>
+                <label>Public Financial Institutions</label>
+            </value>
+            <value>
+                <fullName>Public Sector Undertaking</fullName>
+                <default>false</default>
+                <label>Public Sector Undertaking</label>
+            </value>
+            <value>
+                <fullName>Regulatory Authority</fullName>
+                <default>false</default>
+                <label>Regulatory Authority</label>
+            </value>
+            <value>
+                <fullName>Society</fullName>
+                <default>false</default>
+                <label>Society</label>
+            </value>
+            <value>
+                <fullName>Transnational organisation</fullName>
+                <default>false</default>
+                <label>Transnational organisation</label>
+            </value>
+            <value>
+                <fullName>Trust</fullName>
+                <default>false</default>
+                <label>Trust</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

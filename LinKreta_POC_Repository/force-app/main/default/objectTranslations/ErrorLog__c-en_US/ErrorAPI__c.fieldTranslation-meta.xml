@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is useful for Showing the Detail Page through Dynamic Form --></help>
+    <label><!-- Error/API --></label>
+    <name>ErrorAPI__c</name>
+</CustomFieldTranslation>

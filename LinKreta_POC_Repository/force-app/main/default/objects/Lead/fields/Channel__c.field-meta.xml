@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Source of the Client</inlineHelpText>
+    <label>Referral Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>LeadSource</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Channel</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Website</controllingFieldValue>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <controllingFieldValue>Chat Bot</controllingFieldValue>
+            <valueName>Digital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>Academia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>Alumni</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>Banking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>BO &amp; family office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>CA Firms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <controllingFieldValue>Campaign</controllingFieldValue>
+            <valueName>Campaign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>CFO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>Chamber</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>CHRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>CIO CDO CISO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>Client Referral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>CMO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>Cross Sell</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>GCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>Key Account Leaders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>Law Firm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>Member Firms Leaders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>NEDs &amp; ACs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>PEVC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>PMOs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>Regulators</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>Specialised Advisory Firms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <valueName>Tech Alliances</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

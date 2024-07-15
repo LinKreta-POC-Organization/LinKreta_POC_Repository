@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Reason for Inactive --></label>
+    <name>Reason_for_Inactive__c</name>
+    <picklistValues>
+        <masterLabel>Defaulter</masterLabel>
+        <translation><!-- Defaulter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Longer attached with this Client</masterLabel>
+        <translation><!-- No Longer attached with this Client --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

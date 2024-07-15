@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LEGAL_ENTITY_DISPLAY_INVOICE__c</fullName>
+    <description>LEGAL_ENTITY_DISPLAY_INVOICE</description>
+    <externalDeveloperName>LEGAL_ENTITY_DISPLAY_INVOICE</externalDeveloperName>
+    <externalId>false</externalId>
+    <isFilteringDisabled>false</isFilteringDisabled>
+    <isNameField>false</isNameField>
+    <isSortingDisabled>false</isSortingDisabled>
+    <label>LEGAL_ENTITY_DISPLAY_INVOICE</label>
+    <length>500</length>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

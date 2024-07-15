@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IntroHive__Only_Contact_Or_Lead_Not_Both</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT (ISBLANK(IntroHive__Contact_To__c)  ||
+ISBLANK(IntroHive__Lead_To__c))</errorConditionFormula>
+    <errorMessage>Either Contact_To or Lead_To should set, but not both</errorMessage>
+</ValidationRule>

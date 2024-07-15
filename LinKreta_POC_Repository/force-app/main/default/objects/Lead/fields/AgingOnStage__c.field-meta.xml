@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AgingOnStage__c</fullName>
+    <description>It depicts the aging of particular lead stage.</description>
+    <externalId>false</externalId>
+    <formula>IMAGE
+(
+IF(AND(AgingAsOnCreatedDateInDays__c &lt;=2, AgingAsOnCreatedDateInDays__c &gt;=0),&quot;/resource/1658308831000/Pass&quot;, IF(AND(AgingAsOnCreatedDateInDays__c &gt;=3, AgingAsOnCreatedDateInDays__c &lt;=5),&quot;/resource/1661398620000/AgingAmber?&quot;, IF(AND(AgingAsOnCreatedDateInDays__c &gt;=6, AgingAsOnCreatedDateInDays__c &lt;=12),&quot;/resource/1661398178000/AgingRed?&quot;,&quot;&quot;) )
+
+),
+&quot;&quot;,15, 15
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Days spent on the current stage</inlineHelpText>
+    <label>Aging On Stage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

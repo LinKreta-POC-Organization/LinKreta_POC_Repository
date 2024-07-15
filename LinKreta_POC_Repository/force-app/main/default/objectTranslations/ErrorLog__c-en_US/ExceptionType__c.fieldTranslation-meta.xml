@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The type of error occurred. Helpful in resolving it. --></help>
+    <label><!-- Exception Type --></label>
+    <name>ExceptionType__c</name>
+</CustomFieldTranslation>

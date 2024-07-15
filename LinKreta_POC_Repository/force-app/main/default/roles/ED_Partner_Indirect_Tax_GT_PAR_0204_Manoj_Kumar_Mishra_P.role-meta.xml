@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>ED/Partner (Indirect Tax)_GT-PAR-0204_Manoj Kumar Mishra(P)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ED/Partner (Indirect Tax)_GT-PAR-0204_Manoj Kumar Mishra(P)</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>ED_Partner_Indirect_Tax_GT_EMP_3993_Sindhu_S_Nair_EA</parentRole>
+</Role>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enquiry_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Enquiry Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Internal / External Discussions</fullName>
+                <default>false</default>
+                <label>Internal / External Discussions</label>
+            </value>
+            <value>
+                <fullName>Identify/Create Enquiry</fullName>
+                <default>false</default>
+                <label>Identify/Create Enquiry</label>
+            </value>
+            <value>
+                <fullName>Determine Problem &amp; Impact</fullName>
+                <default>false</default>
+                <label>Determine Problem &amp; Impact</label>
+            </value>
+            <value>
+                <fullName>Validate Benefits &amp; Value</fullName>
+                <default>false</default>
+                <label>Validate Benefits &amp; Value</label>
+            </value>
+            <value>
+                <fullName>Confirm Value With Client</fullName>
+                <default>false</default>
+                <label>Confirm Value With Client</label>
+            </value>
+            <value>
+                <fullName>Negotiation &amp; Mutual Plan</fullName>
+                <default>false</default>
+                <label>Negotiation &amp; Mutual Plan</label>
+            </value>
+            <value>
+                <fullName>Nurture &amp; Finalizing Closure</fullName>
+                <default>false</default>
+                <label>Nurture &amp; Finalizing Closure</label>
+            </value>
+            <value>
+                <fullName>Closed Won</fullName>
+                <default>false</default>
+                <label>Closed Won</label>
+            </value>
+            <value>
+                <fullName>Closed Lost</fullName>
+                <default>false</default>
+                <label>Closed Lost</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

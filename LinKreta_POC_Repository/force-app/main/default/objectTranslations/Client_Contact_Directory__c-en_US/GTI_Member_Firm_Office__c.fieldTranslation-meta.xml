@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- GTI Member Firm Office --></label>
+    <name>GTI_Member_Firm_Office__c</name>
+</CustomFieldTranslation>

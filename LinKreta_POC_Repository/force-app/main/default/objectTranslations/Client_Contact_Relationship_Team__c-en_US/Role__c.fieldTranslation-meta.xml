@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Role --></label>
+    <name>Role__c</name>
+    <picklistValues>
+        <masterLabel>Industry Leader</masterLabel>
+        <translation><!-- Industry Leader --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Key Account – CSL</masterLabel>
+        <translation><!-- Key Account – CSL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Key Account – Co-CSL</masterLabel>
+        <translation><!-- Key Account – Co-CSL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Record Creator</masterLabel>
+        <translation><!-- Record Creator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Segment Leader</masterLabel>
+        <translation><!-- Segment Leader --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Young CSL</masterLabel>
+        <translation><!-- Young CSL --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Client Contact Directory</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Client Contact Directory</value>
+    </caseValues>
+    <layouts>
+        <layout>Client Contact Directory Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Client Contact Information --></label>
+            <section>Client Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Type Information --></label>
+            <section>Contact Type Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DS Team Approval Information --></label>
+            <section>DS Team Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- Directorship Details --></label>
+            <section>Directorship Details</section>
+        </sections>
+        <sections>
+            <label><!-- Key Account Details --></label>
+            <section>Key Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- New Client Details --></label>
+            <section>New Client Details</section>
+        </sections>
+        <sections>
+            <label><!-- Referral Information --></label>
+            <section>Referral Information</section>
+        </sections>
+        <sections>
+            <label><!-- Sector and Segment --></label>
+            <section>Sector and Segment</section>
+        </sections>
+        <sections>
+            <label><!-- Social Information --></label>
+            <section>Social Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

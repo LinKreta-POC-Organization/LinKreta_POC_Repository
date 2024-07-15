@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email Template for Add the finding partners</name>
+    <style>none</style>
+    <subject>Add the finding partners</subject>
+    <textOnly>Dear {!Receiving_User.Name},
+
+You have a pending task to add the Finding Partners to the Enquiry team.
+Please click on the following link to access the enquiry on LinKreta,
+
+{!Task.Link}
+
+Note:- This is a system generated email. Please do not reply to this mail.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

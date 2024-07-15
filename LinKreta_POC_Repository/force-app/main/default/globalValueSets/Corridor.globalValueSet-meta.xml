@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Israel Corridor</fullName>
+        <default>false</default>
+        <label>Israel Corridor</label>
+    </customValue>
+    <customValue>
+        <fullName>Japan Corridor</fullName>
+        <default>false</default>
+        <label>Japan Corridor</label>
+    </customValue>
+    <customValue>
+        <fullName>United Kingdom Corridor</fullName>
+        <default>false</default>
+        <label>United Kingdom Corridor</label>
+    </customValue>
+    <customValue>
+        <fullName>United States Corridor</fullName>
+        <default>false</default>
+        <label>United States Corridor</label>
+    </customValue>
+    <customValue>
+        <fullName>Australia Corridor</fullName>
+        <default>false</default>
+        <label>Australia Corridor</label>
+    </customValue>
+    <customValue>
+        <fullName>East Africa Corridor</fullName>
+        <default>false</default>
+        <label>East Africa Corridor</label>
+    </customValue>
+    <customValue>
+        <fullName>GCC &amp; ME Corridor</fullName>
+        <default>false</default>
+        <label>GCC &amp; ME Corridor</label>
+    </customValue>
+    <customValue>
+        <fullName>Germany Corridor</fullName>
+        <default>false</default>
+        <label>Germany Corridor</label>
+    </customValue>
+    <customValue>
+        <fullName>NA</fullName>
+        <default>false</default>
+        <label>NA</label>
+    </customValue>
+    <customValue>
+        <fullName>Others</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Others</label>
+    </customValue>
+    <customValue>
+        <fullName>UK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>UK</label>
+    </customValue>
+    <customValue>
+        <fullName>Africa</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Africa</label>
+    </customValue>
+    <customValue>
+        <fullName>Germany &amp; EU(desk</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Germany &amp; EU(desk</label>
+    </customValue>
+    <customValue>
+        <fullName>China</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>China</label>
+    </customValue>
+    <customValue>
+        <fullName>Europe-Germany</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Europe-Germany</label>
+    </customValue>
+    <customValue>
+        <fullName>GCE &amp; ME</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GCE &amp; ME</label>
+    </customValue>
+    <customValue>
+        <fullName>Germany &amp; EU(desk)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Germany &amp; EU(desk)</label>
+    </customValue>
+    <customValue>
+        <fullName>Singapore</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Singapore</label>
+    </customValue>
+    <customValue>
+        <fullName>US</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>US</label>
+    </customValue>
+    <masterLabel>Corridor</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

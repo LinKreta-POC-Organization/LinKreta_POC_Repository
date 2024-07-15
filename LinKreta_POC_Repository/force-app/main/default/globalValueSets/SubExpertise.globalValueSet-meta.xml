@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Analytics</fullName>
+        <default>false</default>
+        <label>Analytics</label>
+    </customValue>
+    <customValue>
+        <fullName>Attest Services</fullName>
+        <default>false</default>
+        <label>Attest Services</label>
+    </customValue>
+    <customValue>
+        <fullName>BFSI Tax</fullName>
+        <default>false</default>
+        <label>BFSI Tax</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Intelligence and Information Management (BIIM)</fullName>
+        <default>false</default>
+        <label>Business Intelligence and Information Management (BIIM)</label>
+    </customValue>
+    <customValue>
+        <fullName>Compliance &amp; Outsourcing</fullName>
+        <default>false</default>
+        <label>Compliance &amp; Outsourcing</label>
+    </customValue>
+    <customValue>
+        <fullName>Consulting</fullName>
+        <default>false</default>
+        <label>Consulting</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate Intelligence</fullName>
+        <default>false</default>
+        <label>Corporate Intelligence</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer, marketing and sales</fullName>
+        <default>false</default>
+        <label>Customer, marketing and sales</label>
+    </customValue>
+    <customValue>
+        <fullName>CYBER</fullName>
+        <default>false</default>
+        <label>CYBER</label>
+    </customValue>
+    <customValue>
+        <fullName>DGTL</fullName>
+        <default>false</default>
+        <label>DGTL</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital</fullName>
+        <default>false</default>
+        <label>Digital</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital CoE</fullName>
+        <default>false</default>
+        <label>Digital CoE</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct Tax</fullName>
+        <default>false</default>
+        <label>Direct Tax</label>
+    </customValue>
+    <customValue>
+        <fullName>Due Diligence</fullName>
+        <default>false</default>
+        <label>Due Diligence</label>
+    </customValue>
+    <customValue>
+        <fullName>Enterprise Transformation and Optimisation</fullName>
+        <default>false</default>
+        <label>Enterprise Transformation and Optimisation</label>
+    </customValue>
+    <customValue>
+        <fullName>ESG</fullName>
+        <default>false</default>
+        <label>ESG</label>
+    </customValue>
+    <customValue>
+        <fullName>Forensic</fullName>
+        <default>false</default>
+        <label>Forensic</label>
+    </customValue>
+    <customValue>
+        <fullName>FRAS</fullName>
+        <default>false</default>
+        <label>FRAS</label>
+    </customValue>
+    <customValue>
+        <fullName>FS Consulting</fullName>
+        <default>false</default>
+        <label>FS Consulting</label>
+    </customValue>
+    <customValue>
+        <fullName>FS Risk</fullName>
+        <default>false</default>
+        <label>FS Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>GD AUS</fullName>
+        <default>false</default>
+        <label>GD AUS</label>
+    </customValue>
+    <customValue>
+        <fullName>GDUK</fullName>
+        <default>false</default>
+        <label>GDUK</label>
+    </customValue>
+    <customValue>
+        <fullName>GDUSA</fullName>
+        <default>false</default>
+        <label>GDUSA</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Audit Delivery</fullName>
+        <default>false</default>
+        <label>Global Audit Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Mobility Services</fullName>
+        <default>false</default>
+        <label>Global Mobility Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Tax Delivery</fullName>
+        <default>false</default>
+        <label>Global Tax Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>Governance Risk &amp; Operations (GRO)</fullName>
+        <default>false</default>
+        <label>Governance Risk &amp; Operations (GRO)</label>
+    </customValue>
+    <customValue>
+        <fullName>GRC</fullName>
+        <default>false</default>
+        <label>GRC</label>
+    </customValue>
+    <customValue>
+        <fullName>GT International</fullName>
+        <default>false</default>
+        <label>GT International</label>
+    </customValue>
+    <customValue>
+        <fullName>GTUSA</fullName>
+        <default>false</default>
+        <label>GTUSA</label>
+    </customValue>
+    <customValue>
+        <fullName>HCC</fullName>
+        <default>false</default>
+        <label>HCC</label>
+    </customValue>
+    <customValue>
+        <fullName>IKCC - Audit CoE</fullName>
+        <default>false</default>
+        <label>IKCC - Audit CoE</label>
+    </customValue>
+    <customValue>
+        <fullName>IKCC - CFOS CoE</fullName>
+        <default>false</default>
+        <label>IKCC - CFOS CoE</label>
+    </customValue>
+    <customValue>
+        <fullName>Indirect Tax</fullName>
+        <default>false</default>
+        <label>Indirect Tax</label>
+    </customValue>
+    <customValue>
+        <fullName>Information Technology Serv</fullName>
+        <default>false</default>
+        <label>Information Technology Serv</label>
+    </customValue>
+    <customValue>
+        <fullName>IT Advisory</fullName>
+        <default>false</default>
+        <label>IT Advisory</label>
+    </customValue>
+    <customValue>
+        <fullName>Lead Advisory</fullName>
+        <default>false</default>
+        <label>Lead Advisory</label>
+    </customValue>
+    <customValue>
+        <fullName>Learning Solutions</fullName>
+        <default>false</default>
+        <label>Learning Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>National Management</fullName>
+        <default>false</default>
+        <label>National Management</label>
+    </customValue>
+    <customValue>
+        <fullName>NC Public Sector</fullName>
+        <default>false</default>
+        <label>NC Public Sector</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Client Service</fullName>
+        <default>false</default>
+        <label>Private Client Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Sector</fullName>
+        <default>false</default>
+        <label>Public Sector</label>
+    </customValue>
+    <customValue>
+        <fullName>Recovery &amp; Reorganisation</fullName>
+        <default>false</default>
+        <label>Recovery &amp; Reorganisation</label>
+    </customValue>
+    <customValue>
+        <fullName>Technology Transformation</fullName>
+        <default>false</default>
+        <label>Technology Transformation</label>
+    </customValue>
+    <customValue>
+        <fullName>Transaction Tax</fullName>
+        <default>false</default>
+        <label>Transaction Tax</label>
+    </customValue>
+    <customValue>
+        <fullName>Transfer Pricing</fullName>
+        <default>false</default>
+        <label>Transfer Pricing</label>
+    </customValue>
+    <customValue>
+        <fullName>US Tax</fullName>
+        <default>false</default>
+        <label>US Tax</label>
+    </customValue>
+    <customValue>
+        <fullName>Valuations</fullName>
+        <default>false</default>
+        <label>Valuations</label>
+    </customValue>
+    <customValue>
+        <fullName>Workforce Transformation</fullName>
+        <default>false</default>
+        <label>Workforce Transformation</label>
+    </customValue>
+    <customValue>
+        <fullName>IT Advisory/IT Risk Assurance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IT Advisory/IT Risk Assurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Blockchain solution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Blockchain solution</label>
+    </customValue>
+    <customValue>
+        <fullName>Skills of the Future</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Skills of the Future</label>
+    </customValue>
+    <customValue>
+        <fullName>Intelligent automation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Intelligent automation</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital risk</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Digital risk</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital operations</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Digital operations</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital GBS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Digital GBS</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital finance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Digital finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Data analytics and visualization</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Data analytics and visualization</label>
+    </customValue>
+    <customValue>
+        <fullName>Asset tracing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Asset tracing</label>
+    </customValue>
+    <customValue>
+        <fullName>Insolvency services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Insolvency services</label>
+    </customValue>
+    <customValue>
+        <fullName>IBR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IBR</label>
+    </customValue>
+    <customValue>
+        <fullName>Debt advisory</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Debt advisory</label>
+    </customValue>
+    <customValue>
+        <fullName>Smart Cities Mission</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Smart Cities Mission</label>
+    </customValue>
+    <customValue>
+        <fullName>Development Positive</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Development Positive</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales transformation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sales transformation</label>
+    </customValue>
+    <customValue>
+        <fullName>Human Capital Consulting</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Human Capital Consulting</label>
+    </customValue>
+    <customValue>
+        <fullName>Organization Effectiveness</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Organization Effectiveness</label>
+    </customValue>
+    <customValue>
+        <fullName>Deal Advisory</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Deal Advisory</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Consulting</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Business Consulting</label>
+    </customValue>
+    <customValue>
+        <fullName>Union Budget</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Union Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Financial Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Sample Sub expert 45</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sample Sub expert 45</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct tax services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Direct tax services</label>
+    </customValue>
+    <customValue>
+        <fullName>IT risk advisory services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IT risk advisory services</label>
+    </customValue>
+    <customValue>
+        <fullName>Forensic &amp; Investigation Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Forensic &amp; Investigation Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Governance, Risk &amp;amp; Operations</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Governance, Risk &amp;amp; Operations</label>
+    </customValue>
+    <customValue>
+        <fullName>Risk</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial Statement Audit and Attestation Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Financial Statement Audit and Attestation Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial Reporting Advisory Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Financial Reporting Advisory Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Forensic &amp;amp; Investigation Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Forensic &amp;amp; Investigation Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Governance, Risk &amp; Operations</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Governance, Risk &amp; Operations</label>
+    </customValue>
+    <customValue>
+        <fullName>Indirect tax services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Indirect tax services</label>
+    </customValue>
+    <customValue>
+        <fullName>Sample Sub expert 47</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sample Sub expert 47</label>
+    </customValue>
+    <customValue>
+        <fullName>Sample Sub expert 48</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sample Sub expert 48</label>
+    </customValue>
+    <customValue>
+        <fullName>Sample Sub expert 1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sample Sub expert 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Sample Sub expert 46</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sample Sub expert 46</label>
+    </customValue>
+    <customValue>
+        <fullName>IPO Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IPO Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Client Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Private Client Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Labour codes</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Labour codes</label>
+    </customValue>
+    <customValue>
+        <fullName>Overseas listing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Overseas listing</label>
+    </customValue>
+    <customValue>
+        <fullName>Production Linked Incentive Scheme</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Production Linked Incentive Scheme</label>
+    </customValue>
+    <customValue>
+        <fullName>Related Party Transaction Governance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Related Party Transaction Governance</label>
+    </customValue>
+    <description>It contains the information of sub expertise related to particular expertise</description>
+    <masterLabel>Sub Expertise</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

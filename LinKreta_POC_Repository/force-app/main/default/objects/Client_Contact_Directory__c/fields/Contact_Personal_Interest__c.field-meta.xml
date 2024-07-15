@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Personal_Interest__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( INCLUDES ( Client_Contact__r.Contact_Personal_Interest__c , &quot;Wine connoisseur&quot; ), &quot;Wine connoisseur, &quot;,null ) &amp;
+IF ( INCLUDES ( Client_Contact__r.Contact_Personal_Interest__c , &quot;Art Lover&quot; ), &quot;Art Lover, &quot;,null ) &amp;
+IF ( INCLUDES ( Client_Contact__r.Contact_Personal_Interest__c , &quot;Golf Enthusiast&quot; ), &quot;Golf Enthusiast, &quot;,null ) &amp;
+IF ( INCLUDES ( Client_Contact__r.Contact_Personal_Interest__c , &quot;Movie Buff&quot; ), &quot;Movie Buff, &quot;,null ) &amp;
+IF ( INCLUDES ( Client_Contact__r.Contact_Personal_Interest__c , &quot;Travel Junkie&quot; ), &quot;Travel Junkie, &quot;,null ) &amp;
+IF ( INCLUDES ( Client_Contact__r.Contact_Personal_Interest__c , &quot;Tech Buff&quot; ), &quot;Tech Buff, &quot;,null ) &amp;
+IF ( INCLUDES ( Client_Contact__r.Contact_Personal_Interest__c , &quot;Cricket Enthusiast&quot; ), &quot;Cricket Enthusiast, &quot;,null ) &amp;
+IF ( INCLUDES ( Client_Contact__r.Contact_Personal_Interest__c , &quot;Sports follower&quot; ), &quot;Sports follower, &quot;,null ) &amp;
+IF ( INCLUDES ( Client_Contact__r.Contact_Personal_Interest__c , &quot;Fitness freak&quot; ), &quot;Fitness freak, &quot;,null ) &amp;
+IF ( INCLUDES ( Client_Contact__r.Contact_Personal_Interest__c , &quot;Adventure Sports Enthusiast&quot; ), &quot;Adventure Sports Enthusiast, &quot;,null ) &amp; 
+IF ( INCLUDES ( Client_Contact__r.Contact_Personal_Interest__c , &quot;Avid Reader&quot; ), &quot;Avid Reader, &quot;,null ) &amp;
+IF ( INCLUDES ( Client_Contact__r.Contact_Personal_Interest__c , &quot;Others&quot; ), &quot;Others, &quot;,null )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contact Personal Interest</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

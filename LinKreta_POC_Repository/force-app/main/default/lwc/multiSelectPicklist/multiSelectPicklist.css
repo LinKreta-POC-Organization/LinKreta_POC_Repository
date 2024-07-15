@@ -1,0 +1,12 @@
+.custom-dual-listbox{
+    position: relative;
+    margin: 10px 0;
+
+}
+.custom-dual-listbox label{
+    position: absolute;
+}
+
+.custom-dual-listbox label span{
+    color: red;
+}

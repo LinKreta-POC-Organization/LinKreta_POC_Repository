@@ -1,0 +1,12 @@
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Dear {!Lead.OwnerFullName},</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">You have successfully created the new client {!Lead.NewClientNo__c} - {!Lead.Company} and are now the designated owner. Please find the details below:<br/></span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">Prospect Name:‎‎‎‎ {!Lead.FirstName} {!Lead.LastName}<br/>
+Prospect Email: {!Lead.Email}<br/>
+Prospect Mobile: {!Lead.MobilePhone}<br/>
+Industry: {!Lead.Industry__c}<br/></span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri">To access the record on LinKreta, please click on the link: {!Lead.Link}</span></span></p>
+
+<p><span style="font-size:11pt"><span style="font-family:Calibri"><span style="color:red;font-weight:bold">Note:- This is a system generated email. Please do not reply to this mail.</span></span></span></p>

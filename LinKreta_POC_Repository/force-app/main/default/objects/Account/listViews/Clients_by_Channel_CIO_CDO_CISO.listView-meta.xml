@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clients_by_Channel_CIO_CDO_CISO</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>GT_Client_Group__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Channel_and_Alliance_Type__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Channel</value>
+    </filters>
+    <filters>
+        <field>Channel_and_Alliance_Type__c</field>
+        <operation>equals</operation>
+        <value>CIO CDO CISO</value>
+    </filters>
+    <label>All CIO, CDO, CISO Clients</label>
+</ListView>

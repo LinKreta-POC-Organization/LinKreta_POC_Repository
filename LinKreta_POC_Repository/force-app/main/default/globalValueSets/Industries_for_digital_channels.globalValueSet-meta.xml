@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Aerospace &amp; defense</fullName>
+        <default>false</default>
+        <label>Aerospace &amp; defense</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto &amp; Auto Components</fullName>
+        <default>false</default>
+        <label>Auto &amp; Auto Components</label>
+    </customValue>
+    <customValue>
+        <fullName>Cleantech</fullName>
+        <default>false</default>
+        <label>Cleantech</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy &amp; natural resources</fullName>
+        <default>false</default>
+        <label>Energy &amp; natural resources</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial Services</fullName>
+        <default>false</default>
+        <label>Financial Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Food &amp; Agri</fullName>
+        <default>false</default>
+        <label>Food &amp; Agri</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Delivery</fullName>
+        <default>false</default>
+        <label>Global Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>Government</fullName>
+        <default>false</default>
+        <label>Government</label>
+    </customValue>
+    <customValue>
+        <fullName>Healthcare</fullName>
+        <default>false</default>
+        <label>Healthcare</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrial products</fullName>
+        <default>false</default>
+        <label>Industrial products</label>
+    </customValue>
+    <customValue>
+        <fullName>Media &amp; telecom</fullName>
+        <default>false</default>
+        <label>Media &amp; telecom</label>
+    </customValue>
+    <customValue>
+        <fullName>Owners &amp; Private Clients</fullName>
+        <default>false</default>
+        <label>Owners &amp; Private Clients</label>
+    </customValue>
+    <customValue>
+        <fullName>PE / VC</fullName>
+        <default>false</default>
+        <label>PE / VC</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmaceuticals</fullName>
+        <default>false</default>
+        <label>Pharmaceuticals</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate &amp; Infra</fullName>
+        <default>false</default>
+        <label>Real Estate &amp; Infra</label>
+    </customValue>
+    <customValue>
+        <fullName>Technology</fullName>
+        <default>false</default>
+        <label>Technology</label>
+    </customValue>
+    <customValue>
+        <fullName>Consumer, Retail and E-commerce</fullName>
+        <default>false</default>
+        <label>Consumer, Retail and E-commerce</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Industries for digital channels</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Client_prospect_address_Check_Comma</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+   NOT(ISBLANK(New_Client_Prospect_Address__Street__s)), 
+NOT(
+    AND(
+        
+        CONTAINS(New_Client_Prospect_Address__Street__s   , &apos;,&apos;),
+        REGEX(New_Client_Prospect_Address__Street__s   , &quot;.*[a-zA-Z0-9].*,.*[a-zA-Z0-9].*&quot;)
+        
+    ) 
+))</errorConditionFormula>
+    <errorDisplayField>New_Client_Prospect_Address__Street__s</errorDisplayField>
+    <errorMessage>Please add a comma-separated address</errorMessage>
+</ValidationRule>

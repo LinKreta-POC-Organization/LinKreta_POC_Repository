@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Picked_record_cant_be_unpicked</fullName>
+    <active>true</active>
+    <description>Once marcom user picked the record it should not be unpicked</description>
+    <errorConditionFormula>IF(AND( Pick_Record__c == false ,NOT(ISBLANK( Assigned_to_Marcom_Team_Member__c)), $Profile.Name &lt;&gt; &apos;System Administrator&apos;),true,false)</errorConditionFormula>
+    <errorMessage>Once record is picked, It cannot be unpicked.Contact system Administrator.</errorMessage>
+</ValidationRule>

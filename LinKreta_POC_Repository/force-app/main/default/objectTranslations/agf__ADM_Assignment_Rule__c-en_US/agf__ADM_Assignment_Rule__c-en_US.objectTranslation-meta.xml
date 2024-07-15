@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage><!-- Product Owner is a required field --></errorMessage>
+        <name>agf__ProductOwnerReq</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The scrum team you selected is not active. --></errorMessage>
+        <name>agf__ScrumTeamIsActive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Scrum Team is a required field --></errorMessage>
+        <name>agf__ScrumTeamRequired</name>
+    </validationRules>
+</CustomObjectTranslation>

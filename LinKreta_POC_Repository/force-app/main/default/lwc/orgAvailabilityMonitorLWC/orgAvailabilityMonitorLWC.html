@@ -1,0 +1,18 @@
+<template>
+    <div class="slds-grid slds-gutters slds-wrap">
+        <template for:each={monitorList} for:item="monitor">
+            <div key={monitor.Id} class="slds-col slds-size_1-of-4 slds-p-vertical_small">
+                <article class="slds-card slds-card_boundary">
+                    <div class="slds-card__body slds-card__body_inner">
+                        <h2 class="slds-card__header-title">
+                            {monitor.Portfolio_Name__c} - {monitor.Name} - {monitor.Feature_Name__c}
+                        </h2>
+                        <div class="slds-align_absolute-center">
+                           <iframe height="275px" src={monitor.Monitoring_URL__c} style="border:none;" scrolling="no" title="description"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </template>
+    </div>
+  </template>

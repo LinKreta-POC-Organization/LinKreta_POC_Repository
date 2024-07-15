@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Key__c</fullName>
+    <description>This field is populated by a Flow named &quot;Expertise (PL) | General Flow - For Create &amp; Update (FF Updates)&quot;. As the name suggests, this is the Primary Key for this SObject.</description>
+    <externalId>false</externalId>
+    <label>Primary Key</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

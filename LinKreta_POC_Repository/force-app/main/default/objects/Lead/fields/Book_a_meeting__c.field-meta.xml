@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Book_a_meeting__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL( Would_you_like_to_talk_to_an_expert__c , &apos;Yes&apos;) , true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Book a meeting</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

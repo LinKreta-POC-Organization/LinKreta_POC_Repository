@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Grant Type Details</label>
+    <protected>false</protected>
+    <values>
+        <field>Client_Id__c</field>
+        <value xsi:type="xsd:string">3MVG9pRzvMkjMb6m_6DDKh6iiKB4f9fkP3wL60PjIBQ1GwlYRRtDsE14iDlTClfYbBGbvD6k7Hqwd_.C5d_QF</value>
+    </values>
+    <values>
+        <field>Client_Secret__c</field>
+        <value xsi:type="xsd:string">77139E5BACCC2E70B7C3E090EC32E777DABF83DB4920A1FAD5CD3D3B6BA7F232</value>
+    </values>
+    <values>
+        <field>Password__c</field>
+        <value xsi:type="xsd:string">Grant@123</value>
+    </values>
+    <values>
+        <field>Username__c</field>
+        <value xsi:type="xsd:string">linkreta.integration@in.gt.com</value>
+    </values>
+</CustomMetadata>

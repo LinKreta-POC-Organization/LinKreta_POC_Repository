@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segment__c</fullName>
+    <externalId>false</externalId>
+    <label>Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Mid Market</fullName>
+                <default>false</default>
+                <label>Mid Market</label>
+            </value>
+            <value>
+                <fullName>PIE Audit</fullName>
+                <default>false</default>
+                <label>PIE Audit</label>
+            </value>
+            <value>
+                <fullName>Channels - GCC</fullName>
+                <default>false</default>
+                <label>Channels - GCC</label>
+            </value>
+            <value>
+                <fullName>Channels - Law Firms</fullName>
+                <default>false</default>
+                <label>Channels - Law Firms</label>
+            </value>
+            <value>
+                <fullName>Channels - OPC</fullName>
+                <default>false</default>
+                <label>Channels - OPC</label>
+            </value>
+            <value>
+                <fullName>Channels - PE/VC</fullName>
+                <default>false</default>
+                <label>Channels - PE/VC</label>
+            </value>
+            <value>
+                <fullName>Digital Natives</fullName>
+                <default>false</default>
+                <label>Digital Natives</label>
+            </value>
+            <value>
+                <fullName>Large Corporates</fullName>
+                <default>false</default>
+                <label>Large Corporates</label>
+            </value>
+            <value>
+                <fullName>Channel</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Channel</label>
+            </value>
+            <value>
+                <fullName>DGC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DGC</label>
+            </value>
+            <value>
+                <fullName>Large Corporate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Large Corporate</label>
+            </value>
+            <value>
+                <fullName>Large Private</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Large Private</label>
+            </value>
+            <value>
+                <fullName>Largest Listed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Largest Listed</label>
+            </value>
+            <value>
+                <fullName>Listed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Listed</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PE Fund</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PE Fund</label>
+            </value>
+            <value>
+                <fullName>PE Investee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PE Investee</label>
+            </value>
+            <value>
+                <fullName>S M Private</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>S M Private</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

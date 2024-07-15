@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Partner User --></label>
+    <lookupFilter>
+        <errorMessage><!-- You can only select an Active Standard User --></errorMessage>
+    </lookupFilter>
+    <name>PartnerUser__c</name>
+    <relationshipLabel><!-- EA Partner Login Mapper (Partner User) --></relationshipLabel>
+</CustomFieldTranslation>

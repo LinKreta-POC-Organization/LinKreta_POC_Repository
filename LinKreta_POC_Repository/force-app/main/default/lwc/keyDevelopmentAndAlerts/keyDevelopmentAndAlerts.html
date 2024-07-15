@@ -1,0 +1,65 @@
+<template>
+  <template if:true={isLoading}>
+    <lightning-spinner variant="base" 
+                        size="small"  ></lightning-spinner> 
+  </template>
+  <lightning-card>
+
+    <template if:true={showDataTable}>
+      <template if:true={dataFromCapIQ}>
+        <lightning-datatable key-field="id" data={data} columns={columns} hide-checkbox-column="true">
+        </lightning-datatable>
+      </template>
+      <template if:true={dataFromMCA}>
+        <lightning-datatable key-field="id" data={data} columns={col} hide-checkbox-column="true">
+        </lightning-datatable>
+        
+      </template>
+      <br><br>
+      <!--
+      <template if:true={dataFromMCA}>
+        <lightning-datatable key-field="id" data={dataConvection} columns={col2} hide-checkbox-column="true">
+        </lightning-datatable>
+      </template>
+    -->
+      <template if:true={showTableAccountCAPIQ}>
+        <lightning-layout style="height:500px;">
+            <lightning-layout-item size=12>
+                <lightning-datatable key-field="id" data={accountDataCAPIQ} columns={columnsAccountCAPIQ} hide-checkbox-column="true">
+                </lightning-datatable>
+            </lightning-layout-item>
+        </lightning-layout>
+      </template>
+      <template if:true={showTableAccountMCA}>
+        <lightning-layout style="height:500px;">
+                <lightning-layout-item size=12>
+              <lightning-datatable key-field="id" data={accountDataMCA} columns={columnsAccountMCA} hide-checkbox-column="true">
+            </lightning-datatable>
+        </lightning-layout-item>
+        </lightning-layout>
+      </template>
+      <template if:true={showTableKeyAccount}>
+        <lightning-combobox class="slds-m-bottom_x-small"
+        name="Key Accounts"
+        label="Key Accounts"
+        placeholder="Key Accounts"
+        value={selectedKeyAccount}
+        onchange={handleChangeKeyAccounts}
+        options={accountINfoOption}>
+    </lightning-combobox >
+    <lightning-layout style="height:500px;">
+      <lightning-layout-item size=12>
+            <lightning-datatable key-field="id" data={keyAccountData} columns={columnsAccountCAPIQ} hide-checkbox-column="true" >
+            </lightning-datatable>
+        </lightning-layout-item>
+      </lightning-layout>
+        </template>
+    
+    </template>
+
+    <template if:false={showDataTable}>
+      <p>{showMessageOfData}</p>
+    </template>
+    
+  </lightning-card>
+</template>

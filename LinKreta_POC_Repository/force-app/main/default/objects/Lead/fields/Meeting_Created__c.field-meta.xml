@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meeting_Created__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is used as an identifier whether the meeting is created or not in enquiry.</description>
+    <externalId>false</externalId>
+    <label>Meeting Created?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

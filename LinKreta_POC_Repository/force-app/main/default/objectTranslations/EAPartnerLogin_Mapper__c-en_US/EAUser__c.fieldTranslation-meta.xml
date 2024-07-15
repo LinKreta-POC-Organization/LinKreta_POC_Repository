@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- EA User --></label>
+    <lookupFilter>
+        <errorMessage><!-- You can only select an Active Standard User that must have Employee Id --></errorMessage>
+    </lookupFilter>
+    <name>EAUser__c</name>
+    <relationshipLabel><!-- EA Partner Login Mapper (EA User) --></relationshipLabel>
+</CustomFieldTranslation>

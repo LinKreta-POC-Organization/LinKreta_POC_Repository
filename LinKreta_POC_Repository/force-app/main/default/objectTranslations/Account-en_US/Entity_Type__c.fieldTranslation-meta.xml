@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Entity Type --></label>
+    <name>Entity_Type__c</name>
+    <picklistValues>
+        <masterLabel>Artificial juridical person</masterLabel>
+        <translation><!-- Artificial juridical person --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Association of persons</masterLabel>
+        <translation><!-- Association of persons --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Banking Company</masterLabel>
+        <translation><!-- Banking Company --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Body of Individuals</masterLabel>
+        <translation><!-- Body of Individuals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Co-operative Society</masterLabel>
+        <translation><!-- Co-operative Society --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporation</masterLabel>
+        <translation><!-- Corporation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic Co. - Public Ltd.</masterLabel>
+        <translation><!-- Domestic Co. - Public Ltd. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic Co. - Public Ltd. - Listed India &amp; overseas</masterLabel>
+        <translation><!-- Domestic Co. - Public Ltd. - Listed India &amp; overseas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic Co. - Public Ltd. - PSU</masterLabel>
+        <translation><!-- Domestic Co. - Public Ltd. - PSU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic Co. - Public Ltd. by Guarantee</masterLabel>
+        <translation><!-- Domestic Co. - Public Ltd. by Guarantee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic Co. - Public Ltd.-Listed India</masterLabel>
+        <translation><!-- Domestic Co. - Public Ltd.-Listed India --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic Co. - Pvt. Ltd.</masterLabel>
+        <translation><!-- Domestic Co. - Pvt. Ltd. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic Co. - Pvt. Ltd. - subsidiary of Foreign Co.</masterLabel>
+        <translation><!-- Domestic Co. - Pvt. Ltd. - subsidiary of Foreign Co. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic Co. - Pvt. Ltd. - subsidiary of Public Ltd. Co.</masterLabel>
+        <translation><!-- Domestic Co. - Pvt. Ltd. - subsidiary of Public Ltd. Co. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic Co. - Pvt. Ltd. by Guarantee</masterLabel>
+        <translation><!-- Domestic Co. - Pvt. Ltd. by Guarantee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic Co. - Pvt. Unlimited Liability</masterLabel>
+        <translation><!-- Domestic Co. - Pvt. Unlimited Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic Co. - Section 25</masterLabel>
+        <translation><!-- Domestic Co. - Section 25 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foreign Co -Listed US</masterLabel>
+        <translation><!-- Foreign Co -Listed US --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foreign Co -Listed non-US</masterLabel>
+        <translation><!-- Foreign Co -Listed non-US --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foreign Co. - Indian Branch</masterLabel>
+        <translation><!-- Foreign Co. - Indian Branch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foreign Co. - Indian Liaison</masterLabel>
+        <translation><!-- Foreign Co. - Indian Liaison --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foreign Co. - Indian Project</masterLabel>
+        <translation><!-- Foreign Co. - Indian Project --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foreign Co.- Grant Thornton member entity</masterLabel>
+        <translation><!-- Foreign Co.- Grant Thornton member entity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foreign Co.- only foreign operations</masterLabel>
+        <translation><!-- Foreign Co.- only foreign operations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foreign company unlisted</masterLabel>
+        <translation><!-- Foreign company unlisted --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government Authority</masterLabel>
+        <translation><!-- Government Authority --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government – Foreign</masterLabel>
+        <translation><!-- Government – Foreign --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government – Indian</masterLabel>
+        <translation><!-- Government – Indian --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hindu Undivided Family</masterLabel>
+        <translation><!-- Hindu Undivided Family --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Individual</masterLabel>
+        <translation><!-- Individual --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Institution</masterLabel>
+        <translation><!-- Institution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance Company</masterLabel>
+        <translation><!-- Insurance Company --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>International Network Firm</masterLabel>
+        <translation><!-- International Network Firm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>International donor or aid agency or fund</masterLabel>
+        <translation><!-- International donor or aid agency or fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Local Authority</masterLabel>
+        <translation><!-- Local Authority --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partnership - Firm</masterLabel>
+        <translation><!-- Partnership - Firm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partnership - Limited liability</masterLabel>
+        <translation><!-- Partnership - Limited liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Financial Institutions</masterLabel>
+        <translation><!-- Public Financial Institutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Sector Undertaking</masterLabel>
+        <translation><!-- Public Sector Undertaking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regulatory Authority</masterLabel>
+        <translation><!-- Regulatory Authority --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Society</masterLabel>
+        <translation><!-- Society --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transnational organisation</masterLabel>
+        <translation><!-- Transnational organisation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trust</masterLabel>
+        <translation><!-- Trust --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
